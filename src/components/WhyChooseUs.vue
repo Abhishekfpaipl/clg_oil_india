@@ -14,21 +14,29 @@
                 <h1 class="mb-4">Why Us?</h1>
                 <div class="mb-4">
                     <h4><i class="bi bi-gear-fill text-warning"></i> Our Mission</h4>
-                    <p>Clg Oil India Pvt. Ltd. takes pride in being one of the leading manufacturers and suppliers of
-                        private label lubes and greases in Asia, with our presence spread on a global platform as well.
-                        In our endeavor to always meet our customer's requirement, Clg Oil India Pvt. Ltd. will continue
-                        to innovate, control costs and develop high quality products within their company precincts.</p>
+                    <p>At CLG Oil India Pvt. Ltd., we are dedicated to being a leading manufacturer and supplier of
+                        private label lubricants and greases across Asia and globally. Our mission is to continually
+                        meet and exceed our customers' expectations by innovating, controlling costs, and delivering
+                        high-quality products produced within our own facilities.</p>
+                </div>
+                <div class="mb-4">
+                    <h4><i class="bi bi-wrench text-warning"></i> Our Vision</h4>
+                    <p>Our vision at CLG Oil India Pvt. Ltd. is to be the preferred partner for private label lubricants
+                        and greases, offering customized solutions that meet our clients' unique needs. We are committed
+                        to enhancing quality, achieving customer satisfaction, and establishing ourselves as a market
+                        leader in India and beyond.</p>
                 </div>
                 <div>
-                    <h4><i class="bi bi-wrench text-warning"></i> Our Vision</h4>
-                    <p>Clg Oil India Pvt. Ltd. Group seeks to be the one stop private label Customized lubricating
-                        Greases & Oils solutions provider. As a company committed to improving quality and gaining
-                        advanced customer satisfaction, Clg Oil India Pvt. Ltd. aims to emerge as a market leader in
-                        India.</p>
+                    <h4><i class="bi bi-check-circle-fill text-warning"></i> Our Values</h4>
+                    <p>We believe in integrity, innovation, and excellence. These core values drive us to maintain the
+                        highest standards in our products and services, ensuring trust and reliability in every aspect
+                        of our business. We are committed to sustainability and responsible business practices, focusing
+                        on the well-being of our employees, customers, and the environment.</p>
                 </div>
             </div>
         </div>
     </div>
+
 </template>
 
 <script>

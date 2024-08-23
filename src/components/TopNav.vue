@@ -13,7 +13,7 @@
                     </div> -->
                 </router-link>
 
-                <div class="w-75">
+                <div class="w-75 d-flex justify-content-between align-items-center ">
                     <ul class="list-unstyled mb-0 d-flex justify-content-end">
                         <li v-for="(cat, index) in menuCategories" :key="index"   class="category d-inline position-relative">
                             <router-link :to="cat.path" class="title px-2 text-decoration-none text-dark">
@@ -21,6 +21,9 @@
                             </router-link> 
                         </li>
                     </ul>
+                    <div class="">
+                        <button class="btn btn-dark">Get Quote</button>
+                    </div>
                 </div>
             </div>
         </nav>
@@ -124,6 +127,21 @@ export default {
                     id: 4,
                     title: 'About Us',
                     path: '/about-us',
+                },
+                {
+                    id: 4,
+                    title: 'Gallery',
+                    path: '/',
+                },
+                {
+                    id: 4,
+                    title: 'Base Oils',
+                    path: '/',
+                },
+                {
+                    id: 4,
+                    title: 'Certifications & Approvals',
+                    path: '/',
                 },
             ],
         };

@@ -17,10 +17,7 @@
     </div>
     <div class="">
       <CounterSection />
-    </div>
-    <div class="">
-      <WhyChooseUs :description="whychooseUs" title="why choose us" image="/img/whychooseUs.svg" v-observe />
-    </div>
+    </div> 
     <div class="">
       <GetUpdate v-observe />
     </div>
@@ -29,10 +26,9 @@
 
 <script>
 import CarouselBanner from "@/components/CarouselBanner.vue";
-import OurService from "@/components/OurService.vue";
+// import OurService from "@/components/OurService.vue";
 import ServiceCard from "@/components/ServiceCard.vue";
-import AutoScrolling from "@/components/AutoScrolling.vue";
-import WhyChooseUs from "@/components/WhyChooseUs.vue";
+import AutoScrolling from "@/components/AutoScrolling.vue"; 
 import GetUpdate from "@/components/GetUpdate.vue";
 import CounterSection from "@/components/CounterSection.vue";
 import OurProducts from "@/components/OurProducts.vue";
@@ -40,10 +36,9 @@ export default {
   name: "HomeView",
   components: {
     CarouselBanner,
-    OurService,
+    // OurService,
     ServiceCard,
     AutoScrolling,
-    WhyChooseUs,
     GetUpdate,
     CounterSection,
     OurProducts,

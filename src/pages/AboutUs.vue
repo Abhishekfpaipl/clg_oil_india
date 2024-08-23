@@ -7,6 +7,9 @@
         </div>
         <div class="container py-5 rounded-top-5 bg-white" style="margin-top: -40px;">
             <OurTeam :values="links" v-observe />
+            <div class="">
+                <WhyChooseUs v-observe />
+            </div>
             <div class="my-3">
                 <InfoSection :customFields="customFields" v-observe />
             </div>
@@ -18,12 +21,14 @@
     </div>
 </template>
 <script>
+import WhyChooseUs from "@/components/WhyChooseUs.vue";
 import OurTeam from "@/components/OurTeam.vue";
 import InfoSection from "@/components/InfoSection.vue";
 import TeamBanner from "@/components/TeamBanner.vue";
 export default {
     name: "AboutUs",
     components: {
+        WhyChooseUs,
         OurTeam,
         InfoSection,
         TeamBanner
