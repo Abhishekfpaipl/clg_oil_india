@@ -26,7 +26,7 @@
 
 <script>
 import CarouselBanner from "@/components/CarouselBanner.vue";
-// import OurService from "@/components/OurService.vue";
+import OurService from "@/components/OurService.vue";
 import ServiceCard from "@/components/ServiceCard.vue";
 import AutoScrolling from "@/components/AutoScrolling.vue"; 
 import GetUpdate from "@/components/GetUpdate.vue";
@@ -36,7 +36,7 @@ export default {
   name: "HomeView",
   components: {
     CarouselBanner,
-    // OurService,
+    OurService,
     ServiceCard,
     AutoScrolling,
     GetUpdate,
