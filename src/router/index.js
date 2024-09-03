@@ -67,6 +67,16 @@ const routes = [
     name: "faqs-page",
     component: () => import('@/pages/faqs-page.vue')
   },
+  {
+    path: "/product-detail",
+    name: "ProductDetailPage",
+    component: () => import('@/pages/ProductDetailPage.vue')
+  },
+  {
+    path: "/product-list",
+    name: "ProductListPage",
+    component: () => import('@/pages/ProductListPage.vue')
+  },
 ];
 
 const router = createRouter({
