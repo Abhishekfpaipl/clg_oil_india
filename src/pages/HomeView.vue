@@ -19,8 +19,8 @@
       <ServiceCard :products="oils" title="LUBRICATING OILS" />
     </div>
     <div class="my-2">
-      <OurProducts />
-    </div>
+      <TestimonialSection />
+    </div> 
     <div class="my-2">
       <AutoScrolling />
     </div>
@@ -39,10 +39,10 @@ import OurService from "@/components/OurService.vue";
 import ServiceCard from "@/components/ServiceCard.vue";
 import AutoScrolling from "@/components/AutoScrolling.vue";
 import GetUpdate from "@/components/GetUpdate.vue";
-import CounterSection from "@/components/CounterSection.vue";
-import OurProducts from "@/components/OurProducts.vue";
+import CounterSection from "@/components/CounterSection.vue"; 
 import ImageSection from "@/components/ImageSection.vue";
 import AboutSection from "@/components/AboutSection.vue";
+import TestimonialSection from "@/components/TestimonialSection.vue";
 export default {
   name: "HomeView",
   components: {
@@ -51,10 +51,10 @@ export default {
     ServiceCard,
     AutoScrolling,
     GetUpdate,
-    CounterSection,
-    OurProducts,
+    CounterSection, 
     ImageSection,
     AboutSection,
+    TestimonialSection,
   },
   data() {
     return {
@@ -99,30 +99,15 @@ export default {
           title: "Flexibility and Convenience",
           icon: 'bi-stars'
         },
-      ], 
-      oils: [
-        {
-          "title": "Automotive lubricating oils",
-          "description": "AP-3 Grease is a high-performance grease known for its superior lubrication properties. It is ideal for automotive and industrial applications, providing excellent resistance to water and corrosion.",
-          "icon": "https://clgoilindia.com/demo/assets/images/resource/oil-01.png"
-        },
-        {
-          "title": "Industrial lubricating oils",
-          "description": "The AP-3 Grease Test Report details the comprehensive testing and performance metrics of AP-3 grease, ensuring its reliability in various industrial and automotive applications.",
-          "icon": "https://clgoilindia.com/demo/assets/images/resource/oil-01.png"
-        },
-        {
-          "title": "Specification based oils",
-          "description": "Crusher Grease 2 is a high-performance grease designed for use in heavy-duty machinery. It offers excellent protection against extreme pressure and is ideal for use in crushers and other industrial equipment.",
-          "icon": "https://clgoilindia.com/demo/assets/images/resource/oil-01.png"
-        },
-
-      ],
+      ],  
     }
   },
   computed:{
     greases(){
       return this.$store.getters['product/getGreases']
+    },
+    oils(){
+      return this.$store.getters['product/getOils']
     }
   }
 };

@@ -4,7 +4,7 @@
             <h1 class="text-center mb-5">{{title}}</h1>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-3 g-3">
                 <div class="col" v-for="(service, index) in products" :key="index">
-                    <router-link :to="'/product-list/' + service.id" class="card text-decoration-none card h-100 border text-bg-light" @mouseenter="hover(index)"
+                    <router-link :to="service.route + service.id" class="card text-decoration-none card h-100 border text-bg-light" @mouseenter="hover(index)"
                         @mouseleave="unhover(index)">
                         <div class="card-body d-flex flex-column">
                             <h5 class="card-title text-center">{{ service.title }}</h5>

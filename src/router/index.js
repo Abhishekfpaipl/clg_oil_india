@@ -88,6 +88,11 @@ const routes = [
     component: () => import('@/pages/ProductListPage.vue')
   },
   {
+    path: "/oil-list/:productId",
+    name: "OilListPage",
+    component: () => import('@/pages/OilListPage.vue')
+  },
+  {
     path: "/service-list",
     name: "ServiceListPage",
     component: () => import('@/pages/ServiceListPage.vue')

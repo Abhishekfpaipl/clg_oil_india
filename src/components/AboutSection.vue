@@ -24,8 +24,8 @@
                         <p class="h4">COUNTRIES SERVED</p>
                     </div>
                 </div>
-                <div class="col-md-2 text-center">
-                    <img ref="motorbikeImage" src="https://motulindia.com/assets/images/home/aboutus-bike.webp"
+                <div class="col-md-2 text-center  ">
+                    <img ref="motorbikeImage" src="/img/bike.png"
                         alt="Motorbike" class="img-fluid scale-0" />
                 </div>
                 <div class="col-md-5 text-start" v-observe :class="imageClass('right')">

@@ -7,8 +7,8 @@
                     style="background-image: url('https://motulindia.com/assets/images/home/oil-recommender-bg.webp');">
                     <div class="row no-gutters">
                         <div class="col-md-6 overflow-hidden">
-                            <img src="https://motulindia.com/assets/images/home/oil-recommender.webp"
-                                class="card-img hover-scale" alt="Oil Bottles" style="object-fit: cover; height: 100%;">
+                            <img src="https://m.media-amazon.com/images/I/81JGuAcQvsL._SX522_.jpg"
+                                class="card-img hover-scale" alt="Oil Bottles" style="object-fit: contain; height: 215px;">
                         </div>
                         <div class="col-md-6 d-flex flex-column justify-content-center">
                             <div class="card-body">
@@ -66,8 +66,7 @@ export default {
 };
 </script>
 
-<style scoped>
-/* Ensure overflow is hidden to prevent the image from expanding beyond the card */
+<style scoped> 
 .card-hover {
     overflow: hidden;
     position: relative;

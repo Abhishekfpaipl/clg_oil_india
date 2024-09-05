@@ -1,6 +1,6 @@
 <template>
     <div class="py-5 text-dark">
-        <h2 class="mb-4">Our Clients</h2>
+        <h1 class="text-center mb-5">Our Clients</h1>
         <article :class="['wrapper', { 'wrapper--vertical': isVertical }]">
             <div class="marquee" :class="{ 'marquee--vertical': isVertical }">
                 <div class="marquee__group" :style="{ 'animation-direction': isReverse ? 'reverse' : 'normal' }">
