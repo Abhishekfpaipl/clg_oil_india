@@ -1,5 +1,6 @@
 import { createStore } from "vuex";
-
+import about from "./about";
+import product from "./product";
 export default createStore({
   state: {
     packages: [
@@ -201,5 +202,8 @@ export default createStore({
       commit('editProduct', product);
     }
   },
-  modules: {},
+  modules: {
+    about: about,
+    product: product,
+  },
 });

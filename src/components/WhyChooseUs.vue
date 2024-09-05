@@ -13,25 +13,22 @@
             <div class="col-md-6 p-4 text-start">
                 <h1 class="mb-4">Why Us?</h1>
                 <div class="mb-4">
-                    <h4><i class="bi bi-gear-fill text-warning"></i> Our Mission</h4>
-                    <p>At CLG Oil India Pvt. Ltd., we are dedicated to being a leading manufacturer and supplier of
-                        private label lubricants and greases across Asia and globally. Our mission is to continually
-                        meet and exceed our customers' expectations by innovating, controlling costs, and delivering
-                        high-quality products produced within our own facilities.</p>
+                    <h4><i class="bi bi-bullseye text-warning"></i> Our Mission</h4>
+                    <p>Our mission is to lead globally in providing customized greases and lubricants, delivering
+                        superior quality and innovative solutions tailored to meet the diverse needs of industries
+                        worldwide.
+                    </p>
                 </div>
                 <div class="mb-4">
-                    <h4><i class="bi bi-wrench text-warning"></i> Our Vision</h4>
-                    <p>Our vision at CLG Oil India Pvt. Ltd. is to be the preferred partner for private label lubricants
-                        and greases, offering customized solutions that meet our clients' unique needs. We are committed
-                        to enhancing quality, achieving customer satisfaction, and establishing ourselves as a market
-                        leader in India and beyond.</p>
+                    <h4><i class="bi bi-eye text-warning"></i> Our Vision</h4>
+                    <p>Our vision is to drive global expansion and innovation, addressing critical challenges while
+                        empowering our customers to succeed through the unmatched value of our products and services.
+                    </p>
                 </div>
                 <div>
-                    <h4><i class="bi bi-check-circle-fill text-warning"></i> Our Values</h4>
-                    <p>We believe in integrity, innovation, and excellence. These core values drive us to maintain the
-                        highest standards in our products and services, ensuring trust and reliability in every aspect
-                        of our business. We are committed to sustainability and responsible business practices, focusing
-                        on the well-being of our employees, customers, and the environment.</p>
+                    <h4><i class="bi bi-gem text-warning"></i> Our Values</h4>
+                    <p>Our values emphasize excellence, integrity, and sustainability, delivering top-quality solutions
+                        while honoring our commitment to eco-friendly practices and environmental stewardship.</p>
                 </div>
             </div>
         </div>

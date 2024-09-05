@@ -28,6 +28,16 @@ const routes = [
     component: () => import("@/pages/PrivacyPolicy.vue")
   },
   {
+    path: "/career",
+    name: "CareerPage",
+    component: () => import("@/pages/CareerPage.vue")
+  },
+  {
+    path: "/distributor",
+    name: "DistributerPage",
+    component: () => import("@/pages/DistributerPage.vue")
+  },
+  {
     path: "/term-of-use",
     name: "TermOfUse",
     component: () => import("@/pages/TermOfUse.vue")
@@ -68,14 +78,19 @@ const routes = [
     component: () => import('@/pages/faqs-page.vue')
   },
   {
-    path: "/product-detail",
+    path: "/product-detail/:productId",
     name: "ProductDetailPage",
     component: () => import('@/pages/ProductDetailPage.vue')
   },
   {
-    path: "/product-list",
+    path: "/product-list/:productId",
     name: "ProductListPage",
     component: () => import('@/pages/ProductListPage.vue')
+  },
+  {
+    path: "/service-list",
+    name: "ServiceListPage",
+    component: () => import('@/pages/ServiceListPage.vue')
   },
 ];
 

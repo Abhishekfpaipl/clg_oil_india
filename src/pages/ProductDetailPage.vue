@@ -93,80 +93,6 @@
                                         Automechanika Shanghai 2024 </option>
                                     <option value="Ayodhya Ram Mandir">
                                         Ayodhya Ram Mandir </option>
-                                    <option value="Bali With Nusa Lembongan">
-                                        Bali With Nusa Lembongan </option>
-                                    <option value="Bangkok Phuket Special">
-                                        Bangkok Phuket Special </option>
-                                    <option value="Bauma China 2024">
-                                        Bauma China 2024 </option>
-                                    <option value="Bearing Expo 2024">
-                                        Bearing Expo 2024 </option>
-                                    <option value="Best Of Bali">
-                                        Best Of Bali </option>
-                                    <option value="Canton Fair Phase 1">
-                                        Canton Fair Phase 1 </option>
-                                    <option value="Canton Fair Phase 2">
-                                        Canton Fair Phase 2 </option>
-                                    <option value="CHINACOAT 2024">
-                                        CHINACOAT 2024 </option>
-                                    <option value="CMEF China 2024">
-                                        CMEF China 2024 </option>
-                                    <option value="CPHI Milan Exhibitor Package">
-                                        CPHI Milan Exhibitor Package </option>
-                                    <option value="CPHI Milan Visitor Package">
-                                        CPHI Milan Visitor Package </option>
-                                    <option value="Dreamland Singapore">
-                                        Dreamland Singapore </option>
-                                    <option value="Exotic Andaman">
-                                        Exotic Andaman </option>
-                                    <option value="Fenestration Bau 2024">
-                                        Fenestration Bau 2024 </option>
-                                    <option value="Glasstec Dusseldorf Package 1">
-                                        Glasstec Dusseldorf Package 1 </option>
-                                    <option value="Glasstec Dusseldorf Package 2">
-                                        Glasstec Dusseldorf Package 2 </option>
-                                    <option value="Goa">
-                                        Goa </option>
-                                    <option value="Golden Temple">
-                                        Golden Temple </option>
-                                    <option value="Greece">
-                                        Greece </option>
-                                    <option value="Hong Kong">
-                                        Hong Kong </option>
-                                    <option value="ITMA ASIA &amp; CITME 2024">
-                                        ITMA ASIA &amp; CITME 2024 </option>
-                                    <option value="Kashmir And Vaishno Devi">
-                                        Kashmir And Vaishno Devi </option>
-                                    <option value="Kedarnath &amp; Badrinath">
-                                        Kedarnath &amp; Badrinath </option>
-                                    <option value="Leh Ladakh">
-                                        Leh Ladakh </option>
-                                    <option value="Mauritius">
-                                        Mauritius </option>
-                                    <option value="Medica Düsseldorf 2024 Package 2">
-                                        Medica Düsseldorf 2024 Package 2 </option>
-                                    <option value="Medica Extension Package with Paris">
-                                        Medica Extension Package with Paris </option>
-                                    <option value="Paradise Kashmir">
-                                        Paradise Kashmir </option>
-                                    <option value="RubberTech China 2024">
-                                        RubberTech China 2024 </option>
-                                    <option value="SIGN &amp; LED China 2024" selected="">
-                                        SIGN &amp; LED China 2024 </option>
-                                    <option value="Special South Africa">
-                                        Special South Africa </option>
-                                    <option value="Spectacular Kerala">
-                                        Spectacular Kerala </option>
-                                    <option value="Spectacular South Africa">
-                                        Spectacular South Africa </option>
-                                    <option value="Swiss And Paris">
-                                        Swiss And Paris </option>
-                                    <option value="Turkey">
-                                        Turkey </option>
-                                    <option value="Vibrant Vietnam">
-                                        Vibrant Vietnam </option>
-                                    <option value="Wire &amp; Tube China-2024">
-                                        Wire &amp; Tube China-2024 </option>
                                 </select>
                                 <label class="form-label ms-2">
                                     Select your destination
@@ -208,10 +134,9 @@
 </template>
 
 <script>
-import TradeFairFGallerySection from "@/components/TradeFairFGallerySection.vue"
+import ProductGallerySection from "@/components/ProductGallerySection.vue"
 import TradeFairTableSection from "@/components/TradeFairFlightSection.vue"
 import TradeFairTermsSection from "@/components/TradeFairTermsSection.vue"
-// import TradeFairVisaSection from "@/components/TradeFairVisaSection.vue"
 import TradeFairExclusionSection from "@/components/TradeFairExclusionSection.vue"
 import TradeFairInclusionSection from "@/components/TradeFairInclusionSection.vue"
 import ItinerarySection from "@/components/ItinerarySection.vue"
@@ -219,15 +144,13 @@ import TradeDetailsSection from "@/components/TradeDetailsSection.vue"
 export default {
     name: "TradeFairPage",
     components: {
-        TradeFairFGallerySection,
+        ProductGallerySection,
         TradeFairTableSection,
         TradeFairTermsSection,
-        // TradeFairVisaSection,
         TradeFairExclusionSection,
         TradeFairInclusionSection,
         ItinerarySection,
         TradeDetailsSection,
-        // TestComp,
     },
     data() {
         return {
@@ -238,44 +161,29 @@ export default {
             destination: 'Amazing Dubai',
             date: '',
             sections: [
-                { id: 'Images', name: 'Images', component: 'TradeFairFGallerySection' },
+                { id: 'Images', name: 'Images', component: 'ProductGallerySection' },
                 { id: 'Details', name: 'Details', component: 'TradeDetailsSection' },
                 { id: 'Reports', name: 'Reports', component: 'TradeFairTableSection' },
                 { id: 'Benefits', name: 'Benefits', component: 'TradeFairInclusionSection' },
                 { id: 'Terms', name: 'Terms', component: 'TradeFairExclusionSection' },
                 { id: 'Packaging', name: 'Packaging', component: 'ItinerarySection' },
-                // { id: 'Visa', name: 'Visa', component: 'TradeFairVisaSection' },
                 { id: 'Other', name: 'Other', component: 'TradeFairTermsSection' }
             ],
             activeSection: '',
             navbarDark: false,
-            showPackage: {
-                id: 1,
-                title: "SIGN & LED China 2024",
-                package: 'flight services',
-                sid: "SIGN-&-LED-China-2024",
-                date: "19-21 Sept 2024",
-                country: "USA",
-                price: "1,09,000",
-                image: "/img/services/1.jpg",
-                icons: [
-                    { icon: 'bi-globe', image: "img/travel/flight.svg", name: 'flight' },
-                    { icon: 'bi-globe', image: "img/travel/visa.svg", name: 'visa' },
-                    { icon: 'bi-globe', image: "img/travel/hotel.svg", name: 'hotel' },
-                    { icon: 'bi-globe', image: "img/travel/meal.svg", name: 'meal' },
-                    { icon: 'bi-globe', image: "img/travel/sight.svg", name: 'Sight' },
-                ],
-            },
         }
     },
-    // mounted() {
-    //     let pageName = this.$route.path.split('/trade-detail/').pop();
-    //     this.pageName = pageName.replace(/-/g, ' ');
-    //     window.addEventListener('scroll', this.handleScroll);
-    // },
-    // unmounted() {
-    //     window.removeEventListener('scroll', this.handleScroll);
-    // },
+    mounted() {
+        // let pageName = this.$route.path.split('/trade-detail/').pop();
+        // this.pageName = pageName.replace(/-/g, ' ');
+        window.addEventListener('scroll', this.handleScroll);
+    },
+    unmounted() {
+        window.removeEventListener('scroll', this.handleScroll);
+    },
+    computed: {
+        
+    },
     methods: {
         isActive(id) {
             return this.$route.hash === "#" + id;

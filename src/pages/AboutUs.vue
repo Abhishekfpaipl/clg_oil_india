@@ -5,10 +5,35 @@
                 <h1 class="fw-bold ">About Us</h1>
             </div>
         </div>
+        <div class="container bg-white rounded-top-5" style="margin-top: -40px;" v-observe>
+            <SuccessStory :tests="tests" v-observe />
+            <div class="my-5">
+                <TeamInfoSection :techTeam="techTeam" :marketingTeam="marketingTeam" :managementTeam="managementTeam"
+                    v-observe />
+            </div>
+        </div>
+        <div class="">
+            <CustomCounter service="satisfied customers" :serviceCount="1000" category="years of expirence"
+                :categoryCount="10" place="projects completed" :placeCount="4000" image="/img/smile2.svg"
+                title="know about us" path="/" v-observe />
+        </div>
+        <div class="my-5">
+            <PrivateCoaching :coaching="mission" title=" " />
+        </div>
+        <div class="">
+            <AutoScrolling :links="country" imageFilter="invert(1)" textColor="text-white" textSize="fs-4 pt-3"
+                bgColor="#02539E" title="we are currently working in" v-observe />
+        </div>
+        <div class="my-5">
+            <OurCoreValues />
+        </div>
         <div class="container py-5 rounded-top-5 bg-white" style="margin-top: -40px;">
             <OurTeam :values="links" v-observe />
             <div class="">
                 <WhyChooseUs v-observe />
+            </div>
+            <div class="">
+                <AboutKeyFeatures v-observe />
             </div>
             <div class="my-3">
                 <InfoSection :customFields="customFields" v-observe />
@@ -23,15 +48,30 @@
 <script>
 import WhyChooseUs from "@/components/WhyChooseUs.vue";
 import OurTeam from "@/components/OurTeam.vue";
-import InfoSection from "@/components/InfoSection.vue";
 import TeamBanner from "@/components/TeamBanner.vue";
+
+import SuccessStory from "@/components/SuccessStory.vue";
+import InfoSection from "@/components/InfoSection.vue";
+import TeamInfoSection from "@/components/TeamInfoSection.vue";
+import CustomCounter from "@/components/CustomCounter.vue";
+import PrivateCoaching from "@/components/PrivateCoaching.vue";
+import AutoScrolling from "@/components/AutoScrolling.vue";
+import OurCoreValues from "@/components/OurCoreValues.vue";
+import AboutKeyFeatures from "@/components/AboutKeyFeatures.vue";
 export default {
     name: "AboutUs",
     components: {
         WhyChooseUs,
         OurTeam,
         InfoSection,
-        TeamBanner
+        TeamBanner,
+        CustomCounter,
+        PrivateCoaching,
+        AutoScrolling,
+        OurCoreValues,
+        SuccessStory,
+        TeamInfoSection,
+        AboutKeyFeatures,
     },
     data() {
         return {
@@ -90,6 +130,20 @@ export default {
                 },
             ],
         }
-    }
+    },
+    computed: {
+        techTeam() {
+            return this.$store.getters['about/getTechTeam']
+        },
+        marketingTeam() {
+            return this.$store.getters['about/getMarketingTeam']
+        },
+        managementTeam() {
+            return this.$store.getters['about/getManagementTeam']
+        },
+        country() {
+            return this.$store.getters.getCountries
+        },
+    },
 }
 </script>

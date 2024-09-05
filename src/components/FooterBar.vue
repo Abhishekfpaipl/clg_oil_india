@@ -61,11 +61,6 @@ export default {
         return {
             img: 'https://clgoilindia.com/demo/assets/images/logo.png',
             company: [
-                // {
-                //     id: 3,
-                //     name: 'Login',
-                //     link: '/product-list'
-                // },
                 {
                     id: 4,
                     name: 'Contact Us',
@@ -75,6 +70,16 @@ export default {
                     id: 42,
                     name: 'About Us',
                     link: '/about-us'
+                },
+                {
+                    id: 3,
+                    name: 'Distributor',
+                    link: '/distributor'
+                },
+                {
+                    id: 3,
+                    name: 'Career',
+                    link: '/career'
                 },
             ],
             links: [
