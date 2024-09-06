@@ -1,7 +1,9 @@
 <template>
     <div class="py-5 text-bg-white">
         <div class="container">
-            <h1 class="text-center mb-5">{{title}}</h1>
+            <p class="text-center text-uppercase mb-0">{{title}}</p>
+            <h1 class="text-center text-uppercase mb-5">{{subtitle}}</h1>
+
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-3 g-3">
                 <div class="col" v-for="(service, index) in products" :key="index">
                     <router-link :to="service.route + service.id" class="card text-decoration-none card h-100 border text-bg-light" @mouseenter="hover(index)"
@@ -29,6 +31,10 @@ export default {
             required: true
         },
         title:{
+            type: String,
+            required: true
+        },
+        subtitle:{
             type: String,
             required: true
         }

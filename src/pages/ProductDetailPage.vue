@@ -13,7 +13,7 @@
         <!-- {{showPackage.sid}} -->
         <div class="container my-3">
             <h1 class="text-center text-capitalize">{{ pageName }}</h1>
-            <p class="text-center fs-1">₹ 9999/- <span class="text-decoration-line-through text-muted">₹
+            <p class="text-center fs-1">₹ 9999/- <span class="text-decoration-line-through text-danger">₹
                     12000</span></p>
             <div class="my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum ea laboriosam corporis
                 aspernatur velit voluptas minus obcaecati fugit ipsum. Iusto ducimus rem iste quibusdam modi atque! Sunt
@@ -36,7 +36,7 @@
 
         <!-- <nav id="navbar" :class="{ 'navbar-dark': navbarDark }"> -->
         <div class="sticky-nav my-4">
-            <div class="d-flex gap-3 p-3 py-2 overflow-x-scroll" id="scroll"
+            <div class="d-flex gap-3 justify-content-center align-items-center p-3 py-2 overflow-x-scroll" id="scroll"
                 style="background-color:rgba(255, 206, 86, 0.2); border:1px solid rgba(255, 206, 86, 1) !important;">
                 <div v-for="(section, index) in sections" :key="index">
                     <a :href="'#' + section.id" class="nav-link text-dark" @click.prevent="scrollToSection(section.id)"
@@ -85,7 +85,7 @@
                                 <input type="text" class="form-control" placeholder="" v-model="name" required>
                                 <label for="floatingInput" class="text-muted ms-2">Name</label>
                             </div>
-                            <div class="form-floating my-2 ">
+                            <!-- <div class="form-floating my-2 ">
                                 <select v-model="destination" class="form-select">
                                     <option value="Amazing Dubai">
                                         Amazing Dubai </option>
@@ -97,8 +97,8 @@
                                 <label class="form-label ms-2">
                                     Select your destination
                                 </label>
-                            </div>
-                            <div class="w-100 form-floating my-2">
+                            </div> -->
+                            <!-- <div class="w-100 form-floating my-2">
                                 <input type="date" class="form-control" placeholder="Mobile" v-model="date" required>
                                 <label class="ms-2 text-muted">Date</label>
                             </div>
@@ -114,7 +114,7 @@
                                 <label class="form-label ms-2">
                                     Select Visiter/Exhibiter
                                 </label>
-                            </div>
+                            </div> -->
                             <div class="w-100 form-floating my-2">
                                 <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"
                                     v-model="note"></textarea>
@@ -134,22 +134,22 @@
 </template>
 
 <script>
-import ProductGallerySection from "@/components/ProductGallerySection.vue"
+// import ProductGallerySection from "@/components/ProductGallerySection.vue"
 import TradeFairTableSection from "@/components/TradeFairFlightSection.vue"
-import TradeFairTermsSection from "@/components/TradeFairTermsSection.vue"
+// import TradeFairTermsSection from "@/components/TradeFairTermsSection.vue"
 import TradeFairExclusionSection from "@/components/TradeFairExclusionSection.vue"
 import TradeFairInclusionSection from "@/components/TradeFairInclusionSection.vue"
-import ItinerarySection from "@/components/ItinerarySection.vue"
+// import ItinerarySection from "@/components/ItinerarySection.vue"
 import TradeDetailsSection from "@/components/TradeDetailsSection.vue"
 export default {
     name: "TradeFairPage",
     components: {
-        ProductGallerySection,
+        // ProductGallerySection,
         TradeFairTableSection,
-        TradeFairTermsSection,
+        // TradeFairTermsSection,
         TradeFairExclusionSection,
         TradeFairInclusionSection,
-        ItinerarySection,
+        // ItinerarySection,
         TradeDetailsSection,
     },
     data() {
@@ -161,12 +161,12 @@ export default {
             destination: 'Amazing Dubai',
             date: '',
             sections: [
-                { id: 'Images', name: 'Images', component: 'ProductGallerySection' },
+                // { id: 'Images', name: 'Images', component: 'ProductGallerySection' },
                 { id: 'Details', name: 'Details', component: 'TradeDetailsSection' },
                 { id: 'Reports', name: 'Reports', component: 'TradeFairTableSection' },
                 { id: 'Benefits', name: 'Benefits', component: 'TradeFairInclusionSection' },
-                { id: 'Terms', name: 'Terms', component: 'TradeFairExclusionSection' },
-                { id: 'Packaging', name: 'Packaging', component: 'ItinerarySection' },
+                // { id: 'Terms', name: 'Terms', component: 'TradeFairExclusionSection' },
+                // { id: 'Packaging', name: 'Packaging', component: 'ItinerarySection' },
                 { id: 'Other', name: 'Other', component: 'TradeFairTermsSection' }
             ],
             activeSection: '',
@@ -206,12 +206,12 @@ export default {
             this.navbarDark = scrollPosition > 50; // Example threshold for changing navbar background
         },
         sendToWhatsApp() {
-            const phoneNumber = '918860012001';
+            // Destination: ${this.destination}%0A
+            // Date: ${this.date}%0A
+            // Visitors: ${this.selectedVisitor}%0A
+            // Package: ${this.pageName}%0A
+            const phoneNumber = '919711256073';
             const message = `Name: ${this.name}%0A
-            Destination: ${this.destination}%0A
-            Date: ${this.date}%0A
-            Visitors: ${this.selectedVisitor}%0A
-            Package: ${this.pageName}%0A
             Note: ${this.note}`;
 
             const url = `https://wa.me/${phoneNumber}?text=${message}`;

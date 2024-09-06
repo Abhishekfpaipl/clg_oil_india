@@ -2,13 +2,14 @@
     <div class="container my-4">
         <div class="row">
             <!-- Left Card - Oil Recommender -->
-            <div class="col-md-6 mb-3" v-observe :class="imageClass('left')">
-                <div class="card text-white p-3 rounded-0 bg-danger py-5 card-hover"
+            <!-- <div class="col-md-6 mb-3" v-observe :class="imageClass('left')"> -->
+            <div class="col-md-6 mb-3" v-observe>
+                <div class="card text-white p-3 rounded-0 bg-dark py-5 card-hover"
                     style="background-image: url('https://motulindia.com/assets/images/home/oil-recommender-bg.webp');">
                     <div class="row no-gutters">
                         <div class="col-md-6 overflow-hidden">
-                            <img src="https://m.media-amazon.com/images/I/81JGuAcQvsL._SX522_.jpg"
-                                class="card-img hover-scale" alt="Oil Bottles" style="object-fit: contain; height: 215px;">
+                            <img src="https://png.pngtree.com/png-clipart/20230820/original/pngtree-engine-oil-bottle-car-industry-picture-image_8116555.png"
+                                class="card-img hover-scale" alt="Oil Bottles" style="object-fit: contain; height: 100%;">
                         </div>
                         <div class="col-md-6 d-flex flex-column justify-content-center">
                             <div class="card-body">
@@ -27,16 +28,17 @@
             </div>
 
             <!-- Right Card - Dealer Locator -->
-            <div class="col-md-6 mb-3" v-observe :class="imageClass('right')">
+            <!-- <div class="col-md-6 mb-3" v-observe :class="imageClass('right')"> -->
+            <div class="col-md-6 mb-3" v-observe>
                 <div class="card text-white p-3 rounded-0 bg-danger py-5 card-hover"
                     style="background-image: url('https://motulindia.com/assets/images/home/dealer-locator-bg.webp');">
                     <div class="row no-gutters">
 
-                        <div class="col-md-6 d-flex flex-column justify-content-center">
+                        <div class="col-md-6 d-flex flex-column justify-content-center" style="height: 290px;">
                             <div class="card-body">
                                 <h5 class="text-start">Dealer Locator</h5>
                                 <p class="text-start">
-                                    Motul has an extensive dealer network across India. Locate your nearest one for
+                                    CGL has an extensive dealer network across India. Locate your nearest one for
                                     maximum
                                     convenience.
                                 </p>
@@ -55,14 +57,14 @@
 <script>
 export default {
     name: 'OilDealerComponent',
-    methods: {
-        imageClass(position) {
-            return {
-                'before-enter-right': position === 'right',
-                'before-enter-left': position === 'left'
-            };
-        },
-    }
+    // methods: {
+    //     imageClass(position) {
+    //         return {
+    //             'before-enter-right': position === 'right',
+    //             'before-enter-left': position === 'left'
+    //         };
+    //     },
+    // }
 };
 </script>
 

@@ -31,50 +31,8 @@ export default {
     data() {
         return {
             industries: [
-                {
-                    title: 'Auto Assembly',
-                    description: 'We make speciality lubricants for companies involved in the manufacture of motor vehicles, including most components, such as engines and bodies.'
-                },
-                {
-                    title: 'Auto Component',
-                    description: 'We make lubricants for companies involved in the manufacture of auto components such as engine parts, drive transmission & steering parts, body and chassis.'
-                },
-                {
-                    title: 'Cement',
-                    description: 'We make range of specialty lubricants made as per the needs of the cement industry which is run under extreme environment in which drives, bearings, conveyors.'
-                },
-                {
-                    title: 'Ceramic',
-                    description: 'We make range of specialty lubricants for all ceramic manufacturing where electric motors, bearings for pumps or fan motors is subjected to humid, steamy, extreme.'
-                },
-                {
-                    title: 'Paper Mill',
-                    description: 'We make range of specialty lubricants for all your pulp and paper applications including the large open gears in the pulp production and the roller bearings at the wet.'
-                },
-                {
-                    title: 'Plastic Industry',
-                    description: 'We make range of specialty lubricants for plastic production processes like injection moulding, rotational moulding, blow moulding and extrusion which are complex and.'
-                },
-                {
-                    title: 'Steel',
-                    description: 'We make range of specialty lubricants for steel industry where equipment in today’s metal manufacturing plants require specialized lubricants that perform in the harshest environments, including high temperatures, heavy loads and wet conditions there by reducing maintenance issues and increasing uptime and business profit.'
-                },
-                {
-                    title: 'Textile',
-                    description: 'We make range of specialty lubricants for textile industry where changing atmospheric humidity, temperature fluctuations and high loads are just some of the challenges affecting textile production and our products are designed for the needs of the textile industry in compliance with these requirements.'
-                },
-                {
-                    title: 'Engineering',
-                    description: 'We make range of specialty lubricants for general engineering of Industrial, Electrical and mechanical maintenance. Our products caters to gears, bearings, slides, wire ropes, nuts & bolts and other engineering applications.'
-                },
-                {
-                    title: 'Sugar',
-                    description: 'We make range of specialty lubricants for sugar industry which is adaptable to both individualised as well as centralised lubrication systems such as Sugar Crushing Mill, Cane carrier, Pumps, Centrifuge, Open Gear drives, Enclosed Gearboxes, Air compressors.'
-                },
-                {
-                    title: 'Mining',
-                    description: "We make range of specialty lubricants for mining industry where equipment's are running under extreme conditions & high loads. Our products help to mitigate wear tear and reduce the lubricant consumption by good amount."
-                }, 
+              
+               
                 {
                     title: 'Tailored Grease Recommendations',
                     description: "Our seasoned technical experts are committed to recommending the most effective grease solutions for your machinery. We offer personalized, high-performance options to optimize your equipment’s efficiency and longevity."

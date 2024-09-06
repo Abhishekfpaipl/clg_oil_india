@@ -1,7 +1,7 @@
 <template>
-  <div id="motulCarousel" class="carousel slide" data-bs-ride="carousel">
+  <div id="CGLCarousel" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-indicators">
-      <button v-for="(slide, index) in slides" :key="'indicator-' + index" type="button" data-bs-target="#motulCarousel"
+      <button v-for="(slide, index) in slides" :key="'indicator-' + index" type="button" data-bs-target="#CGLCarousel"
         :data-bs-slide-to="index" :class="{ active: index === 0 }" :aria-current="index === 0"
         :aria-label="'Slide ' + (index + 1)">
       </button>
@@ -80,7 +80,7 @@ export default {
       cards: [
         {
           title: 'Lubricants',
-          description: "Explore Motul's exciting products",
+          description: "Explore CGL's exciting products",
           linkText: 'Explore',
           icon: 'bi bi-box-seam',
           backgroundImage: '/img/serviceBanner/1.webp',
@@ -96,7 +96,7 @@ export default {
         },
         {
           title: 'Services',
-          description: 'Find your nearest Motul dealer',
+          description: 'Find your nearest CGL dealer',
           linkText: 'Find',
           icon: 'bi bi-geo-alt',
           backgroundImage: '/img/serviceBanner/3.webp',
@@ -140,14 +140,4 @@ export default {
   transform: scale(1.05);
 }
 
-.before-enter {
-  opacity: 0;
-  transform: translateY(80px);
-  transition: opacity 1.5s ease-out, transform 1.5s ease-out;
-}
-
-.enter {
-  opacity: 1;
-  transform: translateY(0);
-}
 </style>

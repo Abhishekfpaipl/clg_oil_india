@@ -6,15 +6,16 @@
                 <div class="col-md-10">
                     <h1 class="fw-bold">ABOUT <span class="text-danger">US</span></h1>
                     <p class="mt-3">
-                        On the back of an illustrious 150-year legacy, Motul is a French lubricants company
+                        On the back of an illustrious 150-year legacy, CGL is a French lubricants company
                         that enjoys global recognition as 'The specialist in synthetic lubricants'.
-                        Among the oldest, most respected lubricant brands in the world, Motul has become
+                        Among the oldest, most respected lubricant brands in the world, CGL has become
                         synonymous with high-performance motoring.
                     </p>
                 </div>
             </div>
             <div class="row align-items-center">
-                <div class="col-md-5 text-start ps-5 bg-danger text-white py-5" v-observe :class="imageClass('left')">
+                <!-- <div class="col-md-5 text-start ps-5 bg-danger text-white py-5" v-observe :class="imageClass('left')"> -->
+                <div class="col-md-5 text-start ps-5 bg-danger text-white py-5" v-observe >
                     <div class="d-flex gap-2 align-items-center">
                         <h1 class="display-3 fw-bold">150</h1>
                         <p class="h4">YEARS OF SERVICE</p>
@@ -28,9 +29,10 @@
                     <img ref="motorbikeImage" src="/img/bike.png"
                         alt="Motorbike" class="img-fluid scale-0" />
                 </div>
-                <div class="col-md-5 text-start" v-observe :class="imageClass('right')">
+                <!-- <div class="col-md-5 text-start" v-observe :class="imageClass('right')"> -->
+                <div class="col-md-5 text-start" v-observe >
                     <p>
-                        Motorsport is a part of Motul's core DNA and the brand took its first steps in
+                        Motorsport is a part of CGL's core DNA and the brand took its first steps in
                         racing disciplines in the 1950s. Since then, the company has played the role
                         of a dedicated technical partner to some of the most successful teams in
                         motorsport history.

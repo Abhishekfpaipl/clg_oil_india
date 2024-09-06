@@ -3,6 +3,16 @@
     <div class="">
       <CarouselBanner />
     </div>
+    
+    <div class="my-2">
+      <ServiceCard :products="greases" title="LUBRICATING" subtitle="Greases"/>
+    </div>
+    <div class="my-2">
+      <ServiceCard :products="oils" title="LUBRICATING" subtitle="OILS"/>
+    </div>
+    <div class="my-2">
+      <IndustriesSection />
+    </div>
     <div class="my-2">
       <OurService />
     </div>
@@ -11,12 +21,6 @@
     </div>
     <div class="my-2">
       <AboutSection />
-    </div>
-    <div class="my-2">
-      <ServiceCard :products="greases" title="LUBRICATING GREASE" />
-    </div>
-    <div class="my-2">
-      <ServiceCard :products="oils" title="LUBRICATING OILS" />
     </div>
     <div class="my-2">
       <TestimonialSection />
@@ -43,6 +47,7 @@ import CounterSection from "@/components/CounterSection.vue";
 import ImageSection from "@/components/ImageSection.vue";
 import AboutSection from "@/components/AboutSection.vue";
 import TestimonialSection from "@/components/TestimonialSection.vue";
+import IndustriesSection from "@/components/IndustriesSection.vue";
 export default {
   name: "HomeView",
   components: {
@@ -55,6 +60,7 @@ export default {
     ImageSection,
     AboutSection,
     TestimonialSection,
+    IndustriesSection,
   },
   data() {
     return {

@@ -136,4 +136,16 @@ export default {
   border-image: linear-gradient(to right, black 0, transparent 10%);
   border-image-slice: 1;
 }
+
+
+.before-enter {
+  opacity: 0;
+  transform: translateY(80px);
+  transition: opacity 1.5s ease-out, transform 1.5s ease-out;
+}
+
+.enter {
+  opacity: 1;
+  transform: translateY(0);
+}
 </style>
