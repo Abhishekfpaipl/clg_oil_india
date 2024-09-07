@@ -31,8 +31,6 @@ export default {
     data() {
         return {
             industries: [
-              
-               
                 {
                     title: 'Tailored Grease Recommendations',
                     description: "Our seasoned technical experts are committed to recommending the most effective grease solutions for your machinery. We offer personalized, high-performance options to optimize your equipment’s efficiency and longevity."

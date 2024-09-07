@@ -5,31 +5,31 @@
     </div>
     
     <div class="my-2">
-      <ServiceCard :products="greases" title="LUBRICATING" subtitle="Greases"/>
+      <ServiceCard :products="greases" title="LUBRICATING" subtitle="Greases" v-observe/>
     </div>
     <div class="my-2">
-      <ServiceCard :products="oils" title="LUBRICATING" subtitle="OILS"/>
+      <ServiceCard :products="oils" title="LUBRICATING" subtitle="OILS" v-observe/>
     </div>
     <div class="my-2">
-      <IndustriesSection />
+      <IndustriesSection v-observe/>
     </div>
     <div class="my-2">
-      <OurService />
+      <OurService v-observe/>
     </div>
     <div class="my-2">
-      <ImageSection />
+      <ImageSection v-observe/>
     </div>
     <div class="my-2">
-      <AboutSection />
+      <AboutSection v-observe/>
     </div>
     <div class="my-2">
-      <TestimonialSection />
+      <TestimonialSection v-observe/>
     </div> 
     <div class="my-2">
-      <AutoScrolling />
+      <AutoScrolling v-observe/>
     </div>
     <div class="">
-      <CounterSection />
+      <CounterSection v-observe/>
     </div>
     <div class="">
       <GetUpdate v-observe />

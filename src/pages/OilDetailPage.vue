@@ -98,7 +98,7 @@
 // import ProductGallerySection from "@/components/ProductGallerySection.vue"
 import ProductTableSection from "@/components/ProductTableSection.vue"
 import TradeFairTermsSection from "@/components/TradeFairTermsSection.vue"
-import ProductIndustries from "@/components/ProductIndustries.vue"
+import TradeFairExclusionSection from "@/components/ProductIndustries.vue"
 import ProductBenefitSection from "@/components/ProductBenefitSection.vue"
 import ItinerarySection from "@/components/ItinerarySection.vue"
 // import TradeDetailsSection from "@/components/TradeDetailsSection.vue"
@@ -108,7 +108,7 @@ export default {
         // ProductGallerySection,
         ProductTableSection,
         TradeFairTermsSection,
-        ProductIndustries,
+        TradeFairExclusionSection,
         ProductBenefitSection,
         ItinerarySection,
         // TradeDetailsSection,
@@ -127,7 +127,7 @@ export default {
                 { id: 'Reports', name: 'Reports', component: 'ProductTableSection' },
                 { id: 'Benefits', name: 'Benefits', component: 'ProductBenefitSection' },
                 { id: 'Packaging', name: 'Packaging', component: 'ItinerarySection' },
-                { id: 'Industries', name: 'Industries', component: 'ProductIndustries' },
+                { id: 'Industries', name: 'Industries', component: 'TradeFairExclusionSection' },
                 { id: 'Other', name: 'Other', component: 'TradeFairTermsSection' }
             ],
             activeSection: '',
@@ -149,7 +149,7 @@ export default {
         subproduct() {
             const productId = this.$route.params.productId;
             const subproductId = parseInt(this.$route.params.subproductId, 10); // Convert to number
-            const product = this.$store.getters['product/getGrease'](productId);
+            const product = this.$store.getters['product/getOil'](productId);
 
             // Ensure the product and products array are valid
             return product && Array.isArray(product.products)

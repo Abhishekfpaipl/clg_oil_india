@@ -78,7 +78,7 @@ const routes = [
     component: () => import('@/pages/faqs-page.vue')
   },
   {
-    path: "/product-detail/:productId",
+    path: "/product-detail/:productId/:subproductId",
     name: "ProductDetailPage",
     component: () => import('@/pages/ProductDetailPage.vue')
   },
@@ -86,6 +86,11 @@ const routes = [
     path: "/product-list/:productId",
     name: "ProductListPage",
     component: () => import('@/pages/ProductListPage.vue')
+  },
+  {
+    path: "/oil-detail/:productId/:subproductId",
+    name: "OilDetailPage",
+    component: () => import('@/pages/OilDetailPage.vue')
   },
   {
     path: "/oil-list/:productId",
@@ -97,11 +102,24 @@ const routes = [
     name: "ServiceListPage",
     component: () => import('@/pages/ServiceListPage.vue')
   },
+  {
+    path: "/dealer-locator",
+    name: "DealerLocator",
+    component: () => import('@/pages/DealerLocator.vue')
+  },
 ];
 
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
   routes,
+  scrollBehavior(to, from, savedPosition) {
+    // Always scroll to top
+    if (savedPosition) {
+      return savedPosition;
+    } else {
+      return { top: 0 };
+    }
+  }
 });
 
 export default router;

@@ -1,5 +1,5 @@
 <template>
-    <div class="container mt-4 text-start">
+    <div class="container mt-4 text-start"> 
         <h5>Booking and Payment</h5>
         <ul class="list-group mb-4 list-group-flush">
             <li class="list-group-item">A Registration fee (75,000 Per Person) is required at the time of booking
@@ -31,7 +31,7 @@
             <li class="list-group-item">The package cost is based on an exchange rate of 83 USD and is subject to
                 change.</li>
             <li class="list-group-item">Airfare and taxes are subject to change.</li>
-        </ul> 
+        </ul>
 
         <h5>Cancellation Policy</h5>
         <p>The following cancellation charges apply in addition to the non-refundable registration fee:</p>

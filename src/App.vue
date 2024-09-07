@@ -1,9 +1,11 @@
-<template> 
+<template>
   <DashboardNav v-if="!hide" />
-  <router-view />
+  <transition name="fade">
+    <router-view />
+  </transition>
   <FooterBar v-if="!hidden" />
 </template>
-<script> 
+<script>
 import DashboardNav from "@/components/TopNav.vue";
 import FooterBar from "@/components/FooterBar.vue";
 export default {
@@ -48,6 +50,16 @@ export default {
   --bg-light: #FFF5DD !important;
 }
 
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 1s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
+
 .text-ellipsis {
   display: -webkit-box;
   -webkit-line-clamp: 1;
@@ -63,6 +75,7 @@ export default {
   overflow: hidden;
   text-overflow: ellipsis;
 }
+
 .text-ellipsis3 {
   display: -webkit-box;
   -webkit-line-clamp: 3;
@@ -70,6 +83,7 @@ export default {
   overflow: hidden;
   text-overflow: ellipsis;
 }
+
 .text-ellipsis4 {
   display: -webkit-box;
   -webkit-line-clamp: 4;

@@ -14,7 +14,7 @@
         <div class="container">
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-3 g-3">
                 <div class="col" v-for="(service, index) in product.products" :key="index">
-                    <router-link :to="'/product-detail/' + service.id" class="card text-decoration-none card h-100 border text-bg-light"
+                    <router-link  :to="{ name: 'OilDetailPage', params: { productId: product.id, subproductId: service.id } }" class="card text-decoration-none card h-100 border text-bg-light"
                         @mouseenter="hover(index)" @mouseleave="unhover(index)">
                         <div class="card-body d-flex flex-column">
                             <h5 class="card-title text-center text-capitalize">{{ service.title }}</h5>

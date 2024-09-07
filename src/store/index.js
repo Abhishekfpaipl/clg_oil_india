@@ -1,6 +1,7 @@
 import { createStore } from "vuex";
 import about from "./about";
 import product from "./product";
+import states from "./states";
 export default createStore({
   state: {
     packages: [
@@ -183,16 +184,7 @@ export default createStore({
       return state.packages[index];
     },
   },
-  mutations: {
-    // createProduct(state, product) {
-    //   state.products.push(product);
-    // },
-    // editProduct(state, updatedProduct) {
-    //   const index = state.products.findIndex(product => product.id === updatedProduct.id);
-    //   if (index !== -1) {
-    //     state.products.splice(index, 1, updatedProduct);
-    //   }
-    // },
+  mutations: { 
   },
   actions: {
     createProduct({ commit }, product) {
@@ -205,5 +197,6 @@ export default createStore({
   modules: {
     about: about,
     product: product,
+    states: states,
   },
 });

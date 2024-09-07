@@ -1,5 +1,5 @@
 <template>
-    <div style="padding-top:66px">
+    <div style="padding-top: 66px">
         <div class="" style="background-image: url('/img/trade-bg.svg')">
             <div class="py-5" style="background-color: var(--bg-forth)">
                 <h1 class="fw-bold">Term Of Use</h1>
@@ -10,19 +10,20 @@
                 <div class="card-body my-5">
                     <h1 class="text-center mb-4">Sky Travel Expertz Tours Terms and Conditions</h1>
                     <p><strong>Last Updated:</strong> April 2024</p>
-                    <p>These Terms and Conditions ("Terms") govern your use of the Sky Travel Expertz Tours website
+                    <p>
+                        These Terms and Conditions ("Terms") govern your use of the Sky Travel Expertz Tours website
                         located at
-                        <a href="#" target="_blank">www.rctrips.com</a> and any related mobile
-                        applications (collectively, the "Service"). By accessing or using the Service, you agree to be
-                        bound by these Terms. If you do not agree to these Terms, you are not authorized to use the
-                        Service.
+                        <a href="https://www.rctrips.com" target="_blank">www.rctrips.com</a> and any related mobile
+                        applications
+                        (collectively, the "Service"). By accessing or using the Service, you agree to be bound by these
+                        Terms. If
+                        you do not agree to these Terms, you are not authorized to use the Service.
                     </p>
 
                     <section>
                         <h2>1. Definitions</h2>
                         <p><strong>"Sky Travel Expertz Tours," "we," "us," or "our"</strong> refers to Sky Travel
-                            Expertz Tours, the
-                            owner and operator of the Service.</p>
+                            Expertz Tours, the owner and operator of the Service.</p>
                         <p><strong>"You"</strong> refers to the user of the Service.</p>
                         <p><strong>"Member"</strong> refers to a user who has registered with the service.</p>
                         <p><strong>"Content"</strong> refers to all text, information, graphics, audio, video, and data
@@ -169,8 +170,7 @@
                         <ul>
                             <li><strong>If to you:</strong> 23/1, First Floor, East Patel Nagar, New Delhi- 110008</li>
                             <li><strong>If to us:</strong> Sky Travel Expertz Tours, 23/1, First Floor, East Patel
-                                Nagar, New
-                                Delhi- 110008</li>
+                                Nagar, New Delhi- 110008</li>
                         </ul>
                     </section>
 
@@ -189,11 +189,11 @@
                     <section>
                         <h2>20. Indemnification</h2>
                         <p>You agree to indemnify, defend, and hold harmless Sky Travel Expertz Tours and our
-                            affiliates,
-                            officers, directors, employees, agents, licensors, suppliers, and subcontractors from and
-                            against any and all claims, losses, damages, liabilities, costs, and expenses (including
-                            reasonable attorneys' fees) arising out of or relating to your use of the Service, your
-                            violation of these Terms, or your violation of any rights of a third party.</p>
+                            affiliates, officers, directors, employees, agents, licensors, suppliers, and subcontractors
+                            from and against any and all claims, losses, damages, liabilities, costs, and expenses
+                            (including reasonable attorneys' fees) arising out of or relating to your use of the
+                            Service, your violation of these Terms, or your violation of any rights of a third party.
+                        </p>
                     </section>
 
                     <section>
@@ -212,30 +212,21 @@
                     <section>
                         <h2>23. Contact Us</h2>
                         <p>If you have any questions about these Terms, please contact us at <a
-                                href="mailto:himanshikukreja123@gmail.com">himanshikukreja123@gmail.com</a> or +91
-                            8318599577</p>
+                                href="mailto:info@clgoilindia.com">info@clgoilindia.com</a> or +919711256073</p>
                     </section>
 
                     <p class="text-center font-weight-bold">BY USING THE SERVICE, YOU ACKNOWLEDGE THAT YOU HAVE READ
                         THESE TERMS AND AGREE TO BE BOUND BY THEM.</p>
                 </div>
             </div>
-
         </div>
-
     </div>
 </template>
 
 <script>
 export default {
-    name: 'TermOfUse',
-    data() {
-        return {
-
-        }
-    },
-
-}
+    name: "TermOfUse",
+};
 </script>
 
 <style lang="scss" scoped></style>
