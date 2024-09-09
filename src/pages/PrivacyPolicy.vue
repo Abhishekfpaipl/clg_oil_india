@@ -1,10 +1,6 @@
 <template>
-    <div style="padding-top: 66px">
-        <div class="" style="background-image: url('/img/trade-bg.svg')">
-            <div class="py-5" style="background-color: var(--bg-forth)">
-                <h1 class="fw-bold">Privacy Policy</h1>
-            </div>
-        </div>
+    <div>
+        <SectionTopBanner/>
         <div class="container py-5 rounded-top-5 bg-white" style="margin-top: -40px;">
             <div class="row justify-content-center">
                 <div class="col-12">
@@ -154,8 +150,13 @@
 </template>
 
 <script>
+import SectionTopBanner from '@/components/SectionTopBanner.vue';
+
 export default {
-    name: 'PrivacyPolicy'
+    name: 'PrivacyPolicy',
+    components:{
+        SectionTopBanner
+    },
 }
 </script>
 

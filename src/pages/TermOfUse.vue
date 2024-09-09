@@ -1,10 +1,6 @@
 <template>
-    <div style="padding-top: 66px">
-        <div class="" style="background-image: url('/img/trade-bg.svg')">
-            <div class="py-5" style="background-color: var(--bg-forth)">
-                <h1 class="fw-bold">Term Of Use</h1>
-            </div>
-        </div>
+    <div>
+        <SectionTopBanner/>
         <div class="container py-5 rounded-top-5 bg-white text-start" style="margin-top: -40px;">
             <div class="card border-0">
                 <div class="card-body my-5">
@@ -224,8 +220,13 @@
 </template>
 
 <script>
+import SectionTopBanner from '@/components/SectionTopBanner.vue';
+
 export default {
     name: "TermOfUse",
+    components:{
+        SectionTopBanner
+    }
 };
 </script>
 

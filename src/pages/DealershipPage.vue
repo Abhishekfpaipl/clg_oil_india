@@ -1,9 +1,10 @@
 <template>
     <div>
-        <div class="text-center fw-bold py-5 text-white" style="background-color: var(--brand-color);">
+        <SectionTopBanner/>
+        <!-- <div class="text-center fw-bold py-5 text-white" style="background-color: var(--brand-color);">
             <p class="fs-1 mb-0 text-capitalize">Dealership with us</p>
             <p class="fs-5 text-capitalize">it's your own business , let it shine</p>
-        </div>
+        </div> -->
         <div class="container py-5 rounded-top-5 bg-white" style="margin-top: -40px;" v-observe>
             <div class="row">
                 <div class="col-12 col-md-6 d-flex justify-content-center align-items-center">
@@ -94,10 +95,12 @@
 
 <script>
 import OurCoreValues from "@/components/OurCoreValues.vue";
+import SectionTopBanner from "@/components/SectionTopBanner.vue";
 export default {
     name: 'DealershipPage',
     components: {
         OurCoreValues,
+        SectionTopBanner
     },
     data() {
         return {

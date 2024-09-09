@@ -2,21 +2,46 @@
     <div class="banner-container">
         <img src="/img/productBanner.jpg" alt="Product Banner" class="banner-image">
         <div class="overlay">
-            <h1 class="banner-title">{{ title }}</h1>
+            <h1 class="banner-title">{{ pageName }}</h1>
         </div>
     </div>
 </template>
 
 <script>
 export default {
+    // props: {
+    //     title: {
+    //         type: String,
+    //         required: true
+    //     }
+    // },
     data() {
         return {
-            title: '',
+            pageName: ''
         };
     },
     mounted() {
-        this.title = this.$route.params.id;
+        let pageName = this.$route.path.split('/').pop();
+        this.pageName = pageName.replace(/-/g, ' ');
     },
+    // mounted() {
+    //     // Get the full path from the route
+    //     let path = this.$route.path;
+
+    //     // Check if the route has a productId param
+    //     let productId = this.$route.params.productId;
+
+    //     if (productId) {
+    //         // If productId exists, get the part of the path before productId
+    //         // Assume the format of the path is "/grease-list/:productId"
+    //         let pathParts = path.split('/');
+    //         this.pageName = pathParts[pathParts.length - 2]; // This will get "grease-list"
+    //     } else {
+    //         // If no productId exists, use the last segment of the path
+    //         let pageName = path.split('/').pop();
+    //         this.pageName = pageName.replace(/-/g, ' ');
+    //     }
+    // }
 };
 </script>
 
@@ -40,7 +65,8 @@ export default {
     width: 100%;
     height: 100%;
     background-color: var(--bg-third);
-    opacity: 90%; /* Opacity with transparency */
+    opacity: 90%;
+    /* Opacity with transparency */
     display: flex;
     justify-content: center;
     align-items: center;

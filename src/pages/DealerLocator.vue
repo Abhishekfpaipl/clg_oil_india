@@ -1,13 +1,13 @@
 <template>
     <div>
-        <div class="position-relative" style="width: 100%; overflow: hidden;">
+        <!-- <div class="position-relative" style="width: 100%; overflow: hidden;">
             <img src="/img/productBanner.jpg" alt="" style="width: 100%; height: 400px; object-fit: cover;">
             <div
                 style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: var(--bg-third);opacity: 90%; display: flex; justify-content: center; align-items: center;">
                 <h1 class="display-1 text-white text-uppercase fw-bold text-center">Dealer Locator</h1>
             </div>
-        </div>
-        <!-- <SectionTopBanner /> -->
+        </div> -->
+        <SectionTopBanner />
         <div class="container mb-5 pb-5" style="margin-top: -50px;" v-observe>
             <div class="text-white p-4" style="background-color:var(--bg-secondary);">
                 <h2 class="mb-4">FIND DEALER NEAR YOU</h2>
@@ -64,12 +64,12 @@
 </template>
 
 <script>
-// import SectionTopBanner from '@/components/SectionTopBanner.vue';
+import SectionTopBanner from '@/components/SectionTopBanner.vue';
 
 export default {
     name: 'DealerLocator',
     components: {
-        // SectionTopBanner
+        SectionTopBanner
     },
     data() {
         return {
@@ -81,7 +81,8 @@ export default {
             filteredCities: [],
             email: '',
             captcha: '',
-            showDealers: false // Added data property to control visibility
+            showDealers: false, // Added data property to control visibility
+            title: '',
         }
     },
     computed: {
@@ -91,7 +92,10 @@ export default {
         isButtonEnabled() {
             // Enable button only if all required inputs have values
             return this.selectedState && this.selectedCity && this.selectedPincode;
-        }
+        },
+        // pageTitle() {
+        //     return this.$route.meta.pageTitle;  // Access the page title from the route meta field
+        // }
     },
     methods: {
         updateCities() {

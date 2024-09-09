@@ -1,13 +1,6 @@
 <template>
     <div v-if="subproduct">
-        <div class="position-relative" style="width: 100%; overflow: hidden;">
-            <img src="/img/productBanner.jpg" alt="" style="width: 100%; height: 400px; object-fit: cover;">
-            <div
-                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.75); display: flex; justify-content: center; align-items: center;">
-
-                <h1 class="text-white text-uppercase fw-bold text-center" style="">Product detail page</h1>
-            </div>
-        </div>
+       <SectionTopBanner/>
         <div class="container my-3">
             <div class="mt-4 display-3 fw-bold text-capitalize">{{ subproduct.title }}</div>
             <div class="my-4">{{ subproduct.description }}</div>
@@ -101,6 +94,7 @@ import TradeFairTermsSection from "@/components/TradeFairTermsSection.vue"
 import TradeFairExclusionSection from "@/components/ProductIndustries.vue"
 import ProductBenefitSection from "@/components/ProductBenefitSection.vue"
 import ItinerarySection from "@/components/ItinerarySection.vue"
+import SectionTopBanner from "@/components/SectionTopBanner.vue"
 // import TradeDetailsSection from "@/components/TradeDetailsSection.vue"
 export default {
     name: "TradeFairPage",
@@ -111,6 +105,7 @@ export default {
         TradeFairExclusionSection,
         ProductBenefitSection,
         ItinerarySection,
+        SectionTopBanner,
         // TradeDetailsSection,
     },
     data() {

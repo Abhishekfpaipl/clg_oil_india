@@ -5,10 +5,12 @@ export default {
             {
                 id: 123,
                 title: "Automotive Grease",
-                sid: "automotive-grease",
                 description: "AP-3 Grease is a high-performance grease known for its superior lubrication properties. It is ideal for automotive and industrial applications, providing excellent resistance to water and corrosion.",
                 icon: "https://clgoilindia.com/demo/assets/images/resource/oil-01.png",
                 route: '/grease-list/',
+                category:'grease',
+                brand:'CGL',
+                industries:'steel, auto ',
                 products: [
                     {
                         id: 22,
@@ -590,7 +592,6 @@ export default {
             {
                 id: 321,
                 title: "Industrial Grease",
-                sid: "industrial-grease",
                 description: "The AP-3 Grease Test Report details the comprehensive testing and performance metrics of AP-3 grease, ensuring its reliability in various industrial and automotive applications.",
                 icon: "https://clgoilindia.com/demo/assets/images/resource/oil-01.png",
                 route: '/grease-list/',
@@ -869,7 +870,6 @@ export default {
             {
                 id: 112,
                 title: "Speciality Grease",
-                sid: "speciality-grease",
                 description: "Crusher Grease 2 is a high-performance grease designed for use in heavy-duty machinery. It offers excellent protection against extreme pressure and is ideal for use in crushers and other industrial equipment.",
                 icon: "https://clgoilindia.com/demo/assets/images/resource/oil-01.png",
                 route: '/grease-list/',
@@ -1111,7 +1111,6 @@ export default {
             {
                 id: 223,
                 title: "Specification based Grease",
-                sid: "specification-based-grease",
                 description: "The Crusher Grease Test Report provides detailed analysis and performance evaluations of Crusher Grease, highlighting its ability to withstand high pressures and protect machinery components.",
                 icon: "https://clgoilindia.com/demo/assets/images/resource/oil-01.png",
                 route: '/grease-list/',
@@ -1336,7 +1335,6 @@ export default {
             {
                 id: 445234,
                 "title": "Automotive lubricating oils",
-                sid: "automotive-lubricating-oils",
                 "description": "AP-3 Grease is a high-performance grease known for its superior lubrication properties. It is ideal for automotive and industrial applications, providing excellent resistance to water and corrosion.",
                 "icon": "https://clgoilindia.com/demo/assets/images/resource/oil-01.png",
                 route: '/oil-list/',
@@ -1482,7 +1480,6 @@ export default {
             {
                 id: 76786123,
                 "title": "Industrial lubricating oils",
-                sid: "industrial-lubricating-oils",
                 "description": "The AP-3 Grease Test Report details the comprehensive testing and performance metrics of AP-3 grease, ensuring its reliability in various industrial and automotive applications.",
                 "icon": "https://clgoilindia.com/demo/assets/images/resource/oil-01.png",
                 route: '/oil-list/',
@@ -1694,7 +1691,6 @@ export default {
             {
                 id: 66474,
                 "title": "Specification based oils",
-                sid: "specification-based-oils",
                 "description": "Crusher Grease 2 is a high-performance grease designed for use in heavy-duty machinery. It offers excellent protection against extreme pressure and is ideal for use in crushers and other industrial equipment.",
                 "icon": "https://clgoilindia.com/demo/assets/images/resource/oil-01.png",
                 route: '/oil-list/',
@@ -1802,13 +1798,13 @@ export default {
     getters: {
         getGreases: state => state.greases,
         getGrease: (state) => (productId) => {
-            let index = state.greases.findIndex(product => product.sid == productId);
+            let index = state.greases.findIndex(product => product.id == productId);
             return state.greases[index];
         },
 
         getOils: state => state.oils,
         getOil: (state) => (productId) => {
-            let index = state.oils.findIndex(product => product.sid == productId);
+            let index = state.oils.findIndex(product => product.id == productId);
             return state.oils[index];
         },
     },

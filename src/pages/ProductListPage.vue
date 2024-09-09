@@ -1,5 +1,6 @@
 <template>
     <div>
+        <SectionTopBanner/>
         <div class="my-2">
             <ServiceCard :products="greases" title="LUBRICATING" subtitle="Greases" v-observe />
         </div>
@@ -10,10 +11,12 @@
 </template>
 <script>
 import ServiceCard from "@/components/ServiceCard.vue";
+import SectionTopBanner from "@/components/SectionTopBanner.vue";
 export default {
     name: "ProductListPage",
     components: {
         ServiceCard,
+        SectionTopBanner
     },
     computed: {
         greases() {

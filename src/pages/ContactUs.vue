@@ -1,11 +1,7 @@
 <template>
-    <div class="" style="padding-top: 66px;">
+    <div class="">
 
-        <div class="" style="background-image: url('/img/trade-bg.svg')">
-            <div class="py-5" style="background-color: var(--bg-forth)">
-                <h1 class="text-center fw-bold">Contact Us</h1>
-            </div>
-        </div>
+        <SectionTopBanner />
         <div class="container bg-white rounded-top-5" style="margin-top: -40px;" v-observe>
             <div class="row p-3">
                 <div class="col-12 pt-4 text-center">
@@ -88,10 +84,12 @@
 
 <script>
 import SocialSchedule from "@/components/SocialSchedule.vue";
+import SectionTopBanner from "@/components/SectionTopBanner.vue";
 export default {
     name: "ContactPage",
     components: {
         SocialSchedule,
+        SectionTopBanner,
     },
     data() {
         return {
@@ -131,13 +129,18 @@ export default {
             email: '',
             number: '',
             note: '',
+            pageName: "",
         }
     },
     methods: {
         loginAccount() {
             console.log(this.mobile, this.email, this.number, this.note)
         }
-    }
+    },
+    // mounted() {
+    //     let pageName = this.$route.path.split('/').pop();
+    //     this.pageName = pageName.replace(/-/g, ' '); 
+    // },
 }
 </script>
 

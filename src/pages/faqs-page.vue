@@ -1,10 +1,6 @@
 <template>
-    <div style="padding-top: 70px;">
-        <div class="" style="background-image: url('/img/trade-bg.svg')">
-            <div class="py-5 text-center fw-bold py-5 text-dark" style="background-color: var(--bg-forth)">
-                <h1 class="text-center mb-4">Frequently Asked Questions</h1>
-            </div>
-        </div>
+    <div>
+        <SectionTopBanner />
         <div class="container py-5 rounded-top-5 bg-white" style="margin-top: -40px;">
             <div>
                 <ul class="nav nav-pills justify-content-start align-items-center" id="pills-tab" role="tablist">
@@ -65,8 +61,13 @@
 </template>
 
 <script>
+import SectionTopBanner from '@/components/SectionTopBanner.vue';
+
 export default {
     name: "PriceSection",
+    components: {
+        SectionTopBanner
+    },
     data() {
         return {
             pricing: [
@@ -261,7 +262,8 @@ export default {
     /* border-radius: 2rem; */
     /* transform: scale(1.2); */
 }
-.form-control{
+
+.form-control {
     box-shadow: none !important;
 }
 </style>

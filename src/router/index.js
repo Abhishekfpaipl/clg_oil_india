@@ -10,63 +10,57 @@ const routes = [
   {
     path: "/about-us",
     name: "AboutUs",
-    component: () => import("@/pages/AboutUs.vue")
+    component: () => import("@/pages/AboutUs.vue"),
+    meta: {
+      pageTitle: "About Us",
+    }
   },
   {
     path: "/contact-us",
     name: "ContactUs",
-    component: () => import("@/pages/ContactUs.vue")
+    component: () => import("@/pages/ContactUs.vue"),
+    meta: {
+      pageTitle: "Contact Us",
+    }
   },
-  {
-    path: "/return-refund",
-    name: "ReturnRefund",
-    component: () => import("@/pages/ReturnRefund.vue")
-  },
+  // {
+  //   path: "/return-refund",
+  //   name: "ReturnRefund",
+  //   component: () => import("@/pages/ReturnRefund.vue")
+  // },
   {
     path: "/privacy-policy",
     name: "PrivacyPolicy",
-    component: () => import("@/pages/PrivacyPolicy.vue")
+    component: () => import("@/pages/PrivacyPolicy.vue"),
+    meta: {
+      pageTitle: "Privacy Policy",
+    }
   },
   {
     path: "/career",
     name: "CareerPage",
-    component: () => import("@/pages/CareerPage.vue")
+    component: () => import("@/pages/CareerPage.vue"),
+    meta: {
+      pageTitle: "Career",
+    }
   },
   {
     path: "/dealership",
     name: "DealershipPage",
-    component: () => import("@/pages/DealershipPage.vue")
+    component: () => import("@/pages/DealershipPage.vue"),
+    meta: {
+      pageTitle: "Dealership",
+    }
   },
   {
     path: "/term-of-use",
     name: "TermOfUse",
-    component: () => import("@/pages/TermOfUse.vue")
+    component: () => import("@/pages/TermOfUse.vue"),
+    meta: {
+      pageTitle: "Term & Conditions",
+    }
   },
-  {
-    path: "/login-page",
-    name: "LoginPage",
-    component: () => import('@/pages/auths/LoginPage.vue')
-  },
-  {
-    path: "/registration-page",
-    name: "RegistrationPage",
-    component: () => import('@/pages/auths/RegistrationPage.vue')
-  },
-  {
-    path: "/forgot-password-page",
-    name: "ForgotPasswordPage",
-    component: () => import('@/pages/auths/ForgotPasswordPage.vue')
-  },
-  {
-    path: "/reset-password-page",
-    name: "ResetPasswordPage",
-    component: () => import('@/pages/auths/ResetPasswordPage.vue')
-  },
-  {
-    path: "/email-verification-page",
-    name: "EmailVerificationPage",
-    component: () => import('@/pages/auths/EmailVerificationPage.vue')
-  },
+  
   {
     path: "/other-services",
     name: "OtherServices",
@@ -105,7 +99,10 @@ const routes = [
   {
     path: "/dealer-locator",
     name: "DealerLocator",
-    component: () => import('@/pages/DealerLocator.vue')
+    component: () => import('@/pages/DealerLocator.vue'),
+    meta: {
+      pageTitle: "Dealer Locator"
+    }
   },
   {
     path: "/industry-list",

@@ -1,10 +1,6 @@
 <template>
-    <div style="padding-top: 66px;">
-        <div class="" style="background-image: url('/img/trade-bg.svg')">
-            <div class="py-5" style="background-color: var(--bg-forth)">
-                <h1 class="fw-bold ">About Us</h1>
-            </div>
-        </div>
+    <div>
+        <SectionTopBanner />
         <div class="container bg-white rounded-top-5" style="margin-top: -40px;" v-observe>
             <SuccessStory :tests="tests" v-observe />
             <div class="my-5">
@@ -58,6 +54,7 @@ import PrivateCoaching from "@/components/PrivateCoaching.vue";
 import AutoScrolling from "@/components/AutoScrolling.vue";
 import OurCoreValues from "@/components/OurCoreValues.vue";
 import AboutKeyFeatures from "@/components/AboutKeyFeatures.vue";
+import SectionTopBanner from "@/components/SectionTopBanner.vue";
 export default {
     name: "AboutUs",
     components: {
@@ -72,6 +69,7 @@ export default {
         SuccessStory,
         TeamInfoSection,
         AboutKeyFeatures,
+        SectionTopBanner,
     },
     data() {
         return {
@@ -144,6 +142,9 @@ export default {
         country() {
             return this.$store.getters.getCountries
         },
+        // pageTitle() {
+        //     return this.$route.meta.pageTitle;  // Access the page title from the route meta field
+        // }
     },
 }
 </script>

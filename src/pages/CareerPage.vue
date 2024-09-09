@@ -1,9 +1,6 @@
 <template>
-    <div >
-        <div class="text-center fw-bold py-5 text-white" style="background-color: var(--brand-color);" v-observe>
-            <p class="fs-1 mb-0">Career</p>
-            <p class="fs-5">LOOKING FOR A CAREER, JOIN US !</p>
-        </div>
+    <div> 
+        <SectionTopBanner/>
         <div class="container py-5 rounded-top-5 bg-white" style="margin-top: -40px;" v-observe>
             <div class="row">
                 <div class="col-12 col-md-6 d-flex justify-content-center align-items-center">
@@ -74,8 +71,12 @@
 </template>
 
 <script>
+import SectionTopBanner from "@/components/SectionTopBanner.vue"
 export default {
     name: 'CareerPage',
+    components: {
+        SectionTopBanner
+    },
     data() {
         return {
             datas: [
@@ -143,7 +144,7 @@ export default {
                     icon: 'bi bi-check2-circle',
                     heading: 'Fulfilling Legal Requirements'
                 }
-            ], 
+            ],
             name: '',
             designation: '',
             note: ''
@@ -161,7 +162,7 @@ export default {
                     this.note = "";
             }
         }
-    }
+    },
 
 }
 </script>
