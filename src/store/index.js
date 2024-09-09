@@ -2,6 +2,7 @@ import { createStore } from "vuex";
 import about from "./about";
 import product from "./product";
 import states from "./states";
+import industry from "./industry";
 export default createStore({
   state: {
     packages: [
@@ -198,5 +199,6 @@ export default createStore({
     about: about,
     product: product,
     states: states,
+    industry: industry,
   },
 });

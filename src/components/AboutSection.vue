@@ -1,6 +1,6 @@
 <template>
     <div class="about-us-section py-5">
-        <div class="container">
+        <div class="container-fluid">
             <!-- About Us Header -->
             <div class="row justify-content-center text-center mb-3">
                 <div class="col-md-10">
@@ -34,7 +34,7 @@
                         alt="Motorbike" class="img-fluid scale-0" />
                 </div>
                 <!-- <div class="col-md-5 text-start" v-observe :class="imageClass('right')"> -->
-                <div class="col-md-5 text-start" v-observe >
+                <div class="col-md-5 text-end ps-md-5" v-observe >
                     <p>
                         Motorsport is a part of CGL's core DNA and the brand took its first steps in
                         racing disciplines in the 1950s. Since then, the company has played the role

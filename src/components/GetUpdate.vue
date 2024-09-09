@@ -3,7 +3,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <img src="https://clgoilindia.com/demo/assets/images/resource/contact-1.jpg" alt="Oil pouring"
+                    <img src="/img/update.jpg" alt="Oil pouring"
                         class="img-fluid rounded">
                 </div>
                 <div class="col-md-6 text-center text-md-start">
@@ -26,9 +26,9 @@
                         <div class="mb-3">
                             <select class="form-select bg-dark text-light" v-model="selectedService">
                                 <option value="" disabled selected>Select Your Service</option>
-                                <option value="service1">Service 1</option>
-                                <option value="service2">Service 2</option>
-                                <option value="service3">Service 3</option>
+                                <option value="service1">Oils</option>
+                                <option value="service2">Greases</option>
+                                <option value="service3">Lubricants</option>
                             </select>
                         </div>
                         <div class="mb-3">
@@ -57,14 +57,14 @@ export default {
     },
     methods: {
         submitForm() {
-            // Handle form submission logic here
-            console.log('Form submitted:', {
-                fullName: this.fullName,
-                email: this.email,
-                selectedService: this.selectedService,
-                message: this.message
-            });
-            // You can add API calls or other logic here
+            const phoneNumber = '919711256073';
+            const message = `Name: ${this.fullName}%0A 
+    Service: ${this.selectedService}%0A
+    Email: ${this.email}%0A
+    Note: ${this.message}%0A `;
+
+            const url = `https://wa.me/${phoneNumber}?text=${message}`;
+            window.open(url, '_blank');
         }
     }
 }

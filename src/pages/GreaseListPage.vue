@@ -2,10 +2,10 @@
     <SectionTopBanner />
     <div class="py-5 text-bg-white">
         <div class="container">
-            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-3 g-3 mt-5 pt-3">
+            <div class="row row-cols-2 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 g-3 mt-5 pt-3">
                 <div class="col mb-5 pb-2" v-for="(service, index) in product.products" :key="index">
                     <router-link
-                        :to="{ name: 'ProductDetailPage', params: { productId: product.sid, subproductId: service.id } }"
+                        :to="{ name: 'ProductDetailPage', params: { productId: product.sid, subproductId: service.sid } }"
                         class="card text-decoration-none card h-100 border"
                         style="background-color:rgba(255, 206, 86, 0.2); border:1px solid rgba(255, 206, 86, 1) !important;">
                         <div class="card-body d-flex flex-column">

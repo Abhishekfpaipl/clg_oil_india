@@ -59,13 +59,7 @@ const routes = [
     meta: {
       pageTitle: "Term & Conditions",
     }
-  },
-  
-  {
-    path: "/other-services",
-    name: "OtherServices",
-    component: () => import('@/pages/OtherServices.vue')
-  },
+  }, 
   {
     path: "/faqs-page",
     name: "faqs-page",
@@ -92,7 +86,7 @@ const routes = [
     component: () => import('@/pages/OilListPage.vue')
   },
   {
-    path: "/service-list",
+    path: "/service",
     name: "ServiceListPage",
     component: () => import('@/pages/ServiceListPage.vue')
   },
@@ -105,14 +99,24 @@ const routes = [
     }
   },
   {
-    path: "/industry-list",
+    path: "/industry",
+    name: "IndustriesPage",
+    component: () => import('@/pages/IndustriesPage.vue')
+  },
+  {
+    path: "/industry-list/:productId",
     name: "IndustriesListPage",
     component: () => import('@/pages/IndustriesListPage.vue')
   },
   {
-    path: "/product-list",
+    path: "/product",
     name: "ProductListPage",
     component: () => import('@/pages/ProductListPage.vue')
+  },
+  {
+    path: "/industry-detail/:productId/:subproductId",
+    name: "IndustryDetailPage",
+    component: () => import('@/pages/IndustryDetailPage.vue')
   },
 ];
 

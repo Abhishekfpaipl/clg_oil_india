@@ -7,7 +7,7 @@
         </div>
         <div class="row">
             <div class="col-md-6 position-relative">
-                <img src="https://clgoilindia.com/demo/assets/images/resource/Grease-04.jpg" alt="Oil bearing"
+                <img src="/img/grease.jpg" alt="Oil bearing"
                     class="img-fluid">
             </div>
             <div class="col-md-6 p-4 text-start">

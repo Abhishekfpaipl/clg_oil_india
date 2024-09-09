@@ -8,11 +8,11 @@
                     v-observe />
             </div>
         </div>
-        <div class="">
+        <!-- <div class="">
             <CustomCounter service="satisfied customers" :serviceCount="1000" category="years of expirence"
                 :categoryCount="10" place="projects completed" :placeCount="4000" image="/img/smile2.svg"
                 title="know about us" path="/" v-observe />
-        </div>
+        </div> -->
         <div class="my-5">
             <PrivateCoaching :coaching="mission" title=" " />
         </div>
@@ -49,7 +49,7 @@ import TeamBanner from "@/components/TeamBanner.vue";
 import SuccessStory from "@/components/SuccessStory.vue";
 import InfoSection from "@/components/InfoSection.vue";
 import TeamInfoSection from "@/components/TeamInfoSection.vue";
-import CustomCounter from "@/components/CustomCounter.vue";
+// import CustomCounter from "@/components/CustomCounter.vue";
 import PrivateCoaching from "@/components/PrivateCoaching.vue";
 import AutoScrolling from "@/components/AutoScrolling.vue";
 import OurCoreValues from "@/components/OurCoreValues.vue";
@@ -62,7 +62,7 @@ export default {
         OurTeam,
         InfoSection,
         TeamBanner,
-        CustomCounter,
+        // CustomCounter,
         PrivateCoaching,
         AutoScrolling,
         OurCoreValues,

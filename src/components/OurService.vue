@@ -1,49 +1,56 @@
 <template>
-    <div class="container mt-4">
+    <div class="container my-4">
         <div class="row row-cols-1 row-cols-md-3 g-4">
             <div class="col" v-for="product in products" :key="product.id">
-                <ProductCard :product="product" @add-to-cart="handleAddToCart" />
+                <div class="card h-100">
+                    <img :src="product.image" class="card-img-top" style="min-height: 300px;object-fit: cover;"
+                        :alt="product.name">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">{{ product.name }}</h5>
+                        <p class="card-text">{{ product.description }}</p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </template>
 
 <script>
-import ProductCard from '@/components/ProductCard.vue'
 
 export default {
-    components: {
-        ProductCard
-    },
     data() {
         return {
             products: [
                 {
                     id: 1,
                     name: 'Premium Motor Oil',
-                    description: 'High-performance synthetic motor oil for ultimate engine protection.',
-                    image: 'https://clgoilindia.com/demo/assets/images/service/Grease-01.jpg'
+                    description: 'Advanced synthetic oil designed for peak engine performance and protection',
+                    image: '/img/update.jpg'
                 },
                 {
                     id: 2,
                     name: 'Heavy-Duty Grease',
-                    description: 'Long-lasting grease for industrial machinery and automotive applications.',
-                    image: 'https://clgoilindia.com/demo/assets/images/service/Grease-02.jpg'
+                    description: 'Durable grease formulated for industrial and automotive equipment longevity',
+                    image: '/img/grease.jpg'
                 },
                 {
                     id: 2,
-                    name: 'Heavy-Duty Grease',
-                    description: 'Long-lasting grease for industrial machinery and automotive applications.',
-                    image: 'https://clgoilindia.com/demo/assets/images/service/Grease-03.jpg'
+                    name: 'Industry',
+                    description: 'Reliable solutions tailored for various industrial machinery and heavy-duty applications.',
+                    image: '/img/industry.jpg'
                 },
             ]
         }
     },
-    methods: {
-        handleAddToCart(product) {
-            // Implement your cart logic here
-            console.log(`Product added to cart:`, product);
-        }
-    }
 }
 </script>
+<style scoped>
+.card {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+</style>

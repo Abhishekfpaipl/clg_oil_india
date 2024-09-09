@@ -1,4 +1,4 @@
-<template>
+<template> 
     <div v-if="product.table" class="container"> 
         <h5 class="mb-4">Physico-chemical properties:</h5>
         <table class="table table-striped mb-5">

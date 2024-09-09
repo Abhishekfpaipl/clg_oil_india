@@ -91,7 +91,7 @@
 // import ProductGallerySection from "@/components/ProductGallerySection.vue"
 import ProductTableSection from "@/components/ProductTableSection.vue"
 import TradeFairTermsSection from "@/components/TradeFairTermsSection.vue"
-import ProductIndustries from "@/components/ProductIndustries.vue"
+// import ProductIndustries from "@/components/ProductIndustries.vue"
 import ProductBenefitSection from "@/components/ProductBenefitSection.vue"
 import ItinerarySection from "@/components/ItinerarySection.vue"
 import SectionTopBanner from "@/components/SectionTopBanner.vue"
@@ -102,7 +102,7 @@ export default {
         // ProductGallerySection,
         ProductTableSection,
         TradeFairTermsSection,
-        ProductIndustries,
+        // ProductIndustries,
         ProductBenefitSection,
         ItinerarySection,
         SectionTopBanner,
@@ -122,7 +122,7 @@ export default {
                 { id: 'Reports', name: 'Reports', component: 'ProductTableSection' },
                 { id: 'Benefits', name: 'Benefits', component: 'ProductBenefitSection' },
                 { id: 'Packaging', name: 'Packaging', component: 'ItinerarySection' },
-                { id: 'Industries', name: 'Industries', component: 'ProductIndustries' },
+                // { id: 'Industries', name: 'Industries', component: 'ProductIndustries' },
                 { id: 'Other', name: 'Other', component: 'TradeFairTermsSection' }
             ],
             activeSection: '',
@@ -143,12 +143,12 @@ export default {
     computed: {
         subproduct() {
             const productId = this.$route.params.productId;
-            const subproductId = parseInt(this.$route.params.subproductId, 10); // Convert to number
+            const subproductId = this.$route.params.subproductId; // Convert to number
             const product = this.$store.getters['product/getGrease'](productId);
 
             // Ensure the product and products array are valid
             return product && Array.isArray(product.products)
-                ? product.products.find(p => p.id === subproductId)
+                ? product.products.find(p => p.sid === subproductId)
                 : null;
         },
     },

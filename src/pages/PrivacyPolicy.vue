@@ -7,12 +7,12 @@
                     <div class="card border-0">
                         <div class="card-body my-5 text-start">
                             <h1 class="text-center mb-4">Privacy Policy</h1>
-                            <p><strong>Effective Date:</strong> [Insert Effective Date]</p>
+                            <p><strong>Effective Date:</strong> Sept 24</p>
 
                             <section>
                                 <h2>Our Commitment to Your Privacy</h2>
                                 <p>
-                                    We at [Indian Oil Company] value your privacy and are committed to
+                                    We at CGL value your privacy and are committed to
                                     protecting your personal information. This Privacy Policy outlines
                                     how we collect, use, and safeguard your data when you engage with
                                     our services, including fuel purchases, refinery operations, or

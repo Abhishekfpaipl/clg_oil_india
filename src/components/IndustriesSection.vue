@@ -3,14 +3,12 @@
         <p class="text-center text-uppercase mb-0">We serve</p>
         <h1 class="text-center mb-5 text-uppercase">Industries</h1>
         <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4 g-4">
-            <div class="col" v-for="(category, index) in categories" :key="index">
-                <router-link to="/product-list/123" class="card text-decoration-none"
+            <div class="col" v-for="(category, index) in industries" :key="index">
+                <router-link :to="'/industry-list/' + category.sid" class="card text-decoration-none"
                     style=" border:1px solid rgba(255, 206, 86, 1) !important;">
                     <p class="text-center p-2 fs-4"
                         style="background-color:rgba(255, 206, 86, 0.2); border-bottom:1px solid rgba(255, 206, 86, 1) !important;">
-                        <img v-if="category.img" :src="category.img" style="width: 30px;" alt="">
-                        <i v-if="category.icon" :class="category.icon"></i>
-                        <i v-if="!category.img && !category.icon" class="bi bi-globe"></i>
+                        <img v-if="category.image" :src="category.image" style="width: 30px;" alt="">
                     </p>
                     <div class="card-body text-center">
                         <p class="card-text text-capitalize my-1 fw-bold">{{ category.name }}</p>
@@ -162,5 +160,10 @@ export default {
             ],
         };
     },
+    computed:{
+        industries(){
+            return this.$store.getters['industry/getIndusries']
+        }
+    }
 };
 </script>

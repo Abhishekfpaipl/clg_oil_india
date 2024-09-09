@@ -33,17 +33,19 @@
       <div class="col-md-4 mb-4" v-for="(card, index) in cards" :key="index">
         <router-link :to="card.link"
           class="text-decoration-none card rounded-0 text-white bg-danger h-100 overflow-hidden">
-          <div class="card-img d-flex flex-column justify-content-between p-3 py-4 rounded-0"
+          <div class="card-img d-flex flex-column justify-content-between  rounded-0"
             :style="{ backgroundImage: `url(${card.backgroundImage})` }">
-            <div>
-              <h5 class="card-title">{{ card.title }}</h5>
-              <p class="card-text">{{ card.description }}</p>
-            </div>
-            <div class="d-flex justify-content-between align-items-center">
-              <a href="#" class="text-white text-decoration-none">
-                {{ card.linkText }} →
-              </a>
-              <i v-if="card.icon" :class="card.icon" class="fs-3"></i> 
+            <div class="p-3 py-4 overlay">
+              <div>
+                <h5 class="card-title">{{ card.title }}</h5>
+                <p class="card-text">{{ card.description }}</p>
+              </div>
+              <div class="d-flex justify-content-between align-items-center">
+                <a href="#" class="text-white text-decoration-none">
+                  {{ card.linkText }} →
+                </a>
+                <i v-if="card.icon" :class="card.icon" class="fs-3"></i>
+              </div>
             </div>
           </div>
         </router-link>
@@ -85,15 +87,15 @@ export default {
           linkText: 'Explore',
           icon: 'bi bi-droplet',
           backgroundImage: '/img/productBanner.jpg',
-          link: '/product-list',
+          link: '/product',
         },
         {
           title: 'Services',
           description: 'Choose the right oil for your vehicle',
-          linkText: 'Choose', 
+          linkText: 'Choose',
           backgroundImage: '/img/productBanner.jpg',
           icon: 'bi bi-tools',
-          link: '/service-list',
+          link: '/service',
         },
         {
           title: 'Industries',
@@ -101,7 +103,7 @@ export default {
           linkText: 'Find',
           icon: 'bi bi-buildings',
           backgroundImage: '/img/productBanner.jpg',
-          link: '/industry-list',
+          link: '/industry',
         }
       ]
     };
@@ -110,6 +112,11 @@ export default {
 </script>
 
 <style scoped>
+.overlay {
+  background-color: var(--bg-third);
+  opacity: 90%;
+}
+
 .carousel-item {
   height: 600px;
 }

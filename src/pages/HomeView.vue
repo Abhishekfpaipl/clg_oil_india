@@ -4,29 +4,32 @@
       <CarouselBanner />
     </div>
 
-    <div class="my-2">
+    <div class="my-5">
       <ServiceCard :products="greases" title="LUBRICATING" subtitle="Greases" v-observe />
     </div>
-    <div class="my-2">
+    <div class="my-5">
       <ServiceCard :products="oils" title="LUBRICATING" subtitle="OILS" v-observe />
     </div>
-    <div class="my-2">
+    <div class="my-5">
       <IndustriesSection v-observe />
     </div>
-    <div class="my-2">
+    <div class="my-5">
       <OurService v-observe />
     </div>
-    <div class="my-2">
+    <div class="my-5">
       <ImageSection v-observe />
     </div>
-    <div class="my-2">
+    <div class="my-5">
       <AboutSection v-observe />
     </div>
-    <div class="my-2">
+    <div class="my-5">
       <TestimonialSection v-observe />
     </div>
-    <div class="my-2">
+    <div class="my-5">
       <AutoScrolling v-observe />
+    </div>
+    <div class="my-5">
+      <CareerSection v-observe />
     </div>
     <div class="">
       <GetUpdate v-observe />
@@ -44,6 +47,7 @@ import ImageSection from "@/components/ImageSection.vue";
 import AboutSection from "@/components/AboutSection.vue";
 import TestimonialSection from "@/components/TestimonialSection.vue";
 import IndustriesSection from "@/components/IndustriesSection.vue";
+import CareerSection from "@/components/CareerSection.vue";
 export default {
   name: "HomeView",
   components: {
@@ -56,6 +60,7 @@ export default {
     AboutSection,
     TestimonialSection,
     IndustriesSection,
+    CareerSection,
   },
   data() {
     return {
