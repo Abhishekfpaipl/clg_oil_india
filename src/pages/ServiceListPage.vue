@@ -1,7 +1,7 @@
 <template>
     <div class="container py-5">
         <div class=" mb-5">
-            <h1 class="text-start text-capitalize">Products</h1>
+            <h1 class="text-start text-capitalize">Services</h1>
             <p class="text-start">At CGL Oil India, our team of expert 'Grease Chefs,' 'Lube Technologists,' and 'Application Specialists'
                 provides a holistic, client-centric approach to lubrication solutions. From formulation to final product
                 delivery and beyond, we ensure your needs are met with precision and excellence.

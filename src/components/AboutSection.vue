@@ -4,7 +4,7 @@
             <!-- About Us Header -->
             <div class="row justify-content-center text-center mb-3">
                 <div class="col-md-10">
-                    <h1 class="fw-bold">ABOUT <span class="text-danger">US</span></h1>
+                    <h1 class="fw-bold">ABOUT <span class="" style="color: var(--bg-secondary)">US</span></h1>
                     <p class="mt-3">
                         On the back of an illustrious 150-year legacy, CGL is a French lubricants company
                         that enjoys global recognition as 'The specialist in synthetic lubricants'.
@@ -15,14 +15,18 @@
             </div>
             <div class="row align-items-center">
                 <!-- <div class="col-md-5 text-start ps-5 bg-danger text-white py-5" v-observe :class="imageClass('left')"> -->
-                <div class="col-md-5 text-start ps-5 bg-danger text-white py-5" v-observe >
+                <div class="col-md-5 text-start ps-5 text-white py-5" style="background-color: var(--bg-secondary)" v-observe >
                     <div class="d-flex gap-2 align-items-center">
-                        <h1 class="display-3 fw-bold">150</h1>
-                        <p class="h4">YEARS OF SERVICE</p>
+                        <h1 class="display-3 fw-bold">25+</h1>
+                        <p class="h4 display-3">Experience</p>
                     </div>
                     <div class="d-flex gap-2 align-items-center">
-                        <h1 class="display-3 fw-bold">50+</h1>
-                        <p class="h4">COUNTRIES SERVED</p>
+                        <h1 class="display-3 fw-bold">100+</h1>
+                        <p class="h4 display-3">Employees</p>
+                    </div>
+                    <div class="d-flex gap-2 align-items-center">
+                        <h1 class="display-3 fw-bold">250+</h1>
+                        <p class="h4 display-3">Dealerships</p>
                     </div>
                 </div>
                 <div class="col-md-2 text-center  ">
@@ -37,7 +41,7 @@
                         of a dedicated technical partner to some of the most successful teams in
                         motorsport history.
                     </p>
-                    <button class="btn btn-danger">Read More</button>
+                    <router-link to="/about-us" class="btn text-white" style="background-color: var(--bg-secondary)">Read More</router-link>
                 </div>
             </div>
         </div>

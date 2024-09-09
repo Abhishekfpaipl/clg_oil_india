@@ -115,7 +115,19 @@ export default {
                 {
                     id: 1,
                     title: 'Services',
-                    path: '',
+                    path: '/service-list',
+                    bgColor: '#FFF5DD',
+                },
+                {
+                    id: 1,
+                    title: 'Product',
+                    path: '/product-list',
+                    bgColor: '#FFF5DD',
+                },
+                {
+                    id: 1,
+                    title: 'Industry',
+                    path: '/industry-list',
                     bgColor: '#FFF5DD',
                 },
                 {
@@ -132,15 +144,10 @@ export default {
                     id: 4,
                     title: 'Gallery',
                     path: '/',
-                },
+                }, 
                 {
                     id: 4,
-                    title: 'Base Oils',
-                    path: '/',
-                },
-                {
-                    id: 4,
-                    title: 'Certifications & Approvals',
+                    title: 'Certificates',
                     path: '/',
                 },
             ],

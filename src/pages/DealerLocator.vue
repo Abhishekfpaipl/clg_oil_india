@@ -3,12 +3,13 @@
         <div class="position-relative" style="width: 100%; overflow: hidden;">
             <img src="/img/productBanner.jpg" alt="" style="width: 100%; height: 400px; object-fit: cover;">
             <div
-                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.75); display: flex; justify-content: center; align-items: center;">
-                <h1 class="text-white text-uppercase fw-bold text-center">Dealer Locator</h1>
+                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: var(--bg-third);opacity: 90%; display: flex; justify-content: center; align-items: center;">
+                <h1 class="display-1 text-white text-uppercase fw-bold text-center">Dealer Locator</h1>
             </div>
         </div>
-        <div class="container" style="margin-top: -50px;" v-observe>
-            <div class="bg-danger text-white p-4">
+        <!-- <SectionTopBanner /> -->
+        <div class="container mb-5 pb-5" style="margin-top: -50px;" v-observe>
+            <div class="text-white p-4" style="background-color:var(--bg-secondary);">
                 <h2 class="mb-4">FIND DEALER NEAR YOU</h2>
                 <div class="row">
                     <div class="col-md-4 mb-3">
@@ -37,39 +38,39 @@
                 </div>
             </div>
         </div>
-        <div v-if="showDealers" class="my-5">
-            <p class="display-5 fw-bold">Dealers Available at your place... </p>
-        </div>
-        <div class="container my-5 bg-danger text-white">
-            <div class="row align-items-center">
-                <div class="col-md-2 bg-dark p-4">
-                    <i class="bi bi-envelope fs-1"></i>
-                </div>
-                <div class="col-md-6 bg-danger">
-                    <div class="d-flex gap-3">
-                        <p class="mb-2 fs-5 fw-bold text-start">SUBSCRIBE TO THE NEWSLETTER</p>
-                        <p class="text-dark">{{ captchaText }}</p>
-                    </div>
-                    <form @submit.prevent="submitSubscription" class="d-flex">
-                        <input v-model="email" type="email" class="form-control me-2 w-100" placeholder="Email address"
-                            required>
-                        <input v-model="captcha" type="text" class="form-control me-2" placeholder="" required>
-                        <button type="button" @click="refreshCaptcha"
-                            class="btn btn-outline-light me-2 bi bi-arrow-repeat"></button>
-                        <button type="submit" class="btn btn-light">Subscribe</button>
-                    </form>
-                </div>
-                <div class="col-md-4">
-                    <img src="https://motulindia.com/assets/images/home/motul-car.webp" class="w-100" alt="">
-                </div>
+        <p v-if="!showDealers" class="mb-5 pb-5 fs-5">
+            Please enter your state, city and pincode to check the availability of the dealership in your area.
+        </p>
+        <div v-if="showDealers" class="my-5 pb-5">
+            <div class="d-flex justify-content-center align-items-center">
+                <img src="/img/congratulations.jpeg" class="d-md-block d-none" style="width: 500px" alt="">
+                <img src="/img/congratulations.jpeg" class="d-md-none d-flex justify-content-center align-items-center"
+                    style="width: 100%;" alt="">
             </div>
+            <p class="display-5 fw-bold" style="color:black !important">Dealership in your area is available, kindly
+                fill the form for dealership. </p>
+            <router-link to="/" class="btn text-white fs-4 text-capitalize mt-3"
+                style="background-color:var(--bg-secondary)">Click here for
+                dealership</router-link>
         </div>
+        <router-link to="/contact-us" class="text-muted ">
+            <p class="mb-5 pb-5">
+                Kindly contact us for any other kind of query .
+            </p>
+        </router-link>
+
+
     </div>
 </template>
 
 <script>
+// import SectionTopBanner from '@/components/SectionTopBanner.vue';
+
 export default {
     name: 'DealerLocator',
+    components: {
+        // SectionTopBanner
+    },
     data() {
         return {
             selectedState: '',
@@ -80,7 +81,6 @@ export default {
             filteredCities: [],
             email: '',
             captcha: '',
-            captchaText: 'U7tgfZB', // This should be generated server-side in a real application
             showDealers: false // Added data property to control visibility
         }
     },
@@ -118,35 +118,6 @@ export default {
             this.showDealers = true;
             // You would typically make an API call here with the selected values
         },
-        submitSubscription() {
-            if (this.captcha === this.captchaText) {
-                // Implement subscription logic here
-                console.log('Subscribing email:', this.email);
-                // You would typically make an API call here to subscribe the email
-                this.email = '';
-                this.captcha = '';
-                this.refreshCaptcha();
-            } else {
-                alert('Invalid captcha. Please try again.');
-            }
-        },
-        refreshCaptcha() {
-            // In a real application, this would request a new captcha from the server
-            this.captchaText = Math.random().toString(36).substring(2, 8).toUpperCase();
-            this.captcha = '';
-        }
     }
 }
 </script>
-
-<style>
-.envelope-icon {
-    width: 40px;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgba(0, 0, 0, 0.1);
-    border-radius: 50%;
-}
-</style>

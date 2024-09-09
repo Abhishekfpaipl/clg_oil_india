@@ -7,7 +7,7 @@ export default {
                 title: "Automotive Grease",
                 description: "AP-3 Grease is a high-performance grease known for its superior lubrication properties. It is ideal for automotive and industrial applications, providing excellent resistance to water and corrosion.",
                 icon: "https://clgoilindia.com/demo/assets/images/resource/oil-01.png",
-                route: '/product-list/',
+                route: '/grease-list/',
                 products: [
                     {
                         id: 22,
@@ -591,7 +591,7 @@ export default {
                 title: "Industrial Grease",
                 description: "The AP-3 Grease Test Report details the comprehensive testing and performance metrics of AP-3 grease, ensuring its reliability in various industrial and automotive applications.",
                 icon: "https://clgoilindia.com/demo/assets/images/resource/oil-01.png",
-                route: '/product-list/',
+                route: '/grease-list/',
                 products: [
                     {
                         "id": 4422,
@@ -869,7 +869,7 @@ export default {
                 title: "Speciality Grease",
                 description: "Crusher Grease 2 is a high-performance grease designed for use in heavy-duty machinery. It offers excellent protection against extreme pressure and is ideal for use in crushers and other industrial equipment.",
                 icon: "https://clgoilindia.com/demo/assets/images/resource/oil-01.png",
-                route: '/product-list/',
+                route: '/grease-list/',
                 products: [
                     {
                         "id": 23423423,
@@ -1110,7 +1110,7 @@ export default {
                 title: "Specification based Grease",
                 description: "The Crusher Grease Test Report provides detailed analysis and performance evaluations of Crusher Grease, highlighting its ability to withstand high pressures and protect machinery components.",
                 icon: "https://clgoilindia.com/demo/assets/images/resource/oil-01.png",
-                route: '/product-list/',
+                route: '/grease-list/',
                 products: [
                     {
                         "id": 5577899,

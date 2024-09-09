@@ -33,9 +33,9 @@ const routes = [
     component: () => import("@/pages/CareerPage.vue")
   },
   {
-    path: "/distributor",
-    name: "DistributerPage",
-    component: () => import("@/pages/DistributerPage.vue")
+    path: "/dealership",
+    name: "DealershipPage",
+    component: () => import("@/pages/DealershipPage.vue")
   },
   {
     path: "/term-of-use",
@@ -83,9 +83,9 @@ const routes = [
     component: () => import('@/pages/ProductDetailPage.vue')
   },
   {
-    path: "/product-list/:productId",
-    name: "ProductListPage",
-    component: () => import('@/pages/ProductListPage.vue')
+    path: "/grease-list/:productId",
+    name: "GreaseListPage",
+    component: () => import('@/pages/GreaseListPage.vue')
   },
   {
     path: "/oil-detail/:productId/:subproductId",
@@ -106,6 +106,16 @@ const routes = [
     path: "/dealer-locator",
     name: "DealerLocator",
     component: () => import('@/pages/DealerLocator.vue')
+  },
+  {
+    path: "/industry-list",
+    name: "IndustriesListPage",
+    component: () => import('@/pages/IndustriesListPage.vue')
+  },
+  {
+    path: "/product-list",
+    name: "ProductListPage",
+    component: () => import('@/pages/ProductListPage.vue')
   },
 ];
 

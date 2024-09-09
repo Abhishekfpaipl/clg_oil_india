@@ -10,11 +10,11 @@
       <div v-for="(slide, index) in slides" :key="'slide-' + index" class="carousel-item"
         :class="{ active: index === 0 }">
         <img :src="slide.image" class="d-block w-100" alt="clg oil india">
-        <div class="carousel-caption d-none d-md-block text-start">
+        <!-- <div class="carousel-caption d-none d-md-block text-start">
           <h1 class="display-4 fw-bold">{{ slide.title }}</h1>
           <p class="lead">{{ slide.description }}</p>
           <button class="btn btn-danger btn-lg">Discover</button>
-        </div>
+        </div> -->
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#Carousel" data-bs-slide="prev">
@@ -31,7 +31,8 @@
   <div class="container" style="margin-top: -50px;" v-observe>
     <div class="row">
       <div class="col-md-4 mb-4" v-for="(card, index) in cards" :key="index">
-        <router-link :to="card.link" class="text-decoration-none card rounded-0 text-white bg-danger h-100 overflow-hidden">
+        <router-link :to="card.link"
+          class="text-decoration-none card rounded-0 text-white bg-danger h-100 overflow-hidden">
           <div class="card-img d-flex flex-column justify-content-between p-3 py-4 rounded-0"
             :style="{ backgroundImage: `url(${card.backgroundImage})` }">
             <div>
@@ -42,7 +43,7 @@
               <a href="#" class="text-white text-decoration-none">
                 {{ card.linkText }} →
               </a>
-              <i :class="card.icon" class="fs-3"></i>
+              <i v-if="card.icon" :class="card.icon" class="fs-3"></i> 
             </div>
           </div>
         </router-link>
@@ -79,28 +80,28 @@ export default {
       ],
       cards: [
         {
-          title: 'Lubricants',
+          title: 'Products',
           description: "Explore CGL's exciting products",
           linkText: 'Explore',
-          icon: 'bi bi-box-seam',
-          backgroundImage: '/img/serviceBanner/1.webp',
-          link:'/',
-        },
-        {
-          title: 'Greases',
-          description: 'Choose the right oil for your vehicle',
-          linkText: 'Choose',
           icon: 'bi bi-droplet',
-          backgroundImage: '/img/serviceBanner/2.webp',
-          link:'/',
+          backgroundImage: '/img/productBanner.jpg',
+          link: '/product-list',
         },
         {
           title: 'Services',
+          description: 'Choose the right oil for your vehicle',
+          linkText: 'Choose', 
+          backgroundImage: '/img/productBanner.jpg',
+          icon: 'bi bi-tools',
+          link: '/service-list',
+        },
+        {
+          title: 'Industries',
           description: 'Find your nearest CGL dealer',
           linkText: 'Find',
-          icon: 'bi bi-geo-alt',
-          backgroundImage: '/img/serviceBanner/3.webp',
-          link:'/service-list',
+          icon: 'bi bi-buildings',
+          backgroundImage: '/img/productBanner.jpg',
+          link: '/industry-list',
         }
       ]
     };
@@ -139,5 +140,4 @@ export default {
 .card:hover .card-img {
   transform: scale(1.05);
 }
-
 </style>

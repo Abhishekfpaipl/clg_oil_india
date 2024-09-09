@@ -3,24 +3,19 @@
         <div class="row">
             <!-- Left Card - Oil Recommender -->
             <div class="col-md-6 mb-3" v-observe>
-                <div class="card text-white p-3 rounded-0 bg-dark card-hover">
-                    <div class="background-image" style="background-image: url('https://motulindia.com/assets/images/home/oil-recommender-bg.webp');">
+                <div class="card text-white rounded-0  card-hover" style="background-color: #F78C17 !important;">
+                    <div class="background-image p-3" style="background-image: url('/img/map.png');">
                         <div class="overlay"></div>
                         <div class="row no-gutters py-5">
-                            <div class="col-md-6 overflow-hidden">
-                                <img src="https://png.pngtree.com/png-clipart/20230820/original/pngtree-engine-oil-bottle-car-industry-picture-image_8116555.png"
-                                    class="card-img hover-scale" alt="Oil Bottles"
-                                    style="object-fit: contain; height: 100%;">
-                            </div>
-                            <div class="col-md-6 d-flex flex-column justify-content-center">
-                                <div class="card-body">
-                                    <h5 class="text-start">Oil Recommender</h5>
+                            <div class="col-md-6 d-flex flex-column justify-content-end" style="height: 290px;">
+                                <div class="text-white position-relative">
+                                    <h5 class="text-start">Dealership Availability</h5>
                                     <p class="text-start">
-                                        Find the perfect motor oil solution for your vehicle and enjoy a satisfying on-road
-                                        experience!
+                                        CGL has an extensive dealer network across India.  
                                     </p>
                                     <div class="d-flex justify-content-start">
-                                        <router-link to="" class="btn btn-dark rounded-0">Discover</router-link>
+                                        <router-link to="/dealer-locator" class="btn rounded-0"
+                                            style="background-color: var(--bg-secondary)">Check </router-link>
                                     </div>
                                 </div>
                             </div>
@@ -31,20 +26,22 @@
 
             <!-- Right Card - Dealer Locator -->
             <div class="col-md-6 mb-3" v-observe>
-                <div class="card text-white p-3 rounded-0 bg-danger card-hover">
-                    <div class="background-image" style="background-image: url('/img/map.png');">
+                <div class="card text-white  rounded-0 card-hover" style="background-color: #F78C17 !important;">
+                    <div class="background-image p-3"
+                        style="background-image: url('https://png.pngtree.com/png-clipart/20230820/original/pngtree-engine-oil-bottle-car-industry-picture-image_8116555.png');">
                         <div class="overlay"></div>
                         <div class="row no-gutters py-5">
-                            <div class="col-md-6 d-flex flex-column justify-content-center" style="height: 290px;">
-                                <div class="card-body">
-                                    <h5 class="text-start">Check Dealership Availability</h5>
+                            <div class="col-md-6 d-flex flex-column justify-content-end" style="height: 290px;">
+                                <div class="text-white position-relative">
+                                    <h5 class="text-start">Oil Recommender</h5>
                                     <p class="text-start">
-                                        CGL has an extensive dealer network across India. Locate your nearest one for
-                                        maximum
-                                        convenience.
+                                        Find the perfect motor oil solution for your vehicle and enjoy a satisfying
+                                        on-road
+                                        experience!
                                     </p>
                                     <div class="d-flex justify-content-start">
-                                        <router-link to="/dealer-locator" class="btn btn-dark rounded-0">Discover</router-link>
+                                        <router-link to="" class="btn rounded-0"
+                                            style="background-color: var(--bg-secondary)">Discover</router-link>
                                     </div>
                                 </div>
                             </div>
@@ -58,7 +55,22 @@
 
 <script>
 export default {
-    name: 'OilDealerComponent',
+    name: 'ImageSection',
+    // mounted() {
+    //     const image = this.$refs.motorbikeImage;
+    //     const observer = new IntersectionObserver(
+    //         (entries) => {
+    //             entries.forEach((entry) => {
+    //                 if (entry.isIntersecting) {
+    //                     image.classList.add("scale-up");
+    //                 }
+    //             });
+    //         },
+    //         { threshold: [0.1] }
+    //     );
+
+    //     observer.observe(image);
+    // },
 };
 </script>
 
@@ -71,13 +83,15 @@ export default {
 .background-image {
     background-size: contain;
     background-position: center;
+    background-repeat: no-repeat;
     position: relative;
     height: 100%;
     width: 100%;
 }
 
 .overlay {
-    background: rgba(255, 0, 0, 0.5); /* Yellow overlay with 50% opacity */
+    background: var(--bg-third);
+    opacity: 70%;
     position: absolute;
     top: 0;
     left: 0;
@@ -106,20 +120,16 @@ export default {
     transition: transform 0.5s ease;
 }
 
-.before-enter-left {
-    opacity: 0;
-    transform: translateX(-80px);
-    transition: opacity 1.5s ease-out, transform 1.5s ease-out;
+
+/* Initial scale set to 0 */
+.scale-0 {
+    transform: scale(0);
+    transition: transform 1.5s ease-in-out;
+    /* Smooth scaling transition */
 }
 
-.before-enter-right {
-    opacity: 0;
-    transform: translateX(80px);
-    transition: opacity 1.5s ease-out, transform 1.5s ease-out;
-}
-
-.enter {
-    opacity: 1;
-    transform: translateX(0);
+/* This class will be added when the image is in view */
+.scale-up {
+    transform: scale(1);
 }
 </style>

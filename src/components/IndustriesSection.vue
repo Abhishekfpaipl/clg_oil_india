@@ -93,67 +93,67 @@ export default {
                     "id": 1,
                     "img": "/img/categories/Assembly.svg",
                     "name": "Assembly",
-                    "description": "The Assembly category refers to businesses involved in assembling parts or components into finished products, typically in a production line setting."
+                    "description": "We make range of specialty lubricants The Assembly category refers to businesses involved in assembling parts or components into finished products, typically in a production line setting."
                 },
                 {
                     "id": 2,
                     "img": "/img/categories/Automobiles.svg",
                     "name": "Automobiles",
-                    "description": "The Automobiles category includes companies and businesses related to the design, manufacturing, and sale of motor vehicles such as cars, trucks, and motorcycles."
+                    "description": "We make range of specialty lubricants The Automobiles category includes companies and businesses related to the design, manufacturing, and sale of motor vehicles such as cars, trucks, and motorcycles."
                 },
                 {
                     "id": 5,
                     "img": "/img/categories/Distribution.svg",
                     "name": "Distribution",
-                    "description": "The Distribution category involves the movement of goods from manufacturers to retailers or end consumers, ensuring that products are available where they are needed."
+                    "description": "We make range of specialty lubricants The Distribution category involves the movement of goods from manufacturers to retailers or end consumers, ensuring that products are available where they are needed."
                 },
                 {
                     "id": 7,
                     "img": "/img/categories/Electronics.svg",
                     "name": "Electronics",
-                    "description": "The Electronics category encompasses businesses related to the design, manufacturing, and sale of electronic devices such as computers, smartphones, and home appliances."
+                    "description": "We make range of specialty lubricants The Electronics category encompasses businesses related to the design, manufacturing, and sale of electronic devices such as computers, smartphones, and home appliances."
                 },
                 {
                     "id": 9,
                     "img": "/img/categories/Footwear.svg",
                     "name": "Footwear",
-                    "description": "The Footwear category refers to businesses involved in the design, manufacturing, and retail of shoes, sandals, boots, and other types of footwear."
+                    "description": "We make range of specialty lubricants The Footwear category refers to businesses involved in the design, manufacturing, and retail of shoes, sandals, boots, and other types of footwear."
                 },
                 {
                     "id": 10,
                     "img": "/img/categories/Garments.svg",
                     "name": "Garments",
-                    "description": "The Garments category covers companies involved in the design, production, and retail of clothing, including everyday wear, formal wear, and specialized apparel."
+                    "description": "We make range of specialty lubricants The Garments category covers companies involved in the design, production, and retail of clothing, including everyday wear, formal wear, and specialized apparel."
                 },
                 {
                     "id": 11,
                     "img": "/img/categories/Import n Export.svg",
                     "name": "Import n Export",
-                    "description": "The Import and Export category relates to businesses that trade goods across international borders, including companies specializing in the import or export of products."
+                    "description": "We make range of specialty lubricants The Import and Export category relates to businesses that trade goods across international borders, including companies specializing in the import or export of products."
                 },
                 {
                     "id": 12,
                     "img": "/img/categories/Manufacturing.svg",
                     "name": "Manufacturing",
-                    "description": "The Manufacturing category refers to companies involved in the production of goods using labor, machines, tools, and chemical or biological processing."
+                    "description": "We make range of specialty lubricants The Manufacturing category refers to companies involved in the production of goods using labor, machines, tools, and chemical or biological processing."
                 },
                 {
                     "id": 18,
                     "img": "/img/categories/Services.svg",
                     "name": "Services",
-                    "description": "The Services category includes businesses that offer non-tangible products, such as consulting, financial services, maintenance, and other professional services."
+                    "description": "We make range of specialty lubricants The Services category includes businesses that offer non-tangible products, such as consulting, financial services, maintenance, and other professional services."
                 },
                 {
                     "id": 21,
                     "img": "/img/categories/Supply Chain.svg",
                     "name": "Supply Chain",
-                    "description": "The Supply Chain category involves companies responsible for the flow of goods, information, and finances through a production and distribution network from raw materials to the end consumer."
+                    "description": "We make range of specialty lubricants The Supply Chain category involves companies responsible for the flow of goods, information, and finances through a production and distribution network from raw materials to the end consumer."
                 },
                 {
                     "id": 23,
                     "img": "/img/categories/Warehouse.svg",
                     "name": "Warehouse",
-                    "description": "The Warehouse category includes businesses that provide storage facilities for goods, ensuring the safe and organized handling of products before distribution."
+                    "description": "We make range of specialty lubricants The Warehouse category includes businesses that provide storage facilities for goods, ensuring the safe and organized handling of products before distribution."
                 }
 
 

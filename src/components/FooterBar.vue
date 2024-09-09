@@ -73,8 +73,8 @@ export default {
                 },
                 {
                     id: 3,
-                    name: 'Distributor',
-                    link: '/distributor'
+                    name: 'Dealership',
+                    link: '/dealership'
                 },
                 {
                     id: 3,
