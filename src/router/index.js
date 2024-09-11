@@ -118,6 +118,11 @@ const routes = [
     name: "IndustryDetailPage",
     component: () => import('@/pages/IndustryDetailPage.vue')
   },
+  {
+    path: "/gallery",
+    name: "GalleryPage",
+    component: () => import('@/pages/GalleryPage.vue')
+  },
 ];
 
 const router = createRouter({

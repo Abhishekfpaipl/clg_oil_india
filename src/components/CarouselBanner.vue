@@ -17,11 +17,11 @@
         </div> -->
       </div>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#Carousel" data-bs-slide="prev">
+    <button class="carousel-control-prev" type="button" data-bs-target="#CGLCarousel" data-bs-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Previous</span>
     </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#Carousel" data-bs-slide="next">
+    <button class="carousel-control-next" type="button" data-bs-target="#CGLCarousel" data-bs-slide="next">
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Next</span>
     </button>
@@ -61,20 +61,20 @@ export default {
     return {
       slides: [
         {
-          image: 'https://clgoilindia.com/demo/assets/images/banner/silder-0032.jpg',
+          image: '/img/banners/banner1.jpg',
           alt: 'First slide',
           title: 'expirence the thrill of peak performance',
           description: 'The 7100 series offers a hassle-free high performance solution that protects your bike and guarantees smiles for miles!',
           button: 'discover',
         },
         {
-          image: 'https://clgoilindia.com/demo/assets/images/banner/silder-0031.jpg',
+          image: '/img/banners/banner2.jpg',
           alt: 'Second slide',
           title: 'Second slide label',
           description: 'Some representative placeholder content for the second slide.'
         },
         {
-          image: 'https://clgoilindia.com/demo/assets/images/banner/silder-0033.jpg',
+          image: '/img/banners/banner3.jpg',
           alt: 'Third slide',
           title: 'Third slide label',
           description: 'Some representative placeholder content for the third slide.'

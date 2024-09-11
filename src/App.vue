@@ -1,9 +1,9 @@
 <template>
-  <DashboardNav v-if="!hide" />
+  <DashboardNav />
   <transition name="fade">
     <router-view />
   </transition>
-  <FooterBar v-if="!hidden" />
+  <FooterBar />
 </template>
 <script>
 import DashboardNav from "@/components/TopNav.vue";
@@ -14,24 +14,6 @@ export default {
     DashboardNav,
     FooterBar
   },
-  computed: {
-    hide() {
-      const hiddenPages = [
-        'LoginPage', 'RegistrationPage', 'EmailVerificationPage', 'ForgotPasswordPage', 'ResetPasswordPage',
-        'BasicDetails', 'ConnectDetails', 'OverviewDetails', 'WorktimeDetails', 'BusinessTypeDetails', 'BrandingDetails',
-        'ProductList', 'CreateProduct', 'CollectionList', 'RewardsDetails', 'DashboardPage', 'ReviewListPage', 'SupportersDetails', 'FamesetDetails', 'CategoryDetails', 'BankDetails', 'SocialDetails'
-      ]
-      return hiddenPages.includes(this.$route.name)
-    },
-    hidden() {
-      const hiddenPages = [
-        'LoginPage', 'RegistrationPage', 'EmailVerificationPage', 'ForgotPasswordPage', 'ResetPasswordPage',
-        'BasicDetails', 'ConnectDetails', 'OverviewDetails', 'WorktimeDetails', 'BusinessTypeDetails', 'BrandingDetails',
-        'ProductList', 'CreateProduct', 'CollectionList', 'RewardsDetails', 'DashboardPage', 'SupportersDetails', 'FamesetDetails', 'CategoryDetails', 'BankDetails', 'SocialDetails'
-      ]
-      return hiddenPages.includes(this.$route.name)
-    }
-  }
 }
 </script>
 <style lang="scss">
@@ -46,7 +28,7 @@ export default {
   --bg-primary: #EB5B00;
   --bg-secondary: #FFB200;
   --bg-third: #481E14;
-  
+
   --bg-forth: rgba(255, 206, 86, 0.2);
   --brand-color: #ffa907 !important;
   --bg-light: #FFF5DD !important;

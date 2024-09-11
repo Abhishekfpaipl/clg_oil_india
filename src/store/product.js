@@ -9,6 +9,8 @@ export default {
                 description: "AP-3 Grease is a high-performance grease known for its superior lubrication properties. It is ideal for automotive and industrial applications, providing excellent resistance to water and corrosion.",
                 icon: "https://clgoilindia.com/demo/assets/images/resource/oil-01.png",
                 route: '/grease-list/',
+                category: 'grease',
+                brand: 'CGL',
                 products: [
                     {
                         id: 22,
@@ -888,6 +890,8 @@ export default {
                 description: "Crusher Grease 2 is a high-performance grease designed for use in heavy-duty machinery. It offers excellent protection against extreme pressure and is ideal for use in crushers and other industrial equipment.",
                 icon: "https://clgoilindia.com/demo/assets/images/resource/oil-01.png",
                 route: '/grease-list/',
+                category: 'grease',
+                brand: 'CGL',
                 products: [
                     {
                         "id": 23423423,
@@ -1137,6 +1141,8 @@ export default {
                 description: "The Crusher Grease Test Report provides detailed analysis and performance evaluations of Crusher Grease, highlighting its ability to withstand high pressures and protect machinery components.",
                 icon: "https://clgoilindia.com/demo/assets/images/resource/oil-01.png",
                 route: '/grease-list/',
+                category: 'grease',
+                brand: 'CGL',
                 products: [
                     {
                         "id": 5577899,
@@ -1369,6 +1375,8 @@ export default {
                 "description": "AP-3 Grease is a high-performance grease known for its superior lubrication properties. It is ideal for automotive and industrial applications, providing excellent resistance to water and corrosion.",
                 "icon": "https://clgoilindia.com/demo/assets/images/resource/oil-01.png",
                 route: '/oil-list/',
+                category: 'oils',
+                brand: 'CGL',
                 products: [
                     {
                         "id": 110022,
@@ -1519,6 +1527,8 @@ export default {
                 "description": "The AP-3 Grease Test Report details the comprehensive testing and performance metrics of AP-3 grease, ensuring its reliability in various industrial and automotive applications.",
                 "icon": "https://clgoilindia.com/demo/assets/images/resource/oil-01.png",
                 route: '/oil-list/',
+                category: 'oils',
+                brand: 'CGL',
                 products: [
                     {
                         "id": 66734,
@@ -1737,6 +1747,8 @@ export default {
                 "description": "Crusher Grease 2 is a high-performance grease designed for use in heavy-duty machinery. It offers excellent protection against extreme pressure and is ideal for use in crushers and other industrial equipment.",
                 "icon": "https://clgoilindia.com/demo/assets/images/resource/oil-01.png",
                 route: '/oil-list/',
+                category: 'oils',
+                brand: 'CGL',
                 products: [
                     {
                         "id": 881234,

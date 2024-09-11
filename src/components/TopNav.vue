@@ -115,19 +115,19 @@ export default {
                 {
                     id: 1,
                     title: 'Services',
-                    path: '/service-list',
+                    path: '/service',
                     bgColor: '#FFF5DD',
                 },
                 {
                     id: 1,
                     title: 'Product',
-                    path: '/product-list',
+                    path: '/product',
                     bgColor: '#FFF5DD',
                 },
                 {
                     id: 1,
                     title: 'Industry',
-                    path: '/industry-list',
+                    path: '/industry',
                     bgColor: '#FFF5DD',
                 },
                 {
@@ -143,7 +143,7 @@ export default {
                 {
                     id: 4,
                     title: 'Gallery',
-                    path: '/',
+                    path: '/gallery',
                 }, 
                 {
                     id: 4,
