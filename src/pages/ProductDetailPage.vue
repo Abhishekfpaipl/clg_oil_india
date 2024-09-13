@@ -43,10 +43,9 @@
         <div class="position-fixed bottom-0 w-100 btn-group d-flex d-md-none" style="z-index:10">
             <a href="/img/demo.pdf" download="file.pdf" class="btn btn-dark w-25 rounded-0"><i
                     class="bi bi-download fs-2"></i></a>
-            <button class="btn btn-warning w-75 rounded-0 d-flex align-items-center justify-content-center"
-                data-bs-toggle="modal" data-bs-target="#enquirymodal">
-                <span class="text-dark fs-5">₹ 9999</span>
-                <span class="ms-2 fs-5">Enquiry</span>
+            <button class="btn btn-warning w-75 rounded-0 d-flex align-items-center justify-content-between"
+                data-bs-toggle="modal" data-bs-target="#enquirymodal"> 
+                <span class="ms-3 fs-5 text-uppercase">Enquiry Now</span>
                 <i class="bi bi-arrow-right ms-2 fs-1"></i>
             </button>
         </div>
@@ -91,22 +90,22 @@
 // import ProductGallerySection from "@/components/ProductGallerySection.vue"
 import ProductTableSection from "@/components/ProductTableSection.vue"
 import TradeFairTermsSection from "@/components/TradeFairTermsSection.vue"
-// import ProductIndustries from "@/components/ProductIndustries.vue"
+import ProductIndustries from "@/components/ProductIndustries.vue"
 import ProductBenefitSection from "@/components/ProductBenefitSection.vue"
 import ItinerarySection from "@/components/ItinerarySection.vue"
 import SectionTopBanner from "@/components/SectionTopBanner.vue"
-// import TradeDetailsSection from "@/components/TradeDetailsSection.vue"
+import TradeDetailsSection from "@/components/TradeDetailsSection.vue"
 export default {
     name: "TradeFairPage",
     components: {
         // ProductGallerySection,
         ProductTableSection,
         TradeFairTermsSection,
-        // ProductIndustries,
+        ProductIndustries,
         ProductBenefitSection,
         ItinerarySection,
         SectionTopBanner,
-        // TradeDetailsSection,
+        TradeDetailsSection,
     },
     data() {
         return {
@@ -118,12 +117,12 @@ export default {
             date: '',
             sections: [
                 // { id: 'Images', name: 'Images', component: 'ProductGallerySection' },
-                // { id: 'Details', name: 'Details', component: 'TradeDetailsSection' },
                 { id: 'Reports', name: 'Reports', component: 'ProductTableSection' },
                 { id: 'Benefits', name: 'Benefits', component: 'ProductBenefitSection' },
                 { id: 'Packaging', name: 'Packaging', component: 'ItinerarySection' },
-                // { id: 'Industries', name: 'Industries', component: 'ProductIndustries' },
-                { id: 'Other', name: 'Other', component: 'TradeFairTermsSection' }
+                { id: 'Industries', name: 'Industries', component: 'ProductIndustries' },
+                { id: 'Certifications', name: 'Certifications', component: 'TradeFairTermsSection' },
+                { id: 'OEM Solutions', name: 'OEM Solutions', component: 'TradeDetailsSection' },
             ],
             activeSection: '',
             navbarDark: false,

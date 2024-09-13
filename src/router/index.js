@@ -59,7 +59,7 @@ const routes = [
     meta: {
       pageTitle: "Term & Conditions",
     }
-  }, 
+  },
   {
     path: "/faqs-page",
     name: "faqs-page",
@@ -122,6 +122,11 @@ const routes = [
     path: "/gallery",
     name: "GalleryPage",
     component: () => import('@/pages/GalleryPage.vue')
+  },
+  {
+    path: "/oem-solutions",
+    name: "OemSolutions",
+    component: () => import('@/pages/OemSolutions.vue')
   },
 ];
 

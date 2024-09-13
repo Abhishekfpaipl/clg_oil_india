@@ -12,8 +12,9 @@
         <div class="row row-cols-1 row-cols-md-3 g-4">
             <div v-for="(industry, index) in industries" :key="index" class="col mb-5">
                 <div class="card rounded-0 h-100 position-relative">
-                    <div class="position-absolute bg-warning p-3 px-4 ms-3" style="margin-top: -10%;">
-                        <i class="bi bi-droplet-fill text-dark fs-1"></i>
+                    <div class="position-absolute bg-white shadow-sm ms-3" style="margin-top: -10%; width: 100px; height:100px;">
+                        <img src="/img/services-icon.png" alt="" style="height: 100%;width: 100%;">
+                        <!-- <i class="bi bi-droplet-fill text-dark fs-1"></i> -->
                     </div>
                     <div class="card-body mt-5">
                         <h5 class="text-start">{{ industry.title }}</h5>

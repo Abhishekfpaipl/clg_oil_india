@@ -7,7 +7,7 @@ export default {
                 title: "Automotive Grease",
                 sid: "automotive-grease",
                 description: "AP-3 Grease is a high-performance grease known for its superior lubrication properties. It is ideal for automotive and industrial applications, providing excellent resistance to water and corrosion.",
-                icon: "https://clgoilindia.com/demo/assets/images/resource/oil-01.png",
+                icon: "/img/about/grease.png",
                 route: '/grease-list/',
                 category: 'grease',
                 brand: 'CGL',
@@ -17,7 +17,7 @@ export default {
                         "title": "CGL Chassis Grease",
                         "sid": "cgl-chassis-grease",
                         "description": "CGL Chassis Grease is water-resistant calcium soap based grease with a thickening agent. It was specifically developed for central lubrication systems for commercial vehicles. The product contains anti-oxidants, corrosion inhibitors, extreme pressure and anti-wear additives.",
-                        "icon": "https://clgoilindia.com/demo/assets/images/resource/oil-01.png",
+                        "icon": "/img/about/grease.png",
                         "images": [
                             "https://bootstrapmade.com/demo/templates/Bootslander/assets/img/gallery/gallery-1.jpg",
                             "https://bootstrapmade.com/demo/templates/Bootslander/assets/img/gallery/gallery-2.jpg",
@@ -76,7 +76,7 @@ export default {
                         "title": "CGL AP 2 & CGL AP 3",
                         "sid": "cgl-ap-2-&-cgl-ap-3",
                         "description": "Are Lithium Thickener base greases made by using highly refined mineral oils. The have excellent anti-rust and anti-oxidant properties. Recommended for the lubrication of general purpose applications.",
-                        "icon": "https://clgoilindia.com/demo/assets/images/resource/oil-01.png",
+                        "icon": "/img/about/grease.png",
                         "table": {
                             tableHead: ["#", "Appearance", "Smooth and Homogeneous"],
                             tableData: [
@@ -117,7 +117,7 @@ export default {
                         "title": "CGL soda based wb grease",
                         "sid": "cgl-soda-based-wb-grease",
                         "description": " The demand of soda base greases are getting down slowly. Now a days people are preferring Lithium base greases instead of soda base greases.",
-                        "icon": "https://clgoilindia.com/demo/assets/images/resource/oil-01.png",
+                        "icon": "/img/about/grease.png",
                         "table": {
                             tableHead: ["#", "Appearance", "Smooth and Homogeneous"],
                             tableData: [
@@ -150,7 +150,7 @@ export default {
                         "title": "CGL lithium, moly",
                         "sid": "cgl-lithium-moly",
                         "description": "Are Lithium Thickener base greases made by using highly refined mineral oils, additives along with solid lubricants They have excellent anti-rust and anti-oxidant properties. Recommended for shock load applications.",
-                        "icon": "https://clgoilindia.com/demo/assets/images/resource/oil-01.png",
+                        "icon": "/img/about/grease.png",
                         "table": {
                             tableHead: ["#", "Appearance", "Dark Grey ,Smooth and Homogeneous"],
                             tableData: [
@@ -195,7 +195,7 @@ export default {
                         "title": "CGL CVJ Grease",
                         "sid": "cgl-cvj-grease",
                         "description": "CVJ Grease is a premium quality grease specially developed for the lubrication of bearings of all types of Constant Velocity Joints used in cars, light and medium duty commercial vehicles. Grease is based on a Lithium Complex soap thickener and highly refined oxidation resistant mineral base fluid fortified with superior quality rust and oxidation inhibitor additives. Special additive system provides excellent friction reduction and resistance to fretting corrosion. CVJ greases also contain fine grade solid lubricants to combat friction.",
-                        "icon": "https://clgoilindia.com/demo/assets/images/resource/oil-01.png",
+                        "icon": "/img/about/grease.png",
                         "table": {
                             tableHead: ["#", "Appearance", "Dark Grey ,Smooth and Homogeneous"],
                             tableData: [
@@ -240,7 +240,7 @@ export default {
                         "title": "CGL Pin & bush grease",
                         "sid": "cgl-pin-&-bush-grease",
                         "description": "Pin & Bush grease is well known multi-purpose Lithium grease. The grease allows the presence of very fine grade graphite which will fill surfaces and distribute load evenly preventing further wear and tear. It is suitable for the lubrication of various industrial, agricultural and earth moving equipment applications.",
-                        "icon": "https://clgoilindia.com/demo/assets/images/resource/oil-01.png",
+                        "icon": "/img/about/grease.png",
                         "table": {
                             tableHead: ["#", "Appearance", "Dark Grey ,Smooth and Homogeneous"],
                             tableData: [
@@ -307,7 +307,7 @@ export default {
                                 { head: 'Operating Temperature', body: '-20 to 120C', },
                             ],
                         },
-                        "icon": "https://clgoilindia.com/demo/assets/images/resource/oil-01.png"
+                        "icon": "/img/about/grease.png"
                     },
                     {
                         "id": 2266,
@@ -344,7 +344,7 @@ export default {
                                 { head: 'Operating Temperature', body: '-20 to 120C', },
                             ],
                         },
-                        "icon": "https://clgoilindia.com/demo/assets/images/resource/oil-01.png"
+                        "icon": "/img/about/grease.png"
                     },
                     {
                         "id": 2233,
@@ -377,7 +377,7 @@ export default {
                                 "content": "Designed for demanding applications, providing reliable performance under extreme conditions."
                             }
                         ],
-                        "icon": "https://clgoilindia.com/demo/assets/images/resource/oil-01.png"
+                        "icon": "/img/about/grease.png"
                     },
                     {
                         "id": 22121,
@@ -414,7 +414,7 @@ export default {
                                 { head: 'Operating Temperature', body: '-30 to 130C', },
                             ],
                         },
-                        "icon": "https://clgoilindia.com/demo/assets/images/resource/oil-01.png"
+                        "icon": "/img/about/grease.png"
                     },
                     {
                         "id": 2298,
@@ -451,7 +451,7 @@ export default {
                                 { head: 'Operating Temperature', body: '-20 to 120C', },
                             ],
                         },
-                        "icon": "https://clgoilindia.com/demo/assets/images/resource/oil-01.png"
+                        "icon": "/img/about/grease.png"
                     },
                     {
                         "id": 22556,
@@ -488,7 +488,7 @@ export default {
                                 { head: 'Operating Temperature', body: '-30 to 130C', },
                             ],
                         },
-                        "icon": "https://clgoilindia.com/demo/assets/images/resource/oil-01.png"
+                        "icon": "/img/about/grease.png"
                     },
                     {
                         "id": 22333,
@@ -525,7 +525,7 @@ export default {
                                 { head: 'Operating Temperature', body: '-30 to 160C', },
                             ],
                         },
-                        "icon": "https://clgoilindia.com/demo/assets/images/resource/oil-01.png"
+                        "icon": "/img/about/grease.png"
                     },
                     {
                         "id": 2261223,
@@ -566,7 +566,7 @@ export default {
                                 { head: 'Operating Temperature', body: '-20 to 140oC', },
                             ],
                         },
-                        "icon": "https://clgoilindia.com/demo/assets/images/resource/oil-01.png"
+                        "icon": "/img/about/grease.png"
                     },
                     {
                         "id": 2223423,
@@ -599,7 +599,7 @@ export default {
                                 { head: 'Operating Temperature', body: '-20 to 120C', },
                             ],
                         },
-                        "icon": "https://clgoilindia.com/demo/assets/images/resource/oil-01.png"
+                        "icon": "/img/about/grease.png"
                     }
 
                 ]
@@ -609,7 +609,7 @@ export default {
             //     title: "Industrial Grease",
             //     sid: "industrial-grease",
             //     description: "The AP-3 Grease Test Report details the comprehensive testing and performance metrics of AP-3 grease, ensuring its reliability in various industrial and automotive applications.",
-            //     icon: "https://clgoilindia.com/demo/assets/images/resource/oil-01.png",
+            //     icon: "/img/about/grease.png",
             //     route: '/grease-list/',
             //     products: [
             //         {
@@ -650,7 +650,7 @@ export default {
             //                     { head: 'Operating Temperature', body: '-20 to 130C', },
             //                 ],
             //             },
-            //             "icon": "https://clgoilindia.com/demo/assets/images/resource/oil-01.png",
+            //             "icon": "/img/about/grease.png",
             //             "industryType": "Steel",
             //             "industries": [
             //                 {
@@ -695,7 +695,7 @@ export default {
             //                     { head: 'Operating Temperature', body: '-20 to 180C', },
             //                 ],
             //             },
-            //             "icon": "https://clgoilindia.com/demo/assets/images/resource/oil-01.png"
+            //             "icon": "/img/about/grease.png"
             //         },
             //         {
             //             "id": 44122,
@@ -731,7 +731,7 @@ export default {
             //                     { head: 'Operating Temperature', body: '-20 to 180C', },
             //                 ],
             //             },
-            //             "icon": "https://clgoilindia.com/demo/assets/images/resource/oil-01.png"
+            //             "icon": "/img/about/grease.png"
             //         },
             //         {
             //             "id": 44202,
@@ -767,7 +767,7 @@ export default {
             //                     { head: 'Operating Temperature', body: '-0 to 200C', },
             //                 ],
             //             },
-            //             "icon": "https://clgoilindia.com/demo/assets/images/resource/oil-01.png"
+            //             "icon": "/img/about/grease.png"
             //         },
             //         {
             //             "id": 44221,
@@ -802,7 +802,7 @@ export default {
             //                     { head: 'EP Properties', body: 'Yes ', },
             //                 ],
             //             },
-            //             "icon": "https://clgoilindia.com/demo/assets/images/resource/oil-01.png"
+            //             "icon": "/img/about/grease.png"
             //         },
             //         {
             //             "id": 44022,
@@ -838,7 +838,7 @@ export default {
             //                     { head: 'Operating Temperature', body: '-0 to 200C', },
             //                 ],
             //             },
-            //             "icon": "https://clgoilindia.com/demo/assets/images/resource/oil-01.png"
+            //             "icon": "/img/about/grease.png"
             //         },
             //         {
             //             "id": 44222323,
@@ -878,7 +878,7 @@ export default {
             //                     { head: 'Operating Temperature', body: '-20 to 180C', },
             //                 ],
             //             },
-            //             "icon": "https://clgoilindia.com/demo/assets/images/resource/oil-01.png"
+            //             "icon": "/img/about/grease.png"
             //         }
 
             //     ]
@@ -888,7 +888,7 @@ export default {
                 title: "Speciality Grease",
                 sid: "speciality-grease",
                 description: "Crusher Grease 2 is a high-performance grease designed for use in heavy-duty machinery. It offers excellent protection against extreme pressure and is ideal for use in crushers and other industrial equipment.",
-                icon: "https://clgoilindia.com/demo/assets/images/resource/oil-01.png",
+                icon: "/img/about/grease.png",
                 route: '/grease-list/',
                 category: 'grease',
                 brand: 'CGL',
@@ -898,7 +898,7 @@ export default {
                         "title": "CGL syn pu grease",
                         "sid": "cgl-syn-pu-grease",
                         "description": "CGL Polyurea Syn Greases are high performance greases that are often preferred choice for sealed-for-life applications. These greases have wide operating temperatures, inherent ant oxidative properties, high thermal stability and low bleed characteristics. The synthetic PU products made by using PAO oil and Ester Oils are available.",
-                        "icon": "https://clgoilindia.com/demo/assets/images/resource/oil-01.png",
+                        "icon": "/img/about/grease.png",
                         "benefits": [
                             {
                                 "title": "Wide Operating Temperature Range",
@@ -934,7 +934,7 @@ export default {
                         "title": "CGL syn li grease",
                         "sid": "cgl-syn-li-grease",
                         "description": "CGL Syn Lithium Greases are high performance greases that are often preferred choice for wide temperature range applications from -40C to 130C. These greases have off white color, inherent anti oxidative properties, high thermal stability characteristics. The synthetic Lithium products made by using PAO oils have excellent pump ability.",
-                        "icon": "https://clgoilindia.com/demo/assets/images/resource/oil-01.png",
+                        "icon": "/img/about/grease.png",
                         "benefits": [
                             {
                                 "title": "Wide Temperature Range",
@@ -970,7 +970,7 @@ export default {
                         "title": "CGL syn lc grease",
                         "sid": "cgl-syn-lc-grease",
                         "description": "CGL Syn Lithium Complex Greases are high performance greases that are often preferred choice for wide temperature range applications from -40C to 160C. These greases have off white colour, inherent anti oxidative properties, high thermal stability characteristics. The synthetic Lithium products made by using PAO oils have excellent low temperature pump ability.",
-                        "icon": "https://clgoilindia.com/demo/assets/images/resource/oil-01.png",
+                        "icon": "/img/about/grease.png",
                         "benefits": [
                             {
                                 "title": "Wide Temperature Range",
@@ -1006,7 +1006,7 @@ export default {
                         "title": "CGL syn bentone grease",
                         "sid": "cgl-syn-bentone-grease",
                         "description": "CGL Bentone Grease is brown coloured grease formulated by using organo modified clay, highly refined synthetic PAO, anti-oxidant, EP, anti-rust additives covering wide range operating service temperature from -40 to +200°C. The product is available with Moly also designed to combat highly stringent operating conditions.",
-                        "icon": "https://clgoilindia.com/demo/assets/images/resource/oil-01.png",
+                        "icon": "/img/about/grease.png",
                         "benefits": [
                             {
                                 "title": "High Temperature Performance",
@@ -1042,7 +1042,7 @@ export default {
                         "title": "CGL STEERING Grease",
                         "sid": "cgl-steering-grease",
                         "description": "CGL STEERING Grease is formulated by using unique thickener and synthetic oil covering very wide range operating service temperature from -60 to +250°C. This grease is normally recommended for life time application in steerings.",
-                        "icon": "https://clgoilindia.com/demo/assets/images/resource/oil-01.png",
+                        "icon": "/img/about/grease.png",
                         "benefits": [
                             {
                                 "title": "Wide Temperature Range",
@@ -1073,7 +1073,7 @@ export default {
                         "title": "CGL fire resistance grease",
                         "sid": "cgl-fire-resistance-grease",
                         "description": "In Steel industry, there are certain segments where specialty greases like fire resistant greases are required. These are also known as self-extinguishing greases which catch fire but fire stops to propagate further within seconds and the costly bearing are saved. The composition of grease is designed so that it contributes to extinguish fire by selecting special thickener and base oil that controls fire by reducing availability of oxygen.",
-                        "icon": "https://clgoilindia.com/demo/assets/images/resource/oil-01.png",
+                        "icon": "/img/about/grease.png",
                         "benefits": [
                             {
                                 "title": "Fire Resistant",
@@ -1104,7 +1104,7 @@ export default {
                         "title": "CGL li-ca grease (vg 220, vg 320 and vg 460)",
                         "sid": "cgl-li-ca-grease-vg-220-vg-320-and-vg-460",
                         "description": "Lithium and Calcium mixed soap-based greases are widely used in automotive and industrial applications, where high resistance against water contamination is needed. Products are available as non-EP greases for applications under low to medium loads and EP (extreme pressure) greases for applications under high load conditions. Produced in NLGI consistency grades from NLGI 1 to NLGI 3 in several VG grade oils.",
-                        "icon": "https://clgoilindia.com/demo/assets/images/resource/oil-01.png",
+                        "icon": "/img/about/grease.png",
                         "benefits": [
                             {
                                 "title": "Water Resistance",
@@ -1139,7 +1139,7 @@ export default {
                 title: "Specification based Grease",
                 sid: "specification-based-grease",
                 description: "The Crusher Grease Test Report provides detailed analysis and performance evaluations of Crusher Grease, highlighting its ability to withstand high pressures and protect machinery components.",
-                icon: "https://clgoilindia.com/demo/assets/images/resource/oil-01.png",
+                icon: "/img/about/grease.png",
                 route: '/grease-list/',
                 category: 'grease',
                 brand: 'CGL',
@@ -1149,7 +1149,7 @@ export default {
                         "title": "IS: 7623 industrial lithium regular grease",
                         "sid": "is-7623-industrial-lithium-regular-grease",
                         "description": "It is Industrial Purpose Lithium Regular Type Grease available in NLGI Grade 1, 2 and 3.",
-                        "icon": "https://clgoilindia.com/demo/assets/images/resource/oil-01.png",
+                        "icon": "/img/about/grease.png",
                         "benefits": [
                             {
                                 "title": "Versatile Industrial Use",
@@ -1180,7 +1180,7 @@ export default {
                         "title": "IS: 7623 industrial lithium ep grease",
                         "sid": "is-7623-industrial-lithium-ep-grease",
                         "description": "It is Lithium Industrial Purpose EP Type Grease available in NLGI Grade 1, 2, and 3. Physico-chemical properties.",
-                        "icon": "https://clgoilindia.com/demo/assets/images/resource/oil-01.png",
+                        "icon": "/img/about/grease.png",
                         "benefits": [
                             {
                                 "title": "Extreme Pressure Resistance",
@@ -1212,7 +1212,7 @@ export default {
                         "title": "IS: 2203",
                         "sid": "is-2203",
                         "description": "It is Lithium Automotive Purpose Grease available in NLGI Grade 1, 2, and 3.",
-                        "icon": "https://clgoilindia.com/demo/assets/images/resource/oil-01.png",
+                        "icon": "/img/about/grease.png",
                         "benefits": [
                             {
                                 "title": "Automotive Specific",
@@ -1243,7 +1243,7 @@ export default {
                         "title": "JS: 8030",
                         "sid": "js-8030",
                         "description": "CGL PROTECTIVE PX 6 meeting JSS 8030 specification.",
-                        "icon": "https://clgoilindia.com/demo/assets/images/resource/oil-01.png",
+                        "icon": "/img/about/grease.png",
                         "benefits": [
                             {
                                 "title": "Meets JSS 8030 Specification",
@@ -1274,7 +1274,7 @@ export default {
                         "title": "IS: 507",
                         "sid": "is-507",
                         "description": "CGL LG 280 & CGL 320 meeting IS:507 specification.",
-                        "icon": "https://clgoilindia.com/demo/assets/images/resource/oil-01.png",
+                        "icon": "/img/about/grease.png",
                         "benefits": [
                             {
                                 "title": "Meets IS: 507 Specification",
@@ -1305,7 +1305,7 @@ export default {
                         "title": "gclb",
                         "sid": "gclb",
                         "description": "CGL TPAG Grease meeting GCLB specification.",
-                        "icon": "https://clgoilindia.com/demo/assets/images/resource/oil-01.png",
+                        "icon": "/img/about/grease.png",
                         "benefits": [
                             {
                                 "title": "Meets GCLB Specification",
@@ -1336,7 +1336,7 @@ export default {
                         "title": "aarm 942",
                         "sid": "aarm-942",
                         "description": "CGL Rail Road Grease 3 meeting AAR M 942 specification.",
-                        "icon": "https://clgoilindia.com/demo/assets/images/resource/oil-01.png",
+                        "icon": "/img/about/grease.png",
                         "benefits": [
                             {
                                 "title": "AAR M 942 Compliant",
@@ -1373,7 +1373,7 @@ export default {
                 "title": "Automotive lubricating oils",
                 sid: "automotive-lubricating-oils",
                 "description": "AP-3 Grease is a high-performance grease known for its superior lubrication properties. It is ideal for automotive and industrial applications, providing excellent resistance to water and corrosion.",
-                "icon": "https://clgoilindia.com/demo/assets/images/resource/oil-01.png",
+                "icon": "/img/about/oil.png",
                 route: '/oil-list/',
                 category: 'oils',
                 brand: 'CGL',
@@ -1383,7 +1383,7 @@ export default {
                         "title": "CGL CF-4 engine oil",
                         "sid": "cgl-cf-4-engine-oil",
                         "description": "These are premium quality commercial multipurpose diesel engine oil. Oil meets CF-4 service classification for modern and low emission diesel engines. This oil assures outstanding protection against high temperature engine deposits, oil degradation, oil thickening and corrosion. It is recommended for new generation commercial diesel engines operating on heavy duty on-highway and off-highway and DG sets of wide range capacities.",
-                        "icon": "https://clgoilindia.com/demo/assets/images/resource/oil-01.png",
+                        "icon": "/img/about/oil.png",
                         "benefits": [
                             {
                                 "title": "High Temperature Protection",
@@ -1418,7 +1418,7 @@ export default {
                         "title": "CGL CH-4 engine oil",
                         "sid": "cgl-ch-4-engine-oil",
                         "description": "It is a certified premium quality diesel engine oil, designed for severe performance requirement of new generation commercial vehicles for on highway and off highway operations, for engines complying to Euro III, for Diesel fuels ranging in Sulphur content up to 0.3% by wt. It is recommended for diesel vehicles of Maruti Suzuki, Ashok Leyland, Tata Motors and VECV requiring CH-4 oil.",
-                        "icon": "https://clgoilindia.com/demo/assets/images/resource/oil-01.png",
+                        "icon": "/img/about/oil.png",
                         "benefits": [
                             {
                                 "title": "Severe Duty Protection",
@@ -1453,7 +1453,7 @@ export default {
                         "title": "CGL CI-4 engine oil",
                         "sid": "cgl-ci-4-engine-oil",
                         "description": "It is a certified premium quality diesel engine oil, designed for severe performance requirement of new generation commercial vehicles for on highway and off highway operations, for engines complying to Euro III, for diesel fuels ranging in Sulphur content up to 0.05% by wt. It provides outstanding protection against high temperature engine deposits, oil degradation, and control of soot induced thickening, corrosive wear and valve train wear. It can also lubricate engines requiring API CH-4, CG-4 & CF-4. It is recommended for diesel vehicles of Maruti Suzuki, Ashok Leyland, Tata Motors and VECV requiring CI-4 oil with enhanced drain period.",
-                        "icon": "https://clgoilindia.com/demo/assets/images/resource/oil-01.png",
+                        "icon": "/img/about/oil.png",
                         "benefits": [
                             {
                                 "title": "Extended Drain Interval",
@@ -1488,7 +1488,7 @@ export default {
                         "title": "CGL CI-4 PLUS engine oil",
                         "sid": "cgl-ci-4-plus-engine-oil",
                         "description": "It is a certified premium quality Diesel Engine Oil, designed for severe performance requirement of new generation commercial vehicles with EGR, for on highway and off highway operations, for engines complying to Euro III / IV, for Diesel fuels ranging in Sulphur content up to 0.05% by wt.. It provides outstanding protection against high temperature engine deposits, oil degradation, Control of soot induced thickening, corrosive wear and valve train wear. It is recommended for diesel vehicles of Ashok Leyland, Tata Motors and VECV requiring CI-4 PLUS oil with enhanced drain period.",
-                        "icon": "https://clgoilindia.com/demo/assets/images/resource/oil-01.png",
+                        "icon": "/img/about/oil.png",
                         "benefits": [
                             {
                                 "title": "EGR Compatibility",
@@ -1525,7 +1525,7 @@ export default {
                 "title": "Industrial lubricating oils",
                 sid: "industrial-lubricating-oils",
                 "description": "The AP-3 Grease Test Report details the comprehensive testing and performance metrics of AP-3 grease, ensuring its reliability in various industrial and automotive applications.",
-                "icon": "https://clgoilindia.com/demo/assets/images/resource/oil-01.png",
+                "icon": "/img/about/oil.png",
                 route: '/oil-list/',
                 category: 'oils',
                 brand: 'CGL',
@@ -1535,7 +1535,7 @@ export default {
                         "title": "industrial gear oils",
                         "sid": "industrial-gear-oils",
                         "description": "These are premium quality industrial gear lubricants having excellent thermal and oxidation stability, low foaming tendency, good demulsibility and protection from rust and corrosion.",
-                        "icon": "https://clgoilindia.com/demo/assets/images/resource/oil-01.png",
+                        "icon": "/img/about/oil.png",
                         "benefits": [
                             {
                                 "title": "Thermal and Oxidation Stability",
@@ -1569,7 +1569,7 @@ export default {
                         "title": "industrial AW hydraulic oils",
                         "sid": "industrial-aw-hydraulic-oils",
                         "description": "Hydraulic lubricants provides the medium by which power is transferred in hydraulic machinery. CGL manufactures the following industrial AW hydraulic oils.",
-                        "icon": "https://clgoilindia.com/demo/assets/images/resource/oil-01.png",
+                        "icon": "/img/about/oil.png",
                         "benefits": [
                             {
                                 "title": "Power Transmission",
@@ -1604,7 +1604,7 @@ export default {
                         "title": "industrial Hydraulic HLP oils",
                         "sid": "industrial-hydraulic-hlp-oils",
                         "description": "These Hydraulic HLP oils of premium quality, recommended for high performance electro-hydraulic systems.",
-                        "icon": "https://clgoilindia.com/demo/assets/images/resource/oil-01.png",
+                        "icon": "/img/about/oil.png",
                         "benefits": [
                             {
                                 "title": "High Performance",
@@ -1638,7 +1638,7 @@ export default {
                         "title": "industrial Circulation Oil",
                         "sid": "industrial-circulation-oil",
                         "description": "These are premium quality R&O type hydraulic oils formulated with superior quality hydro treated base stocks. These are recommended for hydraulic system, circulation system of industrial Gear boxes, air compressors.",
-                        "icon": "https://clgoilindia.com/demo/assets/images/resource/oil-01.png",
+                        "icon": "/img/about/oil.png",
                         "benefits": [
                             {
                                 "title": "R&O Formulation",
@@ -1672,7 +1672,7 @@ export default {
                         "title": "industrial heat transfer Oil",
                         "sid": "industrial-heat-transfer-oil",
                         "description": "Mineral oil based for heat transfer systems with forced circulation. It has excellent thermal efficiency & stability for long life. It provides Good rust & corrosion protection with ease of pumping / circulation and minimized make up oil.",
-                        "icon": "https://clgoilindia.com/demo/assets/images/resource/oil-01.png",
+                        "icon": "/img/about/oil.png",
                         "benefits": [
                             {
                                 "title": "Thermal Efficiency",
@@ -1707,7 +1707,7 @@ export default {
                         "title": "industrial spindle Oil",
                         "sid": "industrial-spindle-oil",
                         "description": "SGL Spin well 10 is R & O type spindle oil for the lubrication of high speed spindles. It is prepared from low viscosity solvent refined to provide extended performance at high speed.",
-                        "icon": "https://clgoilindia.com/demo/assets/images/resource/oil-01.png",
+                        "icon": "/img/about/oil.png",
                         "benefits": [
                             {
                                 "title": "Low Viscosity",
@@ -1745,7 +1745,7 @@ export default {
                 "title": "Specification based oils",
                 sid: "specification-based-oils",
                 "description": "Crusher Grease 2 is a high-performance grease designed for use in heavy-duty machinery. It offers excellent protection against extreme pressure and is ideal for use in crushers and other industrial equipment.",
-                "icon": "https://clgoilindia.com/demo/assets/images/resource/oil-01.png",
+                "icon": "/img/about/oil.png",
                 route: '/oil-list/',
                 category: 'oils',
                 brand: 'CGL',
@@ -1755,7 +1755,7 @@ export default {
                         "title": "Jss 9150",
                         "sid": "jss-9150",
                         "description": "SGL Defence grade OX-52 which is also known as rifle / gun oil meets JSS: 9150-11 are made from premium quality base stocks and other necessary additives. Gun Oil is an all-weather lubricant. Recommended and used by major firearm manufacturers. It is used as a preservative and as a cleaning agent for small guns and machine guns at medium and high temperatures. It is not recommended where oils is in prolonged contact with brass material. Great for general lubrication on all sporting arms such as pump, over/under and side by side shotguns, bolt and lever action rifles and revolvers.",
-                        "icon": "https://clgoilindia.com/demo/assets/images/resource/oil-01.png",
+                        "icon": "/img/about/oil.png",
                         "benefits": [
                             {
                                 "title": "All-Weather Lubrication",
@@ -1794,7 +1794,7 @@ export default {
                         "title": "IS 1118",
                         "sid": "is-1118",
                         "description": "SGL 80W-90 GL-5, SGL 85W-140 GL-5, and SGL 80W-90 GL-4, SGL Gear Oil 140 EP Type GL-5 are all automotive gear lubricating oils meeting IS 1118 exclusively made for Defence using especially selected high viscosity index base stocks and contains various additives which imparts extreme pressure, anti-rust, anticorrosion and anti-oxidation characteristics. These are formulated to meet the rigorous service demand of commercial fleet mechanical transmissions, axles and gear boxes. These lubricants are primarily intended for use in automotive hypoid gear units, manual transmissions, final drives, steering gears and fluid lubricated universal joints of automotive equipment. It is ideal for vehicles operating in areas where ambient temperature vary widely.",
-                        "icon": "https://clgoilindia.com/demo/assets/images/resource/oil-01.png",
+                        "icon": "/img/about/oil.png",
                         "benefits": [
                             {
                                 "title": "Extreme Pressure Protection",
@@ -1823,7 +1823,7 @@ export default {
                         "title": "IS 13656",
                         "sid": "is-13656",
                         "description": "SGL 10W-30 CF-4, SGL 10W-40 CF-4, SGL 20W-40 CF-4, SGL 20W-50 CF-4, SGL 15W-40 CF-4 and SGL 15W40 CH-4 are all automotive engine oils meeting IS 13656 produced by premium quality base stocks and additives.",
-                        "icon": "https://clgoilindia.com/demo/assets/images/resource/oil-01.png",
+                        "icon": "/img/about/oil.png",
                         "benefits": [
                             {
                                 "title": "Premium Quality Base Stocks",

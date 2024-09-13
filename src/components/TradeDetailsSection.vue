@@ -1,6 +1,6 @@
 <template>
     <div>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione est culpa natus sed excepturi magni
+        <router-link to="/oem-solutions">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione est culpa natus sed excepturi magni
             eos
             deleniti error voluptatem maiores voluptatum sunt iste incidunt quasi quia, quam impedit? Ut, modi
             rerum

@@ -43,10 +43,9 @@
         <div class="position-fixed bottom-0 w-100 btn-group d-flex d-md-none" style="z-index:10">
             <a href="/img/demo.pdf" download="file.pdf" class="btn btn-dark w-25 rounded-0"><i
                     class="bi bi-download fs-2"></i></a>
-            <button class="btn btn-warning w-75 rounded-0 d-flex align-items-center justify-content-center"
-                data-bs-toggle="modal" data-bs-target="#enquirymodal">
-                <span class="text-dark fs-5">₹ 9999</span>
-                <span class="ms-2 fs-5">Enquiry</span>
+            <button class="btn btn-warning w-75 rounded-0 d-flex align-items-center justify-content-between"
+                data-bs-toggle="modal" data-bs-target="#enquirymodal"> 
+                <span class="ms-2 fs-5 text-uppercase">Enquiry Now</span>
                 <i class="bi bi-arrow-right ms-2 fs-1"></i>
             </button>
         </div>
