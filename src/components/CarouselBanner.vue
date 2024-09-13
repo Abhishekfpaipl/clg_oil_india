@@ -1,5 +1,5 @@
 <template>
-  <div id="CGLCarousel" class="carousel slide" data-bs-ride="carousel">
+  <!-- <div id="CGLCarousel" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-indicators">
       <button v-for="(slide, index) in slides" :key="'indicator-' + index" type="button" data-bs-target="#CGLCarousel"
         :data-bs-slide-to="index" :class="{ active: index === 0 }" :aria-current="index === 0"
@@ -9,12 +9,7 @@
     <div class="carousel-inner">
       <div v-for="(slide, index) in slides" :key="'slide-' + index" class="carousel-item"
         :class="{ active: index === 0 }">
-        <img :src="slide.image" class="d-block w-100" alt="clg oil india">
-        <!-- <div class="carousel-caption d-none d-md-block text-start">
-          <h1 class="display-4 fw-bold">{{ slide.title }}</h1>
-          <p class="lead">{{ slide.description }}</p>
-          <button class="btn btn-danger btn-lg">Discover</button>
-        </div> -->
+        <img :src="slide.image" class="d-block w-100" alt="clg oil india"> 
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#CGLCarousel" data-bs-slide="prev">
@@ -26,13 +21,16 @@
       <span class="visually-hidden">Next</span>
     </button>
 
+  </div> -->
+  <div class="">
+    <img src="/img/banners/desk1.jpg" class="d-md-block d-none w-100" alt="">
+    <img src="/img/banners/mob1.jpg" class="d-md-none d-block w-100" alt="">
   </div>
-
   <div class="container" style="margin-top: -50px;" v-observe>
     <div class="row">
       <div class="col-md-4 mb-4" v-for="(card, index) in cards" :key="index">
         <router-link :to="card.link"
-          class="text-decoration-none card rounded-0 text-white bg-danger h-100 overflow-hidden">
+          class="text-decoration-none card rounded-0 text-white bg-dark h-100 overflow-hidden">
           <div class="card-img d-flex flex-column justify-content-between  rounded-0"
             :style="{ backgroundImage: `url(${card.backgroundImage})` }">
             <div class="p-3 py-4 overlay">
@@ -91,7 +89,7 @@ export default {
         },
         {
           title: 'Services',
-          description: 'Choose the right oil for your vehicle',
+          description: 'Choose the right service as per your requirement',
           linkText: 'Choose',
           backgroundImage: '/img/grease.jpg',
           icon: 'bi bi-tools',
@@ -99,7 +97,7 @@ export default {
         },
         {
           title: 'Industries',
-          description: 'Find your nearest CGL dealer',
+          description: "Explore from CGL's industry specfic",
           linkText: 'Find',
           icon: 'bi bi-buildings',
           backgroundImage: '/img/industry.jpg',
@@ -113,7 +111,7 @@ export default {
 
 <style scoped>
 .overlay {
-  background-color: var(--bg-third);
+  background-color: rgba(0, 0, 0, 0.5);
   opacity: 90%;
 }
 

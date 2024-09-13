@@ -141,15 +141,25 @@ export default {
                     path: '/about-us',
                 },
                 {
-                    id: 4,
+                    id: 5,
                     title: 'Gallery',
                     path: '/gallery',
                 }, 
                 {
-                    id: 4,
-                    title: 'Certificates',
-                    path: '/',
-                },
+                    id: 6,
+                    title: 'Dealership',
+                    path: '/dealership',
+                }, 
+                {
+                    id: 7,
+                    title: 'OEM Solutions',
+                    path: '/oem-solutions',
+                }, 
+                // {
+                //     id: 4,
+                //     title: 'Certificates',
+                //     path: '/',
+                // },
             ],
         };
     },

@@ -1,6 +1,6 @@
 <template>
     <div>
-        <SectionTopBanner/>
+        <SectionTopBanner />
         <!-- <div class="text-center fw-bold py-5 text-white" style="background-color: var(--brand-color);">
             <p class="fs-1 mb-0 text-capitalize">Dealership with us</p>
             <p class="fs-5 text-capitalize">it's your own business , let it shine</p>
@@ -48,7 +48,32 @@
                 </div>
             </div>
         </div>
-
+        <div class="container my-5">
+            <h1 class="text-center mb-5">Dealer Locator</h1>
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-6 mb-3" v-observe>
+                    <div class="card text-white rounded-0  card-hover" style="background-color: #F78C17 !important;">
+                        <div class="background-image p-3" style="background-image: url('/img/map.png');">
+                            <div class="overlay"></div>
+                            <div class="row no-gutters py-5">
+                                <div class="col-md-6 d-flex flex-column justify-content-end" style="height: 290px;">
+                                    <div class="text-white position-relative">
+                                        <h5 class="text-start">Dealership Availability</h5>
+                                        <p class="text-start">
+                                            CGL has an extensive dealer network across India.
+                                        </p>
+                                        <div class="d-flex justify-content-start">
+                                            <router-link to="/dealer-locator" class="btn rounded-0"
+                                                style="background-color: var(--bg-secondary)">Check </router-link>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <div class="my-5">
             <OurCoreValues />
@@ -233,4 +258,28 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped></style>
+<style scoped>
+.card-hover {
+    position: relative;
+    overflow: hidden;
+}
+
+.background-image {
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.overlay {
+    background: var(--bg-third);
+    opacity: 70%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+</style>

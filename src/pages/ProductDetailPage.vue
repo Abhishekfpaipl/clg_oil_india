@@ -1,5 +1,5 @@
 <template>
-    <div v-if="subproduct">
+    <div v-if="subproduct"  >
         <SectionTopBanner />
         <div class="container my-3 pt-4">
             <div class="my-4">{{ subproduct.description }}</div>
@@ -10,7 +10,7 @@
                 </button>
                 <button class="btn d-flex justify-content-center align-items-center w-25"
                     style="background-color:rgba(255, 206, 86, 1); border:1px solid rgba(255, 162, 0, 1) !important;"
-                    data-bs-toggle="modal" data-bs-target="#enquirymodal"><span> Enquiry </span><i
+                    data-bs-toggle="modal" data-bs-target="#productEnquiry"><span> Enquiry </span><i
                         class="bi bi-arrow-right ms-2"></i>
                 </button>
             </div>
@@ -34,23 +34,23 @@
                 <h3 class="p-2 text-center my-4 cutout">
                     <span>{{ section.name }}</span>
                 </h3>
-                <component :is="section.component" :product="subproduct"></component>
+                <component :is="section.component" :product="subproduct" v-observe></component>
             </section>
         </div>
 
         <div class="position-fixed bottom-0 w-100 btn-group d-flex d-md-none" style="z-index:10">
             <button class="btn btn-dark w-25 rounded-0" @click="share"><i class="bi bi-share fs-2"></i></button>
             <button class="btn btn-warning w-75 rounded-0 d-flex align-items-center justify-content-between"
-                data-bs-toggle="modal" data-bs-target="#enquirymodal">
+                data-bs-toggle="modal" data-bs-target="#productEnquiry">
                 <span class="ms-3 fs-5 text-uppercase">Enquiry Now</span>
                 <i class="bi bi-arrow-right ms-2 fs-1"></i>
             </button>
         </div>
-        <div class="modal fade" id="enquirymodal" tabindex="-1" aria-labelledby="enquirymodalLabel" aria-hidden="true">
+        <div class="modal fade" id="productEnquiry" tabindex="-1" aria-labelledby="productEnquiryLabel" aria-hidden="true">
             <div class="modal-dialog  modal-dialog-centered">
                 <div class="modal-content position-relative">
                     <div class="modal-header border-0 pt-4">
-                        <h1 class="modal-title fs-5" id="enquirymodalLabel">{{ pageName }}</h1>
+                        <h1 class="modal-title fs-5" id="productEnquiryLabel">{{ pageName }}</h1>
                     </div>
                     <div class="position-absolute rounded-circle wh-40 bg-danger text-white px-2 p-1 end-0"
                         data-bs-dismiss="modal" style="top: -3%;">

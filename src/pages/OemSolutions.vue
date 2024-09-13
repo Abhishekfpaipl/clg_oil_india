@@ -39,14 +39,14 @@
                 </button>
                 <button class="btn d-flex justify-content-center align-items-center w-25"
                     style="background-color:rgba(255, 206, 86, 1); border:1px solid rgba(255, 162, 0, 1) !important;"
-                    data-bs-toggle="modal" data-bs-target="#enquirymodal"><span> Enquiry </span><i
+                    data-bs-toggle="modal" data-bs-target="#oemEnquiry"><span> Enquiry </span><i
                         class="bi bi-arrow-right ms-2"></i>
                 </button>
             </div>
             <div class="position-fixed bottom-0 w-100 btn-group d-flex d-md-none" style="z-index:10">
                 <button class="btn btn-dark w-25 rounded-0" @click="share"><i class="bi bi-share fs-2"></i></button>
                 <button class="btn btn-warning w-75 rounded-0 d-flex align-items-center justify-content-between"
-                    data-bs-toggle="modal" data-bs-target="#enquirymodal">
+                    data-bs-toggle="modal" data-bs-target="#oemEnquiry">
                     <span class="ms-3 fs-5 text-uppercase">Enquiry Now</span>
                     <i class="bi bi-arrow-right ms-2 fs-1"></i>
                 </button>
@@ -97,8 +97,7 @@
                         performance for the user.
                     </p>
                     <div class="col-md-6">
-                        <img src="/img/about/oilpouring.jpeg" alt="text.heading"
-                            class="img-fluid" />
+                        <img src="/img/about/oilpouring.jpeg" alt="text.heading" class="img-fluid" />
                     </div>
                 </div>
             </div>
@@ -118,10 +117,40 @@
                         in service and complying with prevalent emission norms, it has become necessary particularly for
                         prestigious OEMs. OEMs recommend use of their Genuine Oils as it reduces warranty claims and
                         enhances brand equity.</p>
-                </div> 
+                </div>
             </div>
         </div>
+        <div class="modal fade" id="oemEnquiry" tabindex="-1" aria-labelledby="oemEnquiryLabel" aria-hidden="true">
+            <div class="modal-dialog  modal-dialog-centered">
+                <div class="modal-content position-relative">
+                    <div class="modal-header border-0 pt-4">
+                        <h1 class="modal-title fs-5" id="oemEnquiryLabel">{{ pageName }}</h1>
+                    </div>
+                    <div class="position-absolute rounded-circle wh-40 bg-danger text-white px-2 p-1 end-0"
+                        data-bs-dismiss="modal" style="top: -3%;">
+                        <i class="bi bi-x fs-5"></i>
+                    </div>
+                    <div class="modal-body">
+                        <form @submit.prevent="sendToWhatsApp()" class="row g-3 needs-validation" novalidate>
+                            <div class="w-100 form-floating my-2">
+                                <input type="text" class="form-control" placeholder="" v-model="name" required>
+                                <label for="floatingInput" class="text-muted ms-2">Name</label>
+                            </div>
+                            <div class="w-100 form-floating my-2">
+                                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"
+                                    v-model="note"></textarea>
+                                <label for="floatingTextarea" class="ms-2 text-muted">Notes...</label>
+                            </div>
+                            <button
+                                class="d-flex justify-content-center align-items-center btn btn-success text-uppercase p-0 py-1"
+                                data-bs-dismiss="modal"><i class="bi bi-whatsapp fs-5 me-4"></i> <span class="fs-5">
+                                    Enquiry Now</span></button>
 
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </template>
 
@@ -133,8 +162,7 @@ export default {
         SectionTopBanner,
     },
     data() {
-        return {
-
+        return { 
             texts: [
                 {
                     heading: "OEM solutions",
@@ -185,7 +213,9 @@ export default {
                 { title: 'Brand Development, Design and Copywriting', icon: 'https://www.velvex.in/images/services/private-labeling/product-marketing-knowlegde.png' },
                 { title: 'Assistance in Choosing packaging', icon: 'https://www.velvex.in/images/services/private-labeling/product-marketing-knowlegde.png' },
                 { title: 'Logistics', icon: 'https://www.velvex.in/images/services/private-labeling/product-marketing-knowlegde.png' },
-            ]
+            ],
+            note:'',
+            name: '',
         };
     },
     methods: {
@@ -203,6 +233,14 @@ export default {
             } else {
                 alert('Web Share API is not supported in your browser.');
             }
+        },
+        sendToWhatsApp() {
+            const phoneNumber = '919711256073';
+            const message = `Name: ${this.name}%0A
+            Note: ${this.note}`;
+
+            const url = `https://wa.me/${phoneNumber}?text=${message}`;
+            window.open(url, '_blank');
         },
     }
 };
