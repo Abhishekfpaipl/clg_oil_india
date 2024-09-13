@@ -1,43 +1,44 @@
 <template>
-    <div class="bg-dark text-light py-5 mt-5">
+    <div class="text-light py-5 mt-5" style="background-color:black !important">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
-                    <img src="/img/update.jpg" alt="Oil pouring"
-                        class="img-fluid rounded">
-                </div>
                 <div class="col-md-6 text-center text-md-start">
                     <div class="mb-4 mt-5 mt-md-0">
-                        <h6 class="text-danger">
-                            <i class="bi bi-droplet-fill me-2"></i>WHAT WE DO
-                        </h6>
-                        <h1 class="display-4 fw-bold">Get More Update</h1>
-                        <h2 class="display-5">To Contact Us</h2>
+                        <h1 class="display-4 fw-bold">Contact Us</h1>
                     </div>
                     <form @submit.prevent="submitForm">
                         <div class="mb-3">
                             <input type="text" class="form-control bg-dark text-light" placeholder="Your Full Name"
                                 v-model="fullName">
                         </div>
-                        <div class="mb-3">
-                            <input type="email" class="form-control bg-dark text-light" placeholder="Your Email Address"
-                                v-model="email">
+                        <div class="d-flex gap-2">
+                            <div class="mb-3 w-50">
+                                <input type="email" class="form-control bg-dark text-light"
+                                    placeholder="Your Email Address" v-model="email">
+                            </div>
+                            <div class="mb-3 w-50">
+                                <input type="number" class="form-control bg-dark text-light"
+                                    placeholder="Your Mobile Number" v-model="phone">
+                            </div>
                         </div>
                         <div class="mb-3">
                             <select class="form-select bg-dark text-light" v-model="selectedService">
                                 <option value="" disabled selected>Select Your Service</option>
-                                <option value="service1">Oils</option>
-                                <option value="service2">Greases</option>
-                                <option value="service3">Lubricants</option>
+                                <option value="Oils">Oils</option>
+                                <option value="Greases">Greases</option>
+                                <option value="Lubricants">Lubricants</option>
                             </select>
                         </div>
                         <div class="mb-3">
-                            <textarea class="form-control bg-dark text-light" rows="4" placeholder="Write Message"
+                            <textarea class="form-control bg-dark text-light" rows="1" placeholder="Write Message"
                                 v-model="message"></textarea>
                         </div>
-                        <button type="submit" class="btn btn-warning px-4 py-2">SEND MESSAGE <i
+                        <button type="submit" class="btn btn-warning px-4 py-2 w-100">SEND MESSAGE <i
                                 class="bi bi-arrow-right ms-2"></i></button>
                     </form>
+                </div>
+                <div class="col-md-6">
+                    <img src="/img/update.jpg" alt="Oil pouring" class="img-fluid rounded">
                 </div>
             </div>
         </div>
@@ -51,6 +52,7 @@ export default {
         return {
             fullName: '',
             email: '',
+            phone: '',
             selectedService: '',
             message: ''
         }
@@ -60,6 +62,7 @@ export default {
             const phoneNumber = '919711256073';
             const message = `Name: ${this.fullName}%0A 
     Service: ${this.selectedService}%0A
+    Number: ${this.phone}%0A
     Email: ${this.email}%0A
     Note: ${this.message}%0A `;
 

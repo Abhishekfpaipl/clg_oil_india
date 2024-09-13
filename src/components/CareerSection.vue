@@ -1,24 +1,10 @@
 <template>
     <div class="container-fluid p-0">
-        <!-- Hero Section -->
-        <div class="position-relative">
-            <img src="/img/career.jpg" class="img-fluid w-100" alt="Careers"
-                style="max-height: 400px; object-fit: cover;object-position: center;">
-            <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
-                style="background-color: rgba(0,0,0,0.5);">
-                <div class="container text-white">
-                    <h1 class="display-4">CAREER</h1>
-                    <p class="lead">We encourage new ideas and professionalism mixed with teamwork to achieve your
-                        career goals as well as making the customer satisfied.</p>
-                </div>
-            </div>
-        </div>
 
         <!-- Application Form Section -->
         <div class="container my-5">
             <h2 class="mb-4">HELP US TO MOULD INNOVATION A LOT BETTER</h2>
-            <p class="mb-4">We encourage new ideas and professionalism mixed with teamwork to achieve your career goals
-                as well as making the customer satisfied. We constantly endeavour to create an environment in which our
+            <p class="mb-4"> We constantly endeavour to create an environment in which our
                 resources can take the liberty to perform well. We believe that our success as a company is the result
                 of every team member's personal achievement. Come join us and explore a challenging career with perfect
                 work culture.</p>
@@ -26,74 +12,121 @@
             <form @submit.prevent="submitForm">
                 <div class="row g-3">
                     <div class="col-md-6">
-                        <input v-model="form.applicantName" type="text" class="form-control"
-                            placeholder="Applicant Name" required>
+                        <div class="form-floating">
+                            <input v-model="form.applicantName" type="text" class="form-control bg-light"
+                                id="applicantName" placeholder="Applicant Name" required>
+                            <label for="applicantName">Applicant Name</label>
+                        </div>
                     </div>
                     <div class="col-md-6">
-                        <input v-model="form.mobileNo" type="tel" class="form-control" placeholder="Mobile No" required>
+                        <div class="form-floating">
+                            <input v-model="form.mobileNo" type="tel" class="form-control bg-light" id="mobileNo"
+                                placeholder="Mobile No" required>
+                            <label for="mobileNo">Mobile No</label>
+                        </div>
                     </div>
                     <div class="col-md-6">
-                        <input v-model="form.alternateNo" type="tel" class="form-control" placeholder="Alternate No">
+                        <div class="form-floating">
+                            <input v-model="form.alternateNo" type="tel" class="form-control bg-light" id="alternateNo"
+                                placeholder="Alternate No">
+                            <label for="alternateNo">Alternate No</label>
+                        </div>
                     </div>
                     <div class="col-md-6">
-                        <input v-model="form.emailId" type="email" class="form-control" placeholder="Email ID" required>
+                        <div class="form-floating">
+                            <input v-model="form.emailId" type="email" class="form-control bg-light" id="emailId"
+                                placeholder="Email ID" required>
+                            <label for="emailId">Email ID</label>
+                        </div>
                     </div>
                     <div class="col-md-6">
-                        <input v-model="form.dateOfBirth" type="date" class="form-control" placeholder="Date of Birth"
-                            required>
+                        <div class="form-floating">
+                            <input v-model="form.dateOfBirth" type="date" class="form-control bg-light" id="dateOfBirth"
+                                placeholder="Date of Birth" required>
+                            <label for="dateOfBirth">Date of Birth</label>
+                        </div>
                     </div>
                     <div class="col-md-6">
-                        <select v-model="form.howDidYouHearAboutUs" class="form-select" required>
-                            <option value="" disabled selected>How did you Hear About us?</option>
-                            <option value="website">Website</option>
-                            <option value="socialMedia">Social Media</option>
-                            <option value="referral">Referral</option>
-                        </select>
+                        <div class="form-floating">
+                            <select v-model="form.howDidYouHearAboutUs" class="form-select bg-light"
+                                id="howDidYouHearAboutUs" required>
+                                <option value="" disabled selected>How did you Hear About us?</option>
+                                <option value="website">Website</option>
+                                <option value="socialMedia">Social Media</option>
+                                <option value="referral">Referral</option>
+                            </select>
+                            <label for="howDidYouHearAboutUs">How did you Hear About Us?</label>
+                        </div>
                     </div>
                     <div class="col-md-6">
-                        <input v-model="form.academicQualifications" type="text" class="form-control"
-                            placeholder="Academic Qualifications" required>
+                        <div class="form-floating">
+                            <input v-model="form.academicQualifications" type="text" class="form-control bg-light"
+                                id="academicQualifications" placeholder="Academic Qualifications" required>
+                            <label for="academicQualifications">Academic Qualifications</label>
+                        </div>
                     </div>
                     <div class="col-md-6">
-                        <input v-model="form.totalYearsOfExperience" type="number" class="form-control"
-                            placeholder="Total Years of Experience" required>
+                        <div class="form-floating">
+                            <input v-model="form.totalYearsOfExperience" type="number" class="form-control bg-light"
+                                id="totalYearsOfExperience" placeholder="Total Years of Experience" required>
+                            <label for="totalYearsOfExperience">Total Years of Experience</label>
+                        </div>
                     </div>
                     <div class="col-md-6">
-                        <input v-model="form.currentSalary" type="number" class="form-control"
-                            placeholder="Current Salary" required>
+                        <div class="form-floating">
+                            <input v-model="form.currentSalary" type="number" class="form-control bg-light"
+                                id="currentSalary" placeholder="Current Salary" required>
+                            <label for="currentSalary">Current Salary</label>
+                        </div>
                     </div>
                     <div class="col-md-6">
-                        <input v-model="form.expectedSalaryPackage" type="number" class="form-control"
-                            placeholder="Expected Salary Package" required>
+                        <div class="form-floating">
+                            <input v-model="form.expectedSalaryPackage" type="number" class="form-control bg-light"
+                                id="expectedSalaryPackage" placeholder="Expected Salary Package" required>
+                            <label for="expectedSalaryPackage">Expected Salary Package</label>
+                        </div>
                     </div>
                     <div class="col-md-6">
-                        <input v-model="form.joiningBy" type="date" class="form-control" placeholder="Joining By"
-                            required>
+                        <div class="form-floating">
+                            <input v-model="form.joiningBy" type="date" class="form-control bg-light" id="joiningBy"
+                                placeholder="Joining By" required>
+                            <label for="joiningBy">Joining By</label>
+                        </div>
                     </div>
                     <div class="col-md-6">
-                        <select v-model="form.noticePeriod" class="form-select" required>
-                            <option value="" disabled selected>Notice Period</option>
-                            <option value="immediate">Immediate</option>
-                            <option value="15days">15 Days</option>
-                            <option value="30days">30 Days</option>
-                        </select>
-                    </div>
-                    <div class="col-12">
-                        <input v-model="form.presentCompanyAndDesignation" type="text" class="form-control"
-                            placeholder="Present Company and Designation" required>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="mb-3">
-                            <label for="resumeUpload" class="form-label">Upload Your Resume/CV in Word Format</label>
-                            <input type="file" class="form-control" id="resumeUpload" accept=".doc,.docx"
-                                @change="handleFileUpload">
+                        <div class="form-floating">
+                            <select v-model="form.noticePeriod" class="form-select bg-light" id="noticePeriod" required>
+                                <option value="" disabled selected>Notice Period</option>
+                                <option value="immediate">Immediate</option>
+                                <option value="15days">15 Days</option>
+                                <option value="30days">30 Days</option>
+                            </select>
+                            <label for="noticePeriod">Notice Period</label>
                         </div>
                     </div>
                     <div class="col-12">
-                        <button type="submit" class="btn btn-primary">Submit</button>
+                        <div class="form-floating">
+                            <input v-model="form.presentCompanyAndDesignation" type="text" class="form-control bg-light"
+                                id="presentCompanyAndDesignation" placeholder="Present Company and Designation"
+                                required>
+                            <label for="presentCompanyAndDesignation">Present Company and Designation</label>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="form-floating">
+                            <input @change="handleFileUpload" type="file" class="form-control bg-light"
+                                id="resumeUpload" accept=".doc,.docx" placeholder="Present Company and Designation"
+                                required>
+                            <label for="resumeUpload">Upload Your Resume/CV</label>
+                        </div>
+
+                    </div>
+                    <div class="col-12">
+                        <button type="submit" class="btn btn-warning w-100">Submit</button>
                     </div>
                 </div>
             </form>
+
         </div>
     </div>
 </template>

@@ -115,13 +115,13 @@ export default {
                 {
                     id: 1,
                     title: 'Services',
-                    path: '/service',
+                    path: '/services',
                     bgColor: '#FFF5DD',
                 },
                 {
                     id: 1,
                     title: 'Product',
-                    path: '/product',
+                    path: '/products',
                     bgColor: '#FFF5DD',
                 },
                 {

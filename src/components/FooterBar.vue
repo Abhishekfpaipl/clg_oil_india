@@ -1,5 +1,6 @@
 <template>
-    <div class="container-fluid text-dark bg-light pt-3 border-top border-bottom">
+    <div class="container-fluid text-dark  pt-3 border-top border-bottom"
+        style="background-color:rgba(255, 206, 86, 0.2); border:1px solid rgba(255, 206, 86, 1) !important;">
         <div class="row">
             <div class="col-12 col-md-4 mb-3 d-flex flex-column align-items-center justify-content-center">
                 <router-link to="/" class="text-decoration-none text-dark d-flex align-items-center">
@@ -92,6 +93,11 @@ export default {
                     id: 12,
                     name: 'Terms & Conditions',
                     link: '/term-of-use'
+                },
+                {
+                    id: 34,
+                    name: 'OEM Solutions',
+                    link: '/oem-solutions'
                 },
 
 

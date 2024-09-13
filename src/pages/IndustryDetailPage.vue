@@ -2,14 +2,12 @@
     <div v-if="subproduct">
         <SectionTopBanner />
         <div class="container my-3">
-            <div class="mt-4 display-3 fw-bold text-capitalize">{{ subproduct.title }}</div>
             <div class="my-4">{{ subproduct.description }}</div>
             <div class="d-none d-md-flex justify-content-center align-items-center gap-3">
-                <a href="/img/demo.pdf" download="file.pdf" class="btn w-25"
-                    style="border:1px solid rgba(255, 162, 0, 1) !important;">
-                    <i class="bi bi-download me-2"></i>
-                    <span>Download</span>
-                </a>
+                <button class="btn w-25" style="border:1px solid rgba(255, 162, 0, 1) !important;" @click="share">
+                    <i class="bi bi-share me-2"></i>
+                    <span>Share</span>
+                </button>
                 <button class="btn d-flex justify-content-center align-items-center w-25"
                     style="background-color:rgba(255, 206, 86, 1); border:1px solid rgba(255, 162, 0, 1) !important;"
                     data-bs-toggle="modal" data-bs-target="#enquirymodal"><span> Enquiry </span><i
@@ -41,11 +39,10 @@
         </div>
 
         <div class="position-fixed bottom-0 w-100 btn-group d-flex d-md-none" style="z-index:10">
-            <a href="/img/demo.pdf" download="file.pdf" class="btn btn-dark w-25 rounded-0"><i
-                    class="bi bi-download fs-2"></i></a>
+            <button class="btn btn-dark w-25 rounded-0" @click="share"><i class="bi bi-share fs-2"></i></button>
             <button class="btn btn-warning w-75 rounded-0 d-flex align-items-center justify-content-between"
-                data-bs-toggle="modal" data-bs-target="#enquirymodal"> 
-                <span class="ms-2 fs-5 text-uppercase">Enquiry Now</span>
+                data-bs-toggle="modal" data-bs-target="#enquirymodal">
+                <span class="ms-3 fs-5 text-uppercase">Enquiry Now</span>
                 <i class="bi bi-arrow-right ms-2 fs-1"></i>
             </button>
         </div>
@@ -89,19 +86,19 @@
 <script>
 import ProductTableSection from "@/components/ProductTableSection.vue"
 import TradeFairTermsSection from "@/components/TradeFairTermsSection.vue"
-// import ProductIndustries from "@/components/ProductIndustries.vue"
 import ProductBenefitSection from "@/components/ProductBenefitSection.vue"
 import ItinerarySection from "@/components/ItinerarySection.vue"
 import SectionTopBanner from "@/components/SectionTopBanner.vue"
+import TradeDetailsSection from "@/components/TradeDetailsSection.vue"
 export default {
     name: "TradeFairPage",
     components: {
         ProductTableSection,
         TradeFairTermsSection,
-        // ProductIndustries,
         ProductBenefitSection,
         ItinerarySection,
         SectionTopBanner,
+        TradeDetailsSection,
     },
     data() {
         return {
@@ -111,8 +108,8 @@ export default {
                 { id: 'Reports', name: 'Reports', component: 'ProductTableSection' },
                 { id: 'Benefits', name: 'Benefits', component: 'ProductBenefitSection' },
                 { id: 'Packaging', name: 'Packaging', component: 'ItinerarySection' },
-                // { id: 'Industries', name: 'Industries', component: 'ProductIndustries' },
-                { id: 'Other', name: 'Other', component: 'TradeFairTermsSection' }
+                { id: 'Certifications', name: 'Certifications', component: 'TradeFairTermsSection' },
+                { id: 'OEM Solutions', name: 'OEM Solutions', component: 'TradeDetailsSection' },
             ],
             activeSection: '',
             navbarDark: false,
@@ -167,7 +164,22 @@ export default {
 
             const url = `https://wa.me/${phoneNumber}?text=${message}`;
             window.open(url, '_blank');
-        }
+        },
+        share() {
+            if (navigator.share) {
+                navigator.share({
+                    title: 'Share this content',
+                    text: 'Check out this awesome content!',
+                    url: window.location.href,
+                }).then(() => {
+                    console.log('Successful share');
+                }).catch((error) => {
+                    console.log('Error sharing', error);
+                });
+            } else {
+                alert('Web Share API is not supported in your browser.');
+            }
+        },
     }
 }
 </script>

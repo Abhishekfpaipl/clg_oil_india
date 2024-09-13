@@ -86,7 +86,7 @@ const routes = [
     component: () => import('@/pages/OilListPage.vue')
   },
   {
-    path: "/service",
+    path: "/services",
     name: "ServiceListPage",
     component: () => import('@/pages/ServiceListPage.vue')
   },
@@ -109,7 +109,7 @@ const routes = [
     component: () => import('@/pages/IndustriesListPage.vue')
   },
   {
-    path: "/product",
+    path: "/products",
     name: "ProductListPage",
     component: () => import('@/pages/ProductListPage.vue')
   },

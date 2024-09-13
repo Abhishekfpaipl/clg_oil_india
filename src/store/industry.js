@@ -47,7 +47,7 @@ export default {
                                 { head: 'Operating Temperature', body: '-20 to 130C', },
                             ],
                         },
-                        "icon": "https://clgoilindia.com/demo/assets/images/resource/oil-01.png",
+                        icon: "/img/about/grease.png",
                         "industryType": "Steel",
                     },
                     {
@@ -85,7 +85,7 @@ export default {
                                 { head: 'Operating Temperature', body: '-20 to 180C', },
                             ],
                         },
-                        "icon": "https://clgoilindia.com/demo/assets/images/resource/oil-01.png"
+                       icon: "/img/about/grease.png",
                     },
                     {
                         "id": 44122,
@@ -122,7 +122,7 @@ export default {
                                 { head: 'Operating Temperature', body: '-20 to 180C', },
                             ],
                         },
-                        "icon": "https://clgoilindia.com/demo/assets/images/resource/oil-01.png"
+                       icon: "/img/about/grease.png",
                     },
                     {
                         "id": 44202,
@@ -159,7 +159,7 @@ export default {
                                 { head: 'Operating Temperature', body: '-0 to 200C', },
                             ],
                         },
-                        "icon": "https://clgoilindia.com/demo/assets/images/resource/oil-01.png"
+                       icon: "/img/about/grease.png",
                     },
                     {
                         "id": 44221,
@@ -195,7 +195,7 @@ export default {
                                 { head: 'EP Properties', body: 'Yes ', },
                             ],
                         },
-                        "icon": "https://clgoilindia.com/demo/assets/images/resource/oil-01.png"
+                       icon: "/img/about/grease.png",
                     },
                     {
                         "id": 44022,
@@ -232,7 +232,7 @@ export default {
                                 { head: 'Operating Temperature', body: '-0 to 200C', },
                             ],
                         },
-                        "icon": "https://clgoilindia.com/demo/assets/images/resource/oil-01.png"
+                       icon: "/img/about/grease.png",
                     },
                     {
                         "id": 44222323,
@@ -273,7 +273,7 @@ export default {
                                 { head: 'Operating Temperature', body: '-20 to 180C', },
                             ],
                         },
-                        "icon": "https://clgoilindia.com/demo/assets/images/resource/oil-01.png"
+                       icon: "/img/about/grease.png",
                     }
 
                 ]
@@ -327,7 +327,7 @@ export default {
                                 { head: 'Operating Temperature', body: '-20 to 130C', },
                             ],
                         },
-                        "icon": "https://clgoilindia.com/demo/assets/images/resource/oil-01.png",
+                        icon: "/img/about/grease.png",
                     },
                     {
                         "id": 4422,
@@ -368,7 +368,7 @@ export default {
                                 { head: 'Operating Temperature', body: '-20 to 130C', },
                             ],
                         },
-                        "icon": "https://clgoilindia.com/demo/assets/images/resource/oil-01.png",
+                        icon: "/img/about/grease.png",
                     },
                 ]
             },
@@ -420,7 +420,7 @@ export default {
                                 { head: 'Operating Temperature', body: '-20 to 120C', },
                             ],
                         },
-                        "icon": "https://clgoilindia.com/demo/assets/images/resource/oil-01.png",
+                        icon: "/img/about/grease.png",
                     },
                     {
                         "title": "CGL WR Greases ",
@@ -460,7 +460,7 @@ export default {
                                 { head: 'Operating Temperature', body: '-20 to 120C', },
                             ],
                         },
-                        "icon": "https://clgoilindia.com/demo/assets/images/resource/oil-01.png",
+                        icon: "/img/about/grease.png",
                     },
                     {
                         "title": "CGL Lithium EP 2 grease",
@@ -504,7 +504,7 @@ export default {
                                 { head: 'Operating Temperature', body: '-20 to 120C', },
                             ],
                         },
-                        "icon": "https://clgoilindia.com/demo/assets/images/resource/oil-01.png",
+                        icon: "/img/about/grease.png",
                     },
                     {
                         "title": "CGL AI-Complex grease NLGI 2",
@@ -548,7 +548,7 @@ export default {
                                 { head: 'Operating Temperature', body: '-20 to 180C', },
                             ],
                         },
-                        "icon": "https://clgoilindia.com/demo/assets/images/resource/oil-01.png",
+                        icon: "/img/about/grease.png",
                     },
                 ]
             },
@@ -596,7 +596,7 @@ export default {
                                 { head: 'Operating Temperature', body: '-10 to 200C', },
                             ],
                         },
-                        "icon": "https://clgoilindia.com/demo/assets/images/resource/oil-01.png",
+                        icon: "/img/about/grease.png",
                     },
                     {
                         "title": "CGL RN Greases ",
@@ -636,7 +636,7 @@ export default {
                                 { head: 'Operating Temperature', body: '-10 to 200C', },
                             ],
                         },
-                        "icon": "https://clgoilindia.com/demo/assets/images/resource/oil-01.png",
+                        icon: "/img/about/grease.png",
                     },
                     {
                         "title": "CGL repair compound ",
@@ -676,7 +676,7 @@ export default {
                                 { head: 'Operating Temperature', body: '-10 to 200C', },
                             ],
                         },
-                        "icon": "https://clgoilindia.com/demo/assets/images/resource/oil-01.png",
+                        icon: "/img/about/grease.png",
                     },
                 ]
             },
@@ -732,7 +732,7 @@ export default {
                                 { head: 'Operating Temperature', body: '-10 to 180C', },
                             ],
                         },
-                        "icon": "https://clgoilindia.com/demo/assets/images/resource/oil-01.png",
+                        icon: "/img/about/grease.png",
                     },
                 ]
             },
@@ -780,7 +780,7 @@ export default {
                                 { head: 'Operating Temperature', body: '-20 to 120C', },
                             ],
                         },
-                        "icon": "https://clgoilindia.com/demo/assets/images/resource/oil-01.png",
+                        icon: "/img/about/grease.png",
                     },
                     {
                         "title": "CGL OHC corrosion resistant Grease",
@@ -824,7 +824,7 @@ export default {
                                 { head: 'Operating Temperature', body: '-20 to 150C', },
                             ],
                         },
-                        "icon": "https://clgoilindia.com/demo/assets/images/resource/oil-01.png",
+                        icon: "/img/about/grease.png",
                     },
                 ]
             },
@@ -876,7 +876,7 @@ export default {
                                 { head: 'Operating Temperature', body: '-20 to 130C', },
                             ],
                         },
-                        "icon": "https://clgoilindia.com/demo/assets/images/resource/oil-01.png",
+                        icon: "/img/about/grease.png",
                     },
                     {
                         "title": "CGL Sparkle Non-lithium Grease",
@@ -916,7 +916,7 @@ export default {
                                 { head: 'Operating Temperature', body: '-20 to 120C', },
                             ],
                         },
-                        "icon": "https://clgoilindia.com/demo/assets/images/resource/oil-01.png",
+                        icon: "/img/about/grease.png",
                     },
                 ]
             },
@@ -968,7 +968,7 @@ export default {
                                 { head: 'Operating Temperature', body: '-20 to 130C', },
                             ],
                         },
-                        "icon": "https://clgoilindia.com/demo/assets/images/resource/oil-01.png",
+                        icon: "/img/about/grease.png",
                     },
                     {
                         "title": "CGL lithium Grease with moly",
@@ -1010,7 +1010,7 @@ export default {
                                 { head: 'Dropping Point, oC', body: '180  min', },
                             ],
                         },
-                        "icon": "https://clgoilindia.com/demo/assets/images/resource/oil-01.png",
+                        icon: "/img/about/grease.png",
                     },
                 ]
             },
@@ -1053,7 +1053,7 @@ export default {
                                 { head: 'EP Properties', body: 'Yes', },
                             ],
                         },
-                        "icon": "https://clgoilindia.com/demo/assets/images/resource/oil-01.png",
+                        icon: "/img/about/grease.png",
                     },
                     {
                         "title": "CGL Bentone Food Grade Syn Grease",
@@ -1089,7 +1089,7 @@ export default {
                                 { head: 'Operating Temperature', body: '-40 to 180C', },
                             ],
                         },
-                        "icon": "https://clgoilindia.com/demo/assets/images/resource/oil-01.png",
+                        icon: "/img/about/grease.png",
                     },
                     {
                         "title": "CGL Al-Complex Food Grade Grease",
@@ -1125,7 +1125,7 @@ export default {
                                 { head: 'Operating Temperature', body: '-20 to 150C', },
                             ],
                         },
-                        "icon": "https://clgoilindia.com/demo/assets/images/resource/oil-01.png",
+                        icon: "/img/about/grease.png",
                     },
                     {
                         "title": "CGL Ca-Sulfonate Food Grade Ep 2 Grease",
@@ -1161,7 +1161,7 @@ export default {
                                 { head: 'Operating Temperature', body: '-20 to 180C', },
                             ],
                         },
-                        "icon": "https://clgoilindia.com/demo/assets/images/resource/oil-01.png",
+                        icon: "/img/about/grease.png",
                     },
                 ]
             },
@@ -1209,7 +1209,7 @@ export default {
                                 { head: 'Operating Temperature', body: '-30 to 130C', },
                             ],
                         },
-                        "icon": "https://clgoilindia.com/demo/assets/images/resource/oil-01.png",
+                        icon: "/img/about/grease.png",
                     },
                 ]
             },
@@ -1236,7 +1236,7 @@ export default {
                                 { head: 'Operating Temperature', body: '-40 to 150C', },
                             ],
                         },
-                        "icon": "https://clgoilindia.com/demo/assets/images/resource/oil-01.png",
+                        icon: "/img/about/grease.png",
                     },
                 ]
             }

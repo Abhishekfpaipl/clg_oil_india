@@ -1,8 +1,7 @@
 <template>
     <SectionTopBanner />
-    <div class="container py-5">
-        <div class=" mb-5">
-            <h1 class="text-start text-capitalize">Services</h1>
+    <div class="container py-5" v-observe>
+        <div class=" mb-5"> 
             <p class="text-start">At CGL Oil India, our team of expert 'Grease Chefs,' 'Lube Technologists,' and
                 'Application Specialists'
                 provides a holistic, client-centric approach to lubrication solutions. From formulation to final product
@@ -10,7 +9,7 @@
             </p>
         </div>
         <div class="row row-cols-1 row-cols-md-3 g-4">
-            <div v-for="(industry, index) in industries" :key="index" class="col mb-5">
+            <div v-for="(industry, index) in industries" :key="index" class="col mb-5" v-observe>
                 <div class="card rounded-0 h-100 position-relative">
                     <div class="position-absolute bg-white shadow-sm ms-3" style="margin-top: -10%; width: 100px; height:100px;">
                         <img src="/img/services-icon.png" alt="" style="height: 100%;width: 100%;">

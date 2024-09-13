@@ -86,14 +86,14 @@ export default {
           description: "Explore CGL's exciting products",
           linkText: 'Explore',
           icon: 'bi bi-droplet',
-          backgroundImage: '/img/productBanner.jpg',
+          backgroundImage: '/img/update.jpg',
           link: '/product',
         },
         {
           title: 'Services',
           description: 'Choose the right oil for your vehicle',
           linkText: 'Choose',
-          backgroundImage: '/img/productBanner.jpg',
+          backgroundImage: '/img/grease.jpg',
           icon: 'bi bi-tools',
           link: '/service',
         },
@@ -102,7 +102,7 @@ export default {
           description: 'Find your nearest CGL dealer',
           linkText: 'Find',
           icon: 'bi bi-buildings',
-          backgroundImage: '/img/productBanner.jpg',
+          backgroundImage: '/img/industry.jpg',
           link: '/industry',
         }
       ]

@@ -1,18 +1,21 @@
 <template>
     <div class="py-5 text-dark">
-        <h1 class="text-center mb-5">Our Clients</h1>
+        <p class="text-center text-uppercase mb-0">we serve</p>
+        <h1 class="text-center mb-5 text-uppercase">Industry</h1>
         <article :class="['wrapper', { 'wrapper--vertical': isVertical }]">
             <div class="marquee" :class="{ 'marquee--vertical': isVertical }">
                 <div class="marquee__group" :style="{ 'animation-direction': isReverse ? 'reverse' : 'normal' }">
                     <div v-for="(link, index) in links" :key="index" class="d-flex flex-column">
-                        <img :src="link.image" class="rounded-circle" style="width:80px;height:80px;object-fit: contain;" alt="">
+                        <img :src="link.image" class="rounded-circle"
+                            style="width:80px;height:80px;object-fit: contain;" alt="">
                         <p class="text-center mb-0">{{ link.name }}</p>
                     </div>
                 </div>
                 <div aria-hidden="true" class="marquee__group"
                     :style="{ 'animation-direction': isReverse ? 'reverse' : 'normal' }">
                     <div v-for="(link, index) in links" :key="index" class="d-flex flex-column">
-                        <img :src="link.image" class="rounded-circle" style="width:80px;height:80px;object-fit: contain;" alt="">
+                        <img :src="link.image" class="rounded-circle"
+                            style="width:80px;height:80px;object-fit: contain;" alt="">
                         <p class="text-center mb-0">{{ link.name }}</p>
                     </div>
                 </div>
@@ -38,64 +41,60 @@ export default {
             links: [
                 {
                     id: 1,
-                    name: 'Australia',
-                    image: "https://utourizmo.com/images/australia.webp"
-                    // image: '/img/members/1.png'
+                    name: 'Steel',
+                    image: "/img/industry/steel.png",
                 },
                 {
                     id: 2,
-                    name: 'Canada',
-                    image: "https://utourizmo.com/images/canada.webp"
-                    // image: "/img/members/2.webp"
+                    name: 'Aluminium Cable',
+                    image: "/img/industry/aluminium-cable.png",
                 },
                 {
                     id: 3,
-                    name: 'USA',
-                    image: "https://utourizmo.com/images/usa.webp"
-                    // image: "/img/members/3.png"
+                    name: 'Biodegradable',
+                    image: "/img/industry/bio.png", 
                 },
                 {
                     id: 4,
-                    name: 'UK',
-                    image: "https://utourizmo.com/images/uk.webp"
-                    // image: "/img/members/4.png"
+                    name: 'Cement',
+                    image: "/img/industry/cement.png", 
                 },
                 {
                     id: 5,
-                    name: 'Germany',
-                    image: "https://utourizmo.com/images/germany.webp"
-                    // image: "/img/members/5.jpg"
+                    name: 'Crusher',
+                    image: "/img/industry/crusher.png", 
                 },
                 {
-                    id: 1,
-                    name: 'Australia',
-                    image: "https://utourizmo.com/images/australia.webp"
-                    // image: '/img/members/1.png'
+                    id: 6,
+                    name: 'Engineering',
+                    image: "/img/industry/engineering.png", 
                 },
                 {
-                    id: 2,
-                    name: 'Canada',
-                    image: "https://utourizmo.com/images/canada.webp"
-                    // image: "/img/members/2.webp"
+                    id:7,
+                    name: 'Mining',
+                    image: "/img/industry/mining.png", 
                 },
                 {
-                    id: 3,
-                    name: 'USA',
-                    image: "https://utourizmo.com/images/usa.webp"
-                    // image: "/img/members/3.png"
+                    id:8,
+                    name: 'Paper',
+                    image: "/img/industry/paper.png", 
                 },
                 {
-                    id: 4,
-                    name: 'UK',
-                    image: "https://utourizmo.com/images/uk.webp"
-                    // image: "/img/members/4.png"
+                    id:9,
+                    name: 'Pharma',
+                    image: "/img/industry/pharma.png", 
                 },
                 {
-                    id: 5,
-                    name: 'Germany',
-                    image: "https://utourizmo.com/images/germany.webp"
-                    // image: "/img/members/5.jpg"
+                    id:10,
+                    name: 'Sugar',
+                    image: "/img/industry/sugar.png", 
                 },
+                {
+                    id:11,
+                    name: 'Wind Mill',
+                    image: "/img/industry/wind-mill.png", 
+                },
+                 
             ]
         };
     },

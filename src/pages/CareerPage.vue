@@ -1,35 +1,19 @@
 <template>
-    <div> 
-        <SectionTopBanner/>
+    <div>
+        <SectionTopBanner />
         <div class="container py-5 rounded-top-5 bg-white" style="margin-top: -40px;" v-observe>
             <div class="row">
                 <div class="col-12 col-md-6 d-flex justify-content-center align-items-center">
                     <img src="/img/career-benefit.svg" style="width: 500px; max-width: 80%" alt="">
                 </div>
                 <div class="col-12 col-md-6 text-center mt-4 mt-md-0">
-                    <form @submit.prevent="submitQuery()">
-                        <div class="mt-2 form-floating">
-                            <input type="text" class="form-control" placeholder="First Name" v-model="name">
-                            <label for="floatingInput" class="ms-2 text-muted">Your name</label>
-                        </div>
-                        <div class="mt-2 form-floating">
-                            <input type="text" class="form-control" placeholder="Business Name" v-model="designation">
-                            <label for="floatingInput" class="ms-2 text-muted">Designation</label>
-                        </div>
-                        <div class="mt-2 form-floating">
-                            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"
-                                v-model="note"></textarea>
-                            <label for="floatingTextarea" class="ms-2 text-muted">Notes</label>
-                        </div>
-                        <div class="col-12 mt-3">
-                            <button class="btn btn-warning py-2 fs-5 w-100 rounded-0 text-dark"
-                                type="submit">Submit</button>
-                        </div>
-                    </form>
+                    <h1>" We encourage new ideas and professionalism mixed with teamwork to achieve your
+                        career goals as well as making the customer satisfied. "</h1>
                 </div>
 
             </div>
         </div>
+        <CareerSection />
         <div class="py-5" style="background-color: var(--bg-forth)">
             <div class="container">
                 <h3 class="text-capitalize mb-4">Employee Benefits</h3>
@@ -72,10 +56,12 @@
 
 <script>
 import SectionTopBanner from "@/components/SectionTopBanner.vue"
+import CareerSection from "@/components/CareerSection.vue";
 export default {
     name: 'CareerPage',
     components: {
-        SectionTopBanner
+        SectionTopBanner,
+        CareerSection
     },
     data() {
         return {

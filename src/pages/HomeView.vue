@@ -28,9 +28,9 @@
     <div class="my-5">
       <AutoScrolling v-observe />
     </div>
-    <div class="my-5">
+    <!-- <div class="my-5">
       <CareerSection v-observe />
-    </div>
+    </div> -->
     <div class="">
       <GetUpdate v-observe />
     </div>
@@ -47,7 +47,7 @@ import ImageSection from "@/components/ImageSection.vue";
 import AboutSection from "@/components/AboutSection.vue";
 import TestimonialSection from "@/components/TestimonialSection.vue";
 import IndustriesSection from "@/components/IndustriesSection.vue";
-import CareerSection from "@/components/CareerSection.vue";
+// import CareerSection from "@/components/CareerSection.vue";
 export default {
   name: "HomeView",
   components: {
@@ -60,7 +60,7 @@ export default {
     AboutSection,
     TestimonialSection,
     IndustriesSection,
-    CareerSection,
+    // CareerSection,
   },
   data() {
     return {
