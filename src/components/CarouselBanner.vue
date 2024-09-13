@@ -23,8 +23,10 @@
 
   </div> -->
   <div class="">
-    <img src="/img/banners/desk1.jpg" class="d-md-block d-none w-100" alt="">
-    <img src="/img/banners/mob1.jpg" class="d-md-none d-block w-100" alt="">
+    <router-link to="/about-us" class="text-decoration-none text-dark">
+      <img src="/img/banners/desk1.jpg" class="d-md-block d-none w-100" alt="">
+      <img src="/img/banners/mob1.jpg" class="d-md-none d-block w-100" alt="">
+    </router-link>
   </div>
   <div class="container" style="margin-top: -50px;" v-observe>
     <div class="row">
