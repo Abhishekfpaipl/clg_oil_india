@@ -76,23 +76,6 @@
                         </div>
                     </router-link>
                 </ul>
-                <p class="text-center fs-4 my-4">Reach Us</p>
-                <div class="d-flex justify-content-evenly fs-2 w-100">
-                    <a href="https://www.instagram.com/" class="text-decoration-none"
-                        style="color: var(--primary-color)">
-                        <i class="bi bi-instagram"></i>
-                    </a>
-                    <a href="https://www.facebook.com/" class="text-decoration-none"
-                        style="color: var(--primary-color)">
-                        <i class="bi bi-facebook"></i>
-                    </a>
-                    <a href="https://in.linkedin.com/" class="text-decoration-none" style="color: var(--primary-color)">
-                        <i class="bi bi-linkedin"></i>
-                    </a>
-                    <a href="https://www.youtube.com/" class="text-decoration-none" style="color: var(--primary-color)">
-                        <i class="bi bi-youtube"></i>
-                    </a>
-                </div>
             </div>
         </div>
     </div>
