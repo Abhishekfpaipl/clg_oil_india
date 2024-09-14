@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div class="container">
+        <div class="container pt-4">
             <h3 class="text-center ">Our Core Values</h3>
             <p class="text-center container">
                 One thing that we've tried to keep consistent through all these years is our core set of values and

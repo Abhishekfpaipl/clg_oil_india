@@ -9,7 +9,7 @@
                     </div>
                     <div class="content px-3 mt-4">
                         <h3 class="mt-4 pt-2">{{ product.name }}</h3>
-                        <p v-if="product.description" class="text-ellipsis2">{{ product.description }}</p>
+                        <p v-if="product.description" class=" ">{{ product.description }}</p>
                     </div>
                 </div>
             </div>
@@ -78,7 +78,7 @@ export default {
 }
 
 .card:hover .content {
-    max-height: 100px; /* Adjust this value based on content size */
+    max-height: 200px; /* Adjust this value based on content size */
     visibility: visible;
     opacity: 1;
 }

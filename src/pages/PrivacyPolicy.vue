@@ -12,7 +12,7 @@
                             <section>
                                 <h2>Our Commitment to Your Privacy</h2>
                                 <p>
-                                    We at CGL value your privacy and are committed to
+                                    We at CLG value your privacy and are committed to
                                     protecting your personal information. This Privacy Policy outlines
                                     how we collect, use, and safeguard your data when you engage with
                                     our services, including fuel purchases, refinery operations, or

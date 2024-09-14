@@ -58,61 +58,61 @@ export default {
                     name: "Arvind Patel",
                     company: "Lubritech Solutions",
                     image: "img/users/1.png",
-                    quote: "With the support of CGL OIL INDIA Pvt Ltd., our grease manufacturing process has seen tremendous improvement. From optimizing production efficiency to enhancing product quality, they've played a key role in our success."
+                    quote: "With the support of CLG OIL INDIA Pvt Ltd., our grease manufacturing process has seen tremendous improvement. From optimizing production efficiency to enhancing product quality, they've played a key role in our success."
                 },
                 {
                     name: "Meera Joshi",
                     company: "IndoGrease Industries",
                     image: "img/users/2.png",
-                    quote: "CGL OIL INDIA Pvt Ltd.'s expertise helped us streamline our production and meet stringent quality standards. Their commitment to innovation and growth has been pivotal in expanding our market reach."
+                    quote: "CLG OIL INDIA Pvt Ltd.'s expertise helped us streamline our production and meet stringent quality standards. Their commitment to innovation and growth has been pivotal in expanding our market reach."
                 },
                 {
                     name: "Rajesh Kumar",
                     company: "Precision Lubricants",
                     image: "img/users/3.png",
-                    quote: "Thanks to CGL OIL INDIA Pvt Ltd., we’ve expanded our product line and improved our production output. Their hands-on approach and industry insights have significantly boosted our presence in the grease manufacturing sector."
+                    quote: "Thanks to CLG OIL INDIA Pvt Ltd., we’ve expanded our product line and improved our production output. Their hands-on approach and industry insights have significantly boosted our presence in the grease manufacturing sector."
                 },
                 {
                     name: "Sunita Sharma",
                     company: "Reliance Lubricants",
                     image: "img/users/4.png",
-                    quote: "CGL OIL INDIA Pvt Ltd.'s solutions helped us increase our manufacturing capacity while maintaining top-notch quality. Their expert team guided us through the entire process, resulting in enhanced customer satisfaction."
+                    quote: "CLG OIL INDIA Pvt Ltd.'s solutions helped us increase our manufacturing capacity while maintaining top-notch quality. Their expert team guided us through the entire process, resulting in enhanced customer satisfaction."
                 },
                 {
                     name: "Sanjay Verma",
                     company: "Supreme Grease Works",
                     image: "img/users/5.png",
-                    quote: "Collaborating with CGL OIL INDIA Pvt Ltd. transformed our operations. We’ve improved efficiency, reduced waste, and introduced innovative grease formulations that have set us apart in the market."
+                    quote: "Collaborating with CLG OIL INDIA Pvt Ltd. transformed our operations. We’ve improved efficiency, reduced waste, and introduced innovative grease formulations that have set us apart in the market."
                 },
                 {
                     name: "Anita Desai",
                     company: "Alpha Lubricants",
                     image: "img/users/6.png",
-                    quote: "CGL OIL INDIA Pvt Ltd. helped us adopt new technologies and scale up our production. Their tailored solutions were exactly what we needed to stay competitive in the grease industry."
+                    quote: "CLG OIL INDIA Pvt Ltd. helped us adopt new technologies and scale up our production. Their tailored solutions were exactly what we needed to stay competitive in the grease industry."
                 },
                 {
                     name: "Raghav Rao",
                     company: "Duratech Lubes",
                     image: "img/users/7.png",
-                    quote: "The expertise and support provided by CGL OIL INDIA Pvt Ltd. were game-changers for our company. We’ve seen significant growth in production, product diversity, and market penetration."
+                    quote: "The expertise and support provided by CLG OIL INDIA Pvt Ltd. were game-changers for our company. We’ve seen significant growth in production, product diversity, and market penetration."
                 },
                 {
                     name: "Pooja Nair",
                     company: "Zenith Greases",
                     image: "img/users/8.png",
-                    quote: "Thanks to CGL OIL INDIA Pvt Ltd.'s innovation and process improvements, our grease formulations are now among the best in the industry. Their focus on quality and performance has made a real difference."
+                    quote: "Thanks to CLG OIL INDIA Pvt Ltd.'s innovation and process improvements, our grease formulations are now among the best in the industry. Their focus on quality and performance has made a real difference."
                 },
                 {
                     name: "Vikas Jain",
                     company: "Fusion Lubricants",
                     image: "img/users/9.png",
-                    quote: "CGL OIL INDIA Pvt Ltd.’s dedicated team worked closely with us to overcome production challenges and meet our goals. Their proactive approach has helped us expand into new markets efficiently."
+                    quote: "CLG OIL INDIA Pvt Ltd.’s dedicated team worked closely with us to overcome production challenges and meet our goals. Their proactive approach has helped us expand into new markets efficiently."
                 },
                 {
                     name: "Manisha Gupta",
                     company: "Everglide Oils",
                     image: "img/users/10.png",
-                    quote: "CGL OIL INDIA Pvt Ltd. played an essential role in upgrading our manufacturing process. Their expertise allowed us to increase output, reduce downtime, and maintain high-quality standards in our grease products."
+                    quote: "CLG OIL INDIA Pvt Ltd. played an essential role in upgrading our manufacturing process. Their expertise allowed us to increase output, reduce downtime, and maintain high-quality standards in our grease products."
                 }
             ],
         }

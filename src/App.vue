@@ -33,7 +33,9 @@ export default {
   --brand-color: #ffa907 !important;
   --bg-light: #FFF5DD !important;
 }
-
+.form-control{
+  box-shadow:none !important;
+}
 .fade-enter-active,
 .fade-leave-active {
   transition: opacity 1s ease;

@@ -2,7 +2,7 @@
     <SectionTopBanner />
     <div class="container py-5" v-observe>
         <div class=" mb-5"> 
-            <p class="text-start">At CGL Oil India, our team of expert 'Grease Chefs,' 'Lube Technologists,' and
+            <p class="text-start">At CLG Oil India, our team of expert 'Grease Chefs,' 'Lube Technologists,' and
                 'Application Specialists'
                 provides a holistic, client-centric approach to lubrication solutions. From formulation to final product
                 delivery and beyond, we ensure your needs are met with precision and excellence.
@@ -17,9 +17,7 @@
                     <div class="card-body mt-5">
                         <h5 class="text-start">{{ industry.title }}</h5>
                         <p class="text-start text-ellipsis4">{{ industry.description }}</p>
-                        <div class="d-flex justify-content-start">
-                            <router-link to="" class="btn btn-outline-primary">Learn More</router-link>
-                        </div>
+                        
                     </div>
                 </div>
             </div>
@@ -42,7 +40,7 @@ export default {
                 },
                 {
                     title: 'Custom Trial Formulation',
-                    description: "CGL OIl India excels in developing bespoke trial schemes for the evaluation of new greases across diverse machinery types. Our support is designed to ensure that your trials are thorough and yield actionable insights."
+                    description: "CLG OIl India excels in developing bespoke trial schemes for the evaluation of new greases across diverse machinery types. Our support is designed to ensure that your trials are thorough and yield actionable insights."
                 },
                 {
                     title: 'Expert Technical Support',
@@ -58,7 +56,7 @@ export default {
                 },
                 {
                     title: 'Used Grease Testing, Analysis, & Condition Monitoring',
-                    description: "CGL OIl India provides advanced condition monitoring services through regular sample testing of used greases and machinery. This proactive approach helps maintain peak operational performance and anticipates potential issues."
+                    description: "CLG OIl India provides advanced condition monitoring services through regular sample testing of used greases and machinery. This proactive approach helps maintain peak operational performance and anticipates potential issues."
                 },
                 {
                     title: 'Application Engineering Support',
@@ -74,7 +72,7 @@ export default {
                 },
                 {
                     title: 'Comprehensive Consultancy Services',
-                    description: "CGL OIl India provides expert consultancy for setting up or expanding your grease manufacturing operations. Our comprehensive guidance covers all aspects of plant development, helping you achieve your strategic objectives."
+                    description: "CLG OIl India provides expert consultancy for setting up or expanding your grease manufacturing operations. Our comprehensive guidance covers all aspects of plant development, helping you achieve your strategic objectives."
                 },
                 {
                     title: 'Educational and Faculty Support',

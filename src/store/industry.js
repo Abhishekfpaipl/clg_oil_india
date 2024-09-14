@@ -10,9 +10,9 @@ export default {
                 products: [
                     {
                         "id": 4422,
-                        "title": "CGL EP are industrial Lithium EP greases",
-                        "sid": "cgl-ep-are-industrial-lithium-ep-greases",
-                        "description": "CGL EP are industrial Lithium EP greases designed in different NLGI grades from 000 to 2 having extreme pressure properties. The greases are having high dropping point, Good mechanical stability, oxidation stability and water resistant properties recommended for industrial use with operating temperature from -20 to +1300 C.",
+                        "title": "CLG EP are industrial Lithium EP greases",
+                        "sid": "CLG-ep-are-industrial-lithium-ep-greases",
+                        "description": "CLG EP are industrial Lithium EP greases designed in different NLGI grades from 000 to 2 having extreme pressure properties. The greases are having high dropping point, Good mechanical stability, oxidation stability and water resistant properties recommended for industrial use with operating temperature from -20 to +1300 C.",
                         "benefits": [
                             {
                                 "title": "Extreme Pressure Properties",
@@ -52,9 +52,9 @@ export default {
                     },
                     {
                         "id": 44222,
-                        "title": "CGL Sulfonate Complex Grease",
-                        "sid": "cgl-sulfonate-complex-grease",
-                        "description": "CGL Calcium Sulfonate Complex Grease is a light Yellow Brown coloured high performance grease having the highest dropping point, making it an excellent choice for high temperature industrial applications. This grease can absorb very high amount of water. The grease is recommended for use in all weather conditions with operating temperature from 0 to +1800 C. Product can be tailor made in different base oil viscosity grades.",
+                        "title": "CLG Sulfonate Complex Grease",
+                        "sid": "CLG-sulfonate-complex-grease",
+                        "description": "CLG Calcium Sulfonate Complex Grease is a light Yellow Brown coloured high performance grease having the highest dropping point, making it an excellent choice for high temperature industrial applications. This grease can absorb very high amount of water. The grease is recommended for use in all weather conditions with operating temperature from 0 to +1800 C. Product can be tailor made in different base oil viscosity grades.",
                         "benefits": [
                             {
                                 "title": "Highest Dropping Point",
@@ -89,9 +89,9 @@ export default {
                     },
                     {
                         "id": 44122,
-                        "title": "CGL Calcium Sulfonate Complex WR Grease",
-                        "sid": "cgl-calcium-sulfonate-complex-wr-grease",
-                        "description": "CGL Calcium Sulfonate Complex WR Grease is Light Brown coloured high performance water resistant grease having the highest dropping point, making it an excellent choice for high temperature industrial applications. The grease is recommended for use in all weather conditions with operating temperature from 0 to +1800 C. Product can be tailor made in different base oil viscosity grades. Product is also available in NLGI grade 1 also.",
+                        "title": "CLG Calcium Sulfonate Complex WR Grease",
+                        "sid": "CLG-calcium-sulfonate-complex-wr-grease",
+                        "description": "CLG Calcium Sulfonate Complex WR Grease is Light Brown coloured high performance water resistant grease having the highest dropping point, making it an excellent choice for high temperature industrial applications. The grease is recommended for use in all weather conditions with operating temperature from 0 to +1800 C. Product can be tailor made in different base oil viscosity grades. Product is also available in NLGI grade 1 also.",
                         "benefits": [
                             {
                                 "title": "Water Resistant",
@@ -126,9 +126,9 @@ export default {
                     },
                     {
                         "id": 44202,
-                        "title": "CGL Sulfonate Complex Grease with moly",
-                        "sid": "cgl-sulfonate-complex-grease-with-moly",
-                        "description": "CGL Sulfonate Complex Grease with moly is Black coloured high performance grease having the highest dropping point, making it an excellent choice for high temperature industrial applications. The grease is recommended for use in all weather conditions with operating temperature from 0 to +2000 C. Product can also be tailor made in higher base oil viscosity grades.",
+                        "title": "CLG Sulfonate Complex Grease with moly",
+                        "sid": "CLG-sulfonate-complex-grease-with-moly",
+                        "description": "CLG Sulfonate Complex Grease with moly is Black coloured high performance grease having the highest dropping point, making it an excellent choice for high temperature industrial applications. The grease is recommended for use in all weather conditions with operating temperature from 0 to +2000 C. Product can also be tailor made in higher base oil viscosity grades.",
                         "benefits": [
                             {
                                 "title": "Highest Dropping Point",
@@ -163,9 +163,9 @@ export default {
                     },
                     {
                         "id": 44221,
-                        "title": "CGL Lithium Complex Grease",
-                        "sid": "cgl-lithium-complex-grease",
-                        "description": "Over the past decade, lithium complex greases have been finding increasing popularity. With dropping points above 260ºC, this type of grease can withstand peak operating temperatures of up to 240ºC for short periods of time. Continuous temperatures of 150ºC should not present a problem for grease formulated with mineral oils; This excellent high temperature performance results from a high melting point coupled with the very dense fibre structure of the soap matrix. Very small polar fibres strongly bind the base lubricant providing excellent protection against oxidation due to low heat transfer throughout the matrix. CGL LC EP-2 is amber coloured Lithium Complex Grease based on highly refined heavy mineral oil and additives. The grease covers wide range operating service temperature from -20 to +1600 C.",
+                        "title": "CLG Lithium Complex Grease",
+                        "sid": "CLG-lithium-complex-grease",
+                        "description": "Over the past decade, lithium complex greases have been finding increasing popularity. With dropping points above 260ºC, this type of grease can withstand peak operating temperatures of up to 240ºC for short periods of time. Continuous temperatures of 150ºC should not present a problem for grease formulated with mineral oils; This excellent high temperature performance results from a high melting point coupled with the very dense fibre structure of the soap matrix. Very small polar fibres strongly bind the base lubricant providing excellent protection against oxidation due to low heat transfer throughout the matrix. CLG LC EP-2 is amber coloured Lithium Complex Grease based on highly refined heavy mineral oil and additives. The grease covers wide range operating service temperature from -20 to +1600 C.",
                         "benefits": [
                             {
                                 "title": "High Dropping Point",
@@ -199,9 +199,9 @@ export default {
                     },
                     {
                         "id": 44022,
-                        "title": "CGL Bentone Grease",
-                        sid: "cgl-bentone-grease",
-                        "description": "CGL Bentone Grease is brown coloured grease formulated by using organo modified clay, highly refined heavy base oil, anti-oxidant and anti-rust additives covering wide range operating service temperature from -20 to +1800 C. The product is available with Moly also designed to combat highly stringent operating conditions.",
+                        "title": "CLG Bentone Grease",
+                        sid: "CLG-bentone-grease",
+                        "description": "CLG Bentone Grease is brown coloured grease formulated by using organo modified clay, highly refined heavy base oil, anti-oxidant and anti-rust additives covering wide range operating service temperature from -20 to +1800 C. The product is available with Moly also designed to combat highly stringent operating conditions.",
                         "benefits": [
                             {
                                 "title": "High Temperature Performance",
@@ -236,9 +236,9 @@ export default {
                     },
                     {
                         "id": 44222323,
-                        sid: "cgl-pu-greases",
-                        "title": "CGL PU Greases",
-                        "description": "CGL Polyurea are high performance greases that are often preferred choice for sealed-for-life applications. These greases have high operating temperatures, inherent ant oxidative properties, high thermal stability and low bleed characteristics. They also have a dropping point of approximately 270 degrees C. On average, polyurea greases offer a high degree of mechanical stability and performance across a wide range of temperatures.",
+                        sid: "CLG-pu-greases",
+                        "title": "CLG PU Greases",
+                        "description": "CLG Polyurea are high performance greases that are often preferred choice for sealed-for-life applications. These greases have high operating temperatures, inherent ant oxidative properties, high thermal stability and low bleed characteristics. They also have a dropping point of approximately 270 degrees C. On average, polyurea greases offer a high degree of mechanical stability and performance across a wide range of temperatures.",
                         "benefits": [
                             {
                                 "title": "High Operating Temperatures",
@@ -286,8 +286,8 @@ export default {
                 products: [
                     {
                         "id": 4422,
-                        "title": "CGL EP 1 & 2",
-                        "sid": "cgl-ep-1-&-2",
+                        "title": "CLG EP 1 & 2",
+                        "sid": "CLG-ep-1-&-2",
                         "description": "SGL Lithium EP greases designed in different NLGI grades 1 & 2 having extreme pressure properties are used in Mining. The greases are having high dropping point, good mechanical stability, oxidation stability and water resistant properties; recommended for industrial use with operating temperature from -20 to +1300 C.",
                         "benefits": [
                             {
@@ -331,8 +331,8 @@ export default {
                     },
                     {
                         "id": 4422,
-                        "title": "CGL Lithium Grease with moly",
-                        "sid": "cgl-lithium-grease-with-moly",
+                        "title": "CLG Lithium Grease with moly",
+                        "sid": "CLG-lithium-grease-with-moly",
                         "description": "SGL Lithium Grease is Dark grey/ Black coloured high performance grease made by using lithium thickener, highly refined base oil and additives along with Moly in order to combat boundary conditions.The grease is recommended for use in all weather conditions with operating temperature from -20 to +1300 C. Product can also be tailor made in higher base oil viscosity grades.",
                         "benefits": [
                             {
@@ -379,8 +379,8 @@ export default {
                 image: "/img/industry/paper.png",
                 products: [
                     {
-                        "title": "CGL AP 2 ",
-                        "sid": "cgl-ap-2",
+                        "title": "CLG AP 2 ",
+                        "sid": "CLG-ap-2",
                         "description": "SGL AP 2 is Lithium Thickener base grease made by using highly refined mineral oils doped with suitable additives. The grease possesses excellent anti-rust and anti-oxidant properties. Recommended for the lubrication of general purpose applications in paper industry.",
                         "benefits": [
                             {
@@ -423,8 +423,8 @@ export default {
                         icon: "/img/about/grease.png",
                     },
                     {
-                        "title": "CGL WR Greases ",
-                        "sid": "cgl-wr-greases",
+                        "title": "CLG WR Greases ",
+                        "sid": "CLG-wr-greases",
                         "description": "SGL WR Greases are two types of greases: One is based on Li-Ca thickener and other one is based on Calcium Sulfonate Complex thickener chemistry. Both the greases differ in physio-chemical properties and are widely used in paper machinery.",
                         "benefits": [
                             {
@@ -463,8 +463,8 @@ export default {
                         icon: "/img/about/grease.png",
                     },
                     {
-                        "title": "CGL Lithium EP 2 grease",
-                        "sid": "cgl-lithium-ep-2-grease",
+                        "title": "CLG Lithium EP 2 grease",
+                        "sid": "CLG-lithium-ep-2-grease",
                         "description": "SGL Lithium EP 2 grease designed in NLGI 2 having extreme pressure properties is used in paper industries also. The grease is having high dropping point, good mechanical stability, oxidation stability and water resistant properties recommended for industrial use with operating temperature from -20 to +1200 C.",
                         "benefits": [
                             {
@@ -507,8 +507,8 @@ export default {
                         icon: "/img/about/grease.png",
                     },
                     {
-                        "title": "CGL AI-Complex grease NLGI 2",
-                        "sid": "cgl-ai-complex-grease-nlgi-2",
+                        "title": "CLG AI-Complex grease NLGI 2",
+                        "sid": "CLG-ai-complex-grease-nlgi-2",
                         "description": " SGL Al-Complex grease NLGI 2 is Light brown coloured multipurpose high performance grease based on highly refined mineral oil, Aluminium Complex thickener and additives. The grease has dropping points above 240ºC, highly water resistant & offer good lubricating properties at high temperatures. Furthermore, a low thickener concentration can provide the required grease consistency and this leads to excellent pumpability. The product covers wide range operating service temperature from -20 to +1400 C. Products can also be tailor made in different base oil viscosities having varying EP properties.",
                         "benefits": [
                             {
@@ -559,8 +559,8 @@ export default {
                 image: "/img/industry/cement.png",
                 products: [
                     {
-                        "title": "CGL CG Greases ",
-                        "sid": "cgl-cg-greases",
+                        "title": "CLG CG Greases ",
+                        "sid": "CLG-cg-greases",
                         "description": "SGL CG Greases are tacky black coloured fluid greases based on aluminium complex thickener chemistry covering wide range operating service temperature from -10 to +2000 C. Grease also contains solid lubricants to combat high temperature application.",
                         "benefits": [
                             {
@@ -599,8 +599,8 @@ export default {
                         icon: "/img/about/grease.png",
                     },
                     {
-                        "title": "CGL RN Greases ",
-                        "sid": "cgl-rn-greases",
+                        "title": "CLG RN Greases ",
+                        "sid": "CLG-rn-greases",
                         "description": "During running in, the machine is operated within a shortest possible time under full load condition without risking the drive and thus it would give positive influence on service life of the open gears. Care should be taken to see that the load to be transmitted should be increased step by step by checking condition of tooth flank at regular intervals. Shortening the running in period by radical means will increase the danger of gear damage by removal of the gear material particles. Unlike priming process, the grease is applied though the automatic grease spraying system set at maximum output. Special attention to be paid when changing from one load step to next one. In case of abnormal flank damage reduce the load. During the running in process, it is perceived to achieve optimum surface finish on gear flanks which will enable them to transmit max power with minimum contact pressure imparted to the lubricating film. ",
                         "benefits": [
                             {
@@ -639,8 +639,8 @@ export default {
                         icon: "/img/about/grease.png",
                     },
                     {
-                        "title": "CGL repair compound ",
-                        "sid": "cgl-repair-compound",
+                        "title": "CLG repair compound ",
+                        "sid": "CLG-repair-compound",
                         "description": "The open gears give a remarkable service life if the correct operational and maintenance practices are adopted by the cement plant. Damage to the gears / gear surfaces is experienced in the plants not adopting the best practices. Bad practices eventually lead to the use of repair compound or mechanical repairs depending on the extent of damages. SGL RP Compound is a pro-wear compound, which on application, would make the damaged gear surfaces smoothened leading to meshing of the gears.",
                         "benefits": [
                             {
@@ -687,8 +687,8 @@ export default {
                 image: "/img/industry/sugar.png",
                 products: [
                     {
-                        "title": "CGL Bentone Greases ",
-                        "sid": "cgl-bentone-greases",
+                        "title": "CLG Bentone Greases ",
+                        "sid": "CLG-bentone-greases",
                         "description": "High performance journal bearing grease developed with high base oil viscosity, metal complex thickener and solid lubricants for high load applications. High base oil viscosity enables to form a thick, high pressure lubricant film between the shaft and sleeve, minimizing metal to metal contact. Presence of solid lubricants and additives make the product ideal for smooth running and loading conditions of the bearing. The grease should be pump able and must offer excellent corrosion protection even in presence of water. Presence of special additive package ensures perfect lubrication in harsh environments ensuring extended bearing life. SGL Bentone Grease is a yellow brown coloured grease made by using food grade organo clay, Mineral /Semi-synthetic oils and special additives covering wide range operating service temperature from -10 to +1800 C. The semi-synthetic product is also available with solid lubricants to meet more stringent conditions.",
                         "benefits": [
                             {
@@ -743,8 +743,8 @@ export default {
                 image: "/img/industry/aluminium-cable.png",
                 products: [
                     {
-                        "title": "CGL OHC Grease",
-                        "sid": "cgl-ohc-grease",
+                        "title": "CLG OHC Grease",
+                        "sid": "CLG-ohc-grease",
                         "description": "Is new technology based on special Lithium Soap formulated with highly refined petroleum oil & fortified with high performance additives to meet end applications requirement.",
                         "benefits": [
                             {
@@ -783,8 +783,8 @@ export default {
                         icon: "/img/about/grease.png",
                     },
                     {
-                        "title": "CGL OHC corrosion resistant Grease",
-                        "sid": "cgl-ohc-corrosion-resistant-grease",
+                        "title": "CLG OHC corrosion resistant Grease",
+                        "sid": "CLG-ohc-corrosion-resistant-grease",
                         "description": "Is new technology based on special Complex Soap formulated with highly refined petroleum oil & fortified with high performance additives to meet end applications requirement. This product possesses excellent corrosion resistant properties.",
                         "benefits": [
                             {
@@ -835,8 +835,8 @@ export default {
                 image: "/img/industry/crusher.png",
                 products: [
                     {
-                        "title": "CGL AP 3",
-                        "sid": "cgl-ap-3",
+                        "title": "CLG AP 3",
+                        "sid": "CLG-ap-3",
                         "description": "Are Lithium Thickener base greases made by using highly refined mineral oils. The have excellent anti-rust and anti-oxidant properties. Recommended for the lubrication of general purpose applications. Product is also available with solid lubricant i.e. Moly.",
                         "benefits": [
                             {
@@ -879,8 +879,8 @@ export default {
                         icon: "/img/about/grease.png",
                     },
                     {
-                        "title": "CGL Sparkle Non-lithium Grease",
-                        "sid": "cgl-sparkle-grease-non-lithium-grease",
+                        "title": "CLG Sparkle Non-lithium Grease",
+                        "sid": "CLG-sparkle-grease-non-lithium-grease",
                         "description": "Is specifically designed in NLGI 3 grade using highly refined mineral oil and additives. It covers wide range operating temperature from -20 to +120 0C.The product is available in heavy oil with Moly.",
                         "benefits": [
                             {
@@ -927,8 +927,8 @@ export default {
                 image: "/img/industry/engineering.png",
                 products: [
                     {
-                        "title": "CGL EP 2 Grease",
-                        "sid": "cgl-ep-2-grease",
+                        "title": "CLG EP 2 Grease",
+                        "sid": "CLG-ep-2-grease",
                         "description": "Having extreme pressure properties is widely used in engineering applications. The grease is having high dropping point, good mechanical stability, oxidation stability and water resistant properties; recommended for industrial use with operating temperature from -20 to +1300 C.",
                         "benefits": [
                             {
@@ -971,8 +971,8 @@ export default {
                         icon: "/img/about/grease.png",
                     },
                     {
-                        "title": "CGL lithium Grease with moly",
-                        "sid": "cgl-lithium-grease-with-moly",
+                        "title": "CLG lithium Grease with moly",
+                        "sid": "CLG-lithium-grease-with-moly",
                         "description": "SGL Lithium Grease isDark grey/ Black coloured high performance grease made by using lithium thickener, highly refined base oil and additives along with Moly in order to combat boundary conditions. The grease is recommended for use in all weather conditions with operating temperature from -20 to +1300 C. Product can also be tailor made in higher base oil viscosity grades.",
                         "benefits": [
                             {
@@ -1021,8 +1021,8 @@ export default {
                 image: "/img/industry/pharma.png",
                 products: [
                     {
-                        "title": "CGL Special Fg 2 Grease",
-                        "sid": "cgl-special-fg-2-grease",
+                        "title": "CLG Special Fg 2 Grease",
+                        "sid": "CLG-special-fg-2-grease",
                         "description": "SGL Special FG 2 Grease is a light Brown coloured high performance grease having low to moderate temperature industrial applications. The grease is recommended for use in all weather conditions with operating temperature from -20 to +1100 C. Product can be tailor made in different NLGI grades.",
                         "benefits": [
                             {
@@ -1056,8 +1056,8 @@ export default {
                         icon: "/img/about/grease.png",
                     },
                     {
-                        "title": "CGL Bentone Food Grade Syn Grease",
-                        "sid": "cgl-bentone-food-grade-syn-grease",
+                        "title": "CLG Bentone Food Grade Syn Grease",
+                        "sid": "CLG-bentone-food-grade-syn-grease",
                         "description": "SGL Bentone Food Grade Syn Grease is a yellow brown coloured grease made by using food grade organo clay, synthetic PAO Oils and special additives covering wide range operating service temperature from -40 to +1800 C. .The product is also available with extreme pressure additives.",
                         "benefits": [
                             {
@@ -1092,8 +1092,8 @@ export default {
                         icon: "/img/about/grease.png",
                     },
                     {
-                        "title": "CGL Al-Complex Food Grade Grease",
-                        "sid": "cgl-al-complex-food-grade-grease",
+                        "title": "CLG Al-Complex Food Grade Grease",
+                        "sid": "CLG-al-complex-food-grade-grease",
                         "description": "SGL Al-Complex FG Grease is a light Yellow Brown coloured high performance grease having the highest dropping point, making it an excellent choice for high temperature industrial applications. The product is also available with extreme pressure additives. The grease is recommended for use in all weather conditions with operating temperature from -20 to +1500 C. Product can be tailor made in different base oil viscosity grades.",
                         "benefits": [
                             {
@@ -1128,8 +1128,8 @@ export default {
                         icon: "/img/about/grease.png",
                     },
                     {
-                        "title": "CGL Ca-Sulfonate Food Grade Ep 2 Grease",
-                        "sid": "cgl-ca-sulfonate-food-grade-ep-2-grease",
+                        "title": "CLG Ca-Sulfonate Food Grade Ep 2 Grease",
+                        "sid": "CLG-ca-sulfonate-food-grade-ep-2-grease",
                         "description": "SGL Ca-Sulfonate FG EP 2 Grease is a light Yellow Brown coloured high performance grease having the highest dropping point, making it an excellent choice for high temperature industrial applications. The grease is recommended for use in all weather conditions with operating temperature from -20 to +1700 C. Product can be tailor made in different base oil viscosity grades.",
                         "benefits": [
                             {
@@ -1172,8 +1172,8 @@ export default {
                 image: "/img/industry/bio.png",
                 products: [
                     {
-                        "title": "CGL Biodegradable Greases",
-                        "sid": "cgl-biodegradable-grease",
+                        "title": "CLG Biodegradable Greases",
+                        "sid": "CLG-biodegradable-grease",
                         "description": "Biodegradable Greases have low toxicity, vegetable /synthetic ester oil-based grease, using different thickeners. Its special formulation makes it most suitable for applications where environmental contamination is a concern. Biodegradable Greasesare preferred choice for wide temperature range applications from -30C to 130C. These greases have light brown color, inherent anti oxidative properties, high thermal stability characteristics. They are made by using organo clay and vegetable oils /Ester Oils.",
                         "benefits": [
                             {
@@ -1220,8 +1220,8 @@ export default {
                 image: "/img/industry/wind-mill.png",
                 products: [
                     {
-                        "title": "CGL wind mill Grease 2",
-                        "sid": "cgl-wind-mill-grease-2",
+                        "title": "CLG wind mill Grease 2",
+                        "sid": "CLG-wind-mill-grease-2",
                         "description": "Most of the wind turbines have special gearboxes, having more stringent configuration than those for industrial gears, and are capable of operating under low-temperature conditions. Performance expectations for lubricants used in offshore wind turbines are higher due to demand for extended life. The greases recommended for wind mills are generally made by using synthetic oils, Complex thickeners and special additives. The Lubricating greases should pass low temperature operability and EMCOR rust test under salty conditions.",
 
                         "table": {

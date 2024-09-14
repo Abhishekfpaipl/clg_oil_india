@@ -2,7 +2,7 @@
     <div class="container">
         <h1 class="pt-3">Our Success Story</h1>
         <div class="row mt-5">
-            <div class="col-12 col-md-4 position-relative  d-flex align-items-center justify-content-center pt-5">
+            <div class="col-12 position-relative  d-flex align-items-center justify-content-center pt-5">
                 <div class="card rounded-3">
                     <div class="image rounded-3">
                         <img href="#" :src="image" class="rounded-3" alt="Card image">
@@ -13,7 +13,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-8 mt-5 mt-md-0 text-start">
+            <div class="col-12 mt-5 text-center">
                 CLG Oil India Private Limited embarked on its journey over two and a half decades ago, in 2000, making
                 its mark by introducing high-quality greases for both automotive and industrial applications. These
                 products are marketed under various leading brands, earning the company a strong reputation in the

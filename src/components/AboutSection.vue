@@ -6,9 +6,9 @@
                 <div class="col-md-10">
                     <h1 class="fw-bold">ABOUT <span class="" style="color: var(--bg-secondary)">US</span></h1>
                     <p class="mt-3">
-                        On the back of an illustrious 25-year legacy, CGL is a Indian lubricants company
+                        On the back of an illustrious 25-year legacy, CLG is a Indian lubricants company
                         that enjoys global recognition as 'The specialist in synthetic lubricants'.
-                        Among the oldest, most respected lubricant brands in the world, CGL has become
+                        Among the oldest, most respected lubricant brands in the world, CLG has become
                         synonymous with high-performance motoring.
                     </p>
                 </div>

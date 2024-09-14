@@ -1,7 +1,7 @@
 <template>
     <div>
         <SectionTopBanner />
-        <div class=""> 
+        <div class="">
             <div class="container my-5 pt-4">
                 <p class="text-center">Our Equipment Builder Partnership fosters a collaborative and close-knit
                     relationship with engineering specialists across diverse industry sectors. These dynamic
@@ -54,7 +54,7 @@
                 </div>
             </div>
             <div class="container my-5">
-                <p class="text-center fs-1 fw-bold p-2  text-capitalize">What is CLG oil & greases?</p>
+                <p class="text-center fs-1 fw-bold p-2  text-capitalize">About CLG oil & greases</p>
                 <p class="text-start">CLG Oil & Greases are high-performance lubricants specifically engineered to
                     address the unique needs of various engines and machinery. These products are developed through
                     rigorous field testing and advanced formulation techniques to ensure optimal performance. CLG Oil is
@@ -67,7 +67,7 @@
 
 
             <div class="container my-5">
-                <p class="text-center fs-1 fw-bold p-2   text-capitalize">Why CLG oil & greases?</p>
+                <p class="text-center fs-1 fw-bold p-2 text-capitalize">Why Choose CLG oil & greases</p>
                 <div class="row">
                     <p class="text-start col-md-6">
                         While many oils might seem similar at first glance, their performance can vary greatly. CLG Oil
@@ -100,11 +100,26 @@
                         life,
                         fuel economy, reliability
                         in service and complying with prevalent emission norms, it has become necessary particularly for
-                        prestigious OEMs. OEMs recommend use of their Genuine Oils as it reduces warranty claims and
+                        prestigious OEMs. OEMs recommend use of their CLG Oils as it reduces warranty claims and
                         enhances brand equity.</p>
                 </div>
             </div>
+            <div class="container my-5">
+                <div class="row justify-content-center align-items-center">
+                    <p class="text-center fs-1 fw-bold p-2 text-capitalize mb-5">Our Offerings For OEM's</p>
+                    <div class="col-md-6">
+                        <img src="/img/oem.jpeg" class="w-75" alt="OEM">
+                    </div>
+                    <div class="col-md-6">
+                        <ul class="text-start">
+                            <li v-for="(point, index) in points" :key="index" class="mb-2 fs-4">{{ point }}</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
         </div>
+
         <div class="modal fade" id="oemEnquiry" tabindex="-1" aria-labelledby="oemEnquiryLabel" aria-hidden="true">
             <div class="modal-dialog  modal-dialog-centered">
                 <div class="modal-content position-relative">
@@ -154,50 +169,62 @@ export default {
                     text: "Our Equipment Builder Partnership fosters a collaborative and close-knit relationship with engineering specialists across diverse industry sectors. These dynamic partnerships are not just transactional—they drive innovation and lead to the development of cutting-edge lubrication products tailored to the evolving needs of our clients. Just as Original Equipment Manufacturers (OEMs) rely on us to provide unparalleled lubrication expertise throughout the entire life cycle of their equipment—from design and testing to operation and maintenance—we, in turn, depend on their valuable insights and feedback. This collaboration allows us to continuously improve and refine our lubricants and related services to ensure they meet the highest standards of performance, efficiency, and reliability.By working hand-in-hand with OEMs, we stay ahead of emerging trends and challenges, enabling us to offer solutions that not only optimize the performance of today’s equipment but also anticipate the future needs of the industries we serve. Our mutual commitment to excellence and innovation ensures that together, we deliver products and services that maximize equipment uptime, enhance productivity, and reduce operational costs, ultimately driving long-term success for our partners.",
                 },
                 {
-                    heading: "What is genuine oil?",
-                    text: "Genuine Oil is a highly specialized, tailor-made lubricant, meticulously developed after extensive field trials to meet the precise requirements of specific engines. It is engineered to deliver exceptional performance in areas such as reduced engine component wear, extended engine rebuild life, and prolonged drain service intervals, ensuring superior protection and efficiency."
+                    heading: "What is CLG oil?",
+                    text: "CLG Oil is a highly specialized, tailor-made lubricant, meticulously developed after extensive field trials to meet the precise requirements of specific engines. It is engineered to deliver exceptional performance in areas such as reduced engine component wear, extended engine rebuild life, and prolonged drain service intervals, ensuring superior protection and efficiency."
                 },
                 {
                     heading: "",
                     text: "",
-                    image: "https://www.velvex.in/images/adBlue/goGreen/Why-Genuine-Oil.jpg",
+                    image: "https://www.velvex.in/images/adBlue/goGreen/Why-CLG-Oil.jpg",
                 },
             ],
             datas: [
                 {
-                    title: "Performance Benefits of Genuine Oil",
-                    points: [
+                    "title": "Performance Benefits of CLG Oil",
+                    "points": [
                         "Enhances engine rebuild life",
                         "Ensures peak performance for long",
                         "Customized product to meet engine aptitude",
                         "Reduced maintenance cost",
                         "Strengthens brand equity",
                         "Extends drain service intervals",
-                        "An all round the year oil",
+                        "An all-round the year oil",
                         "Total engine protection during working and idle period",
-                        "Reduced down time and increased profits",
+                        "Reduced down time and increased profits"
                     ]
                 },
                 {
-                    title: "Our Offerings For OEM’s .",
-                    points: [
-                        "Lubrication Technology Consultation",
-                        "Shared Technical Trends, Information",
-                        "Consistent Worldwide Performance Standards",
-                        "Field Engineering Support and Liaison",
-                        "Reliable Nationwide Supply",
-                        "Ethical Business Relationship",
+                    "title": "Performance Benefits of CLG Grease",
+                    "points": [
+                        "Provides excellent wear protection in extreme conditions",
+                        "Ensures high thermal stability under varying loads",
+                        "Resists water washout in wet environments",
+                        "Enhances equipment life through superior lubrication",
+                        "Reduces downtime and maintenance costs",
+                        "Prevents rust and corrosion on metallic surfaces",
+                        "Offers high load-carrying capacity for heavy-duty applications",
+                        "Improves mechanical efficiency in bearings and joints",
+                        "Ensures consistent performance in both high and low temperatures"
                     ]
-                }
+                },
+            ],
+
+            points: [
+                "Lubrication Technology Consultation",
+                "Shared Technical Trends, Information",
+                "Consistent Worldwide Performance Standards",
+                "Field Engineering Support and Liaison",
+                "Reliable Nationwide Supply",
+                "Ethical Business Relationship"
             ],
             steps: [
-                { title: 'Product and Market Knowledge', icon: 'https://www.velvex.in/images/services/private-labeling/product-marketing-knowlegde.png' },
-                { title: 'Assistance in Choosing Formulations', icon: 'https://www.velvex.in/images/services/private-labeling/product-marketing-knowlegde.png' },
-                { title: 'Product Development', icon: 'https://www.velvex.in/images/services/private-labeling/product-marketing-knowlegde.png' },
-                { title: 'Support with product and safety information', icon: 'https://www.velvex.in/images/services/private-labeling/product-marketing-knowlegde.png' },
-                { title: 'Brand Development, Design and Copywriting', icon: 'https://www.velvex.in/images/services/private-labeling/product-marketing-knowlegde.png' },
-                { title: 'Assistance in Choosing packaging', icon: 'https://www.velvex.in/images/services/private-labeling/product-marketing-knowlegde.png' },
-                { title: 'Logistics', icon: 'https://www.velvex.in/images/services/private-labeling/product-marketing-knowlegde.png' },
+                { title: 'Product and Market Knowledge', },
+                { title: 'Assistance in Choosing Formulations', },
+                { title: 'Product Development', },
+                { title: 'Support with product and safety information', },
+                { title: 'Brand Development, Design and Copywriting', },
+                { title: 'Assistance in Choosing packaging', },
+                { title: 'Logistics', },
             ],
             note: '',
             name: '',
@@ -236,7 +263,7 @@ export default {
     background-color: var(--bg-secondary);
     background-repeat: no-repeat;
     background-position: bottom right;
-    background-size: 150px; 
+    background-size: 150px;
     position: relative;
     overflow: hidden;
 }
@@ -247,7 +274,7 @@ export default {
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%; 
+    height: 100%;
     z-index: 1;
 }
 
@@ -255,6 +282,6 @@ export default {
 .data-overlay ul {
     position: relative;
     z-index: 2;
-    color: #fff; 
+    color: #fff;
 }
 </style>

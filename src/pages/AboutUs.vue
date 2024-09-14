@@ -12,9 +12,6 @@
             <AutoScrolling :links="country" imageFilter="invert(1)" textColor="text-white" textSize="fs-4 pt-3"
                 bgColor="#02539E" title="we are currently working in" v-observe />
         </div>
-        <div class="my-5">
-            <OurCoreValues />
-        </div>
         <div class="container py-5 rounded-top-5 bg-white" style="margin-top: -40px;"> 
             <div class="">
                 <WhyChooseUs v-observe />
@@ -22,6 +19,9 @@
             <div class="">
                 <AboutKeyFeatures v-observe />
             </div> 
+        </div>
+        <div class="my-5">
+            <OurCoreValues />
         </div>
 
     </div>

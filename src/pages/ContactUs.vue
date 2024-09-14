@@ -11,25 +11,18 @@
                             <label for="floatingInput" class="text-muted ms-2">Name</label>
                         </div>
                         <div class="w-100 form-floating mt-2">
-                            <input type="tel" class="form-control" placeholder="Mobile" v-model="number" required>
+                            <input type="number" class="form-control" placeholder="Mobile" v-model="number" required>
                             <label class="ms-2 text-muted">Mobile No</label>
+                        </div>
+                        <div class="w-100 form-floating mt-2">
+                            <input type="email" class="form-control" placeholder="Email" v-model="email" required>
+                            <label class="ms-2 text-muted">Email Id</label>
                         </div>
                         <div class="w-100 form-floating mt-2">
                             <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"
                                 v-model="note"></textarea>
                             <label for="floatingTextarea" class="ms-2 text-muted">Describe your requirements</label>
                         </div>
-
-                        <!-- <div class="form-check text-start ms-2">
-                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"
-                                v-model="agree">
-                            <label class="form-check-label small" for="flexCheckDefault">
-                                I agree to the <router-link to="/agreement" class="text-dark text-capitalize">terms and
-                                    conditions</router-link> and
-                                <router-link to="/privacy-policy" class="text-dark text-capitalize">privacy
-                                    policy.</router-link>
-                            </label>
-                        </div> -->
                         <div class="col-12">
                             <button class="btn btn-warning py-2 fs-5 w-100 rounded-0 text-white"
                                 type="submit">Submit</button>
@@ -38,41 +31,24 @@
                 </div>
             </div>
         </div>
-        <div class="container-fluid mt-5 py-5 text-dark" style="background-color: var(--bg-forth)" v-observe>
-            <div class="row">
+        <div class="container-fluid mt-5 py-5 text-bg-dark" v-observe>
+            <div class="row justify-content-center align-items-center">
                 <h1 class="text-uppercase mb-4 text-center">Need to get in touch with us?</h1>
-                <div class="col-12 col-md-6 d-flex align-items-center justify-content-center">
-                    <img src="/img/contactus.png" style="width: 500px; max-width: 80%;" alt="">
-                </div>
                 <div class="col-12 col-md-6 mt-5 mt-md-0 ">
                     <div class="row row-cols-1">
                         <div v-for="(icon, index) in contact" :key="index" class="col py-2"
                             @click="handleIconClick(icon.action)">
-                            <div class="d-flex justify-content-center align-items-center border p-2 ">
+                            <div class="d-flex justify-content-start align-items-center border p-2 ps-3">
                                 <a class="text-white" :href="icon.url" target="_blank">
-                                    <i :class="icon.icon" :style="'color:' + icon.color"></i>
+                                    <i :class="icon.icon" style="color: var(--bg-secondary);"></i>
                                 </a>
                                 <p class="text-start ms-2 fw-bold mb-0">{{ icon.name }}</p>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-
-        </div>
-        <div class="container my-5" v-observe>
-            <h1 class="text-capitalize my-5 text-center">Follow us on</h1>
-            <div class="row row-cols-4">
-                <div v-for="(contact, index) in folows" :key="index" class="col py-2">
-                    <div class="d-flex justify-content-center align-items-center">
-                        <div class="rounded-circle border d-flex align-items-center justify-content-center"
-                            style="width: 60px; height: 60px;">
-                            <a class="text-white" :href="contact.url" target="_blank">
-                                <i :class="contact.icon" :style="'color:' + contact.color"></i>
-                            </a>
-                        </div>
-                    </div>
-                    <p class="text-center mt-2 fw-bold">{{ contact.name }}</p>
+                <div class="col-12 col-md-6 d-flex align-items-center justify-content-center">
+                    <img src="/img/contactus.png" style="width: 100%;" alt="">
                 </div>
             </div>
         </div>
@@ -93,36 +69,11 @@ export default {
                 { name: '+919711256073', icon: 'bi-telephone-fill fs-3', color: 'black', action: 'openDialer' },
                 { name: '+919711256073', icon: 'bi-whatsapp fs-3', color: 'green', action: 'openWhatsapp' },
                 { name: ' HD-723, WeWork Enam Sambhav, C - 20, G Block Rd, G-Block BKC, Bandra Kurla Complex, Bandra East, Mumbai, Maharashtra - 400051', icon: 'bi-geo-fill fs-3', color: 'black', action: 'openMaps' },
-            ],
-            folows: [
-                {
-                    icon: 'bi bi-facebook fs-3',
-                    name: 'Facebook',
-                    color: 'blue',
-                    url: 'https://www.facebook.com/yourpage'
-                },
-                {
-                    icon: 'bi bi-twitter-x fs-3',
-                    name: 'Twitter',
-                    color: 'black',
-                    url: 'https://www.instagram.com/yourprofile'
-                },
-                {
-                    icon: 'bi bi-youtube fs-3',
-                    name: 'YouTube',
-                    color: 'red',
-                    url: 'https://www.youtube.com/'
-                },
-                {
-                    icon: 'bi bi-linkedin fs-3',
-                    name: 'LinkedIn',
-                    color: 'blue',
-                    url: 'https://www.linkedin.com/in/yourprofile'
-                },
-            ],
-            name: '', 
-            number:'',
-            note:'',
+            ], 
+            name: '',
+            number: '',
+            email: '',
+            note: '',
         }
     },
     methods: {
@@ -149,13 +100,14 @@ export default {
             }
         },
         submitQuery() {
-            if (this.name != "" && this.designation != "" && this.note != "") {
+            if (this.name != "" && this.number != "" && this.email != "" && this.note != "") {
                 const phoneNumber = '919711256073'; // Replace with your WhatsApp number
-                const message = `Hello, my name is ${this.name}.My No.${this.number}. Here is addtional note: ${this.note}`;
+                const message = `Hello, my name is ${this.name}.My No.${this.number}. My Email Id :${this.email}. Here is addtional note: ${this.note}`;
                 const whatsappUrl = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;
                 window.open(whatsappUrl, '_blank');
                 this.name = "",
-                    this.service = "",
+                    this.number = "",
+                    this.email = "",
                     this.note = "";
             }
         }

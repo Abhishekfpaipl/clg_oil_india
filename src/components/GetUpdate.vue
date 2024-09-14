@@ -36,7 +36,7 @@
                             <textarea class="form-control bg-dark text-light" rows="1" placeholder="Write Message"
                                 v-model="message"></textarea>
                         </div>
-                        <button type="submit" class="btn text-dark fw-bold px-4 py-2 w-100" style="background-color: #DCB32F !important">SEND MESSAGE <i
+                        <button type="submit" class="btn text-dark fw-bold px-4 py-2 w-100 mb-5" style="background-color: #DCB32F !important">SEND MESSAGE <i
                                 class="bi bi-arrow-right ms-2"></i></button>
                     </form>
                 </div>

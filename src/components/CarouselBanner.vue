@@ -60,7 +60,7 @@ export default {
       cards: [
         {
           title: 'Products',
-          description: "Explore CGL's exciting products",
+          description: "Explore CLG's exciting products",
           linkText: 'Explore',
           icon: 'bi bi-droplet',
           backgroundImage: '/img/update.jpg',
@@ -76,7 +76,7 @@ export default {
         },
         {
           title: 'Industries',
-          description: "Explore from CGL's industry specfic",
+          description: "Explore from CLG's industry specfic",
           linkText: 'Find',
           icon: 'bi bi-buildings',
           backgroundImage: '/img/industry.jpg',

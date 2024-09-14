@@ -4,12 +4,12 @@
         <div class="container py-5 rounded-top-5 bg-white text-start" style="margin-top: -40px;" v-observe>
             <div class="card border-0">
                 <div class="card-body my-5">
-                    <h1 class="text-center mb-4">CGl Oil India Terms and Conditions</h1>
+                    <h1 class="text-center mb-4">CLG Oil India Terms and Conditions</h1>
                     <p><strong>Last Updated:</strong> April 2024</p>
                     <p>
-                        These Terms and Conditions ("Terms") govern your use of the CGl Oil India website
+                        These Terms and Conditions ("Terms") govern your use of the CLG Oil India website
                         located at
-                        <a href="https://clgoilindia.com/" target="_blank">www.cgloilindia.com</a> and any related mobile
+                        <a href="https://clgoilindia.com/" target="_blank">www.clgoilindia.com</a> and any related mobile
                         applications
                         (collectively, the "Service"). By accessing or using the Service, you agree to be bound by these
                         Terms. If
@@ -107,7 +107,7 @@
                     <section>
                         <h2>11. Contact Us</h2>
                         <p>If you have any questions about these Terms, please contact us at <a
-                                href="mailto:info@indianoil.in">info@indianoil.in</a> or +91 1234567890.</p>
+                                href="mailto:info@clgoilindia.com">info@clgoilindia.com</a> or +919711256073.</p>
                     </section>
 
                     <p class="text-start fw-bold">BY USING THE SERVICE, YOU ACKNOWLEDGE THAT YOU HAVE READ

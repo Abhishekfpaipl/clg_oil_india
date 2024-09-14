@@ -11,7 +11,7 @@
                                 <div class="text-white position-relative">
                                     <h5 class="text-start">Check Dealership</h5>
                                     <p class="text-start">
-                                        CGL has an extensive dealer network across India.  
+                                        CLG has an extensive dealer network across India.  
                                     </p>
                                     <div class="d-flex justify-content-start">
                                         <router-link to="/check-dealership" class="btn rounded-0"
