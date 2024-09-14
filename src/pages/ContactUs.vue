@@ -20,7 +20,7 @@
                             <label for="floatingTextarea" class="ms-2 text-muted">Describe your requirements</label>
                         </div>
 
-                        <div class="form-check text-start ms-2">
+                        <!-- <div class="form-check text-start ms-2">
                             <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"
                                 v-model="agree">
                             <label class="form-check-label small" for="flexCheckDefault">
@@ -29,7 +29,7 @@
                                 <router-link to="/privacy-policy" class="text-dark text-capitalize">privacy
                                     policy.</router-link>
                             </label>
-                        </div>
+                        </div> -->
                         <div class="col-12">
                             <button class="btn btn-warning py-2 fs-5 w-100 rounded-0 text-white"
                                 type="submit">Submit</button>
@@ -42,7 +42,7 @@
             <div class="row">
                 <h1 class="text-uppercase mb-4 text-center">Need to get in touch with us?</h1>
                 <div class="col-12 col-md-6 d-flex align-items-center justify-content-center">
-                    <img src="/img/contactus.svg" style="width: 500px; max-width: 80%;" alt="">
+                    <img src="/img/contactus.png" style="width: 500px; max-width: 80%;" alt="">
                 </div>
                 <div class="col-12 col-md-6 mt-5 mt-md-0 ">
                     <div class="row row-cols-1">
@@ -75,15 +75,15 @@
                     <p class="text-center mt-2 fw-bold">{{ contact.name }}</p>
                 </div>
             </div>
-        </div> 
+        </div>
     </div>
 </template>
 
-<script> 
+<script>
 import SectionTopBanner from "@/components/SectionTopBanner.vue";
 export default {
     name: "ContactPage",
-    components: { 
+    components: {
         SectionTopBanner,
     },
     data() {
@@ -120,11 +120,9 @@ export default {
                     url: 'https://www.linkedin.com/in/yourprofile'
                 },
             ],
-            mobile: '',
-            email: '',
-            number: '',
-            note: '',
-            pageName: "",
+            name: '', 
+            number:'',
+            note:'',
         }
     },
     methods: {
@@ -139,18 +137,29 @@ export default {
                     break;
                 case 'openDialer':
                     window.location.href = `tel:${phoneNumber}`;
-                    break; 
+                    break;
                 case 'openWhatsapp':
                     window.open(`https://wa.me/${phoneNumber}?text=Hello...`, '_blank');
                     break;
                 case 'openMaps':
                     window.open(`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(location)}`, '_blank');
-                    break; 
+                    break;
                 default:
                     break;
             }
         },
-    }, 
+        submitQuery() {
+            if (this.name != "" && this.designation != "" && this.note != "") {
+                const phoneNumber = '919711256073'; // Replace with your WhatsApp number
+                const message = `Hello, my name is ${this.name}.My No.${this.number}. Here is addtional note: ${this.note}`;
+                const whatsappUrl = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;
+                window.open(whatsappUrl, '_blank');
+                this.name = "",
+                    this.service = "",
+                    this.note = "";
+            }
+        }
+    },
 }
 </script>
 

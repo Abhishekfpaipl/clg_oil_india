@@ -236,8 +236,7 @@ export default {
     background-color: var(--bg-secondary);
     background-repeat: no-repeat;
     background-position: bottom right;
-    background-size: 150px;
-    /* Adjust this value to control the image size */
+    background-size: 150px; 
     position: relative;
     overflow: hidden;
 }
@@ -248,9 +247,7 @@ export default {
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
-    /* background-color: rgba(0, 0, 0, 0.5); */
-    /* Adjust the opacity for a darker overlay */
+    height: 100%; 
     z-index: 1;
 }
 
@@ -258,7 +255,6 @@ export default {
 .data-overlay ul {
     position: relative;
     z-index: 2;
-    color: #fff;
-    /* White text for better visibility */
+    color: #fff; 
 }
 </style>

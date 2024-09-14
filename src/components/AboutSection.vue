@@ -69,32 +69,5 @@ export default {
 .about-us-section {
     background-color: #f4f4f4;
 }
-
-h1 span.text-danger {
-    color: #d0021b;
-    /* Red color for the 'US' part of the title */
-}
-
-.bg-danger {
-    background-color: #d0021b !important;
-    /* Ensure a consistent red background */
-}
-
-
-.before-enter-left {
-    opacity: 0;
-    transform: translateX(-80px);
-    transition: opacity 1.5s ease-out, transform 1.5s ease-out;
-}
-
-.before-enter-right {
-    opacity: 0;
-    transform: translateX(80px);
-    transition: opacity 1.5s ease-out, transform 1.5s ease-out;
-}
-
-.enter {
-    opacity: 1;
-    transform: translateX(0);
-}
+ 
 </style>

@@ -1,34 +1,19 @@
 <template>
-    <!-- <div class="accordion" id="accordionExample">
-        <div v-for="(item, index) in accordionData" :key="index" class="accordion-item">
-            <h2 class="accordion-header">
-                <button class="accordion-button" type="button" :data-bs-toggle="collapse"
-                    :data-bs-target="'#collapse' + index" :aria-expanded="index === 0"
-                    :aria-controls="'collapse' + index">
-                    {{ item.title }}
-                </button>
-            </h2>
-            <div :id="'collapse' + index" class="accordion-collapse collapse" :class="{ show: index === 0 }"
-                data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                    <strong>{{ item.contentTitle }}</strong> {{ item.content }}
-                </div>
-            </div>
-        </div>
-    </div> -->
     <div class="container">
         <h1 class="text-start my-5">Key Features</h1>
         <div class="accordion" id="accordionExample">
             <div class="accordion-item rounded-0" v-for="(item, index) in accordionData" :key="index">
                 <h2 class="accordion-header">
-                    <button class="accordion-button fw-bold text-dark" type="button" data-bs-toggle="collapse" :data-bs-target="'#collapseOne' + index"
-                        aria-expanded="true" :aria-controls="'collapseOne' + index">
+                    <button class="accordion-button fw-bold text-dark" type="button" data-bs-toggle="collapse"
+                        :data-bs-target="'#collapseOne' + index" aria-expanded="true"
+                        :aria-controls="'collapseOne' + index">
                         {{ item.title }}
                     </button>
                 </h2>
-                <div :id="'collapseOne' + index" class="accordion-collapse collapse" :class="{ show: index === 0 }" data-bs-parent="#accordionExample">
+                <div :id="'collapseOne' + index" class="accordion-collapse collapse" :class="{ show: index === 0 }"
+                    data-bs-parent="#accordionExample">
                     <div class="accordion-body text-start">
-                        {{item.content}}
+                        {{ item.content }}
                     </div>
                 </div>
             </div>

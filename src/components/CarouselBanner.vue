@@ -1,30 +1,7 @@
 <template>
-  <!-- <div id="CGLCarousel" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-indicators">
-      <button v-for="(slide, index) in slides" :key="'indicator-' + index" type="button" data-bs-target="#CGLCarousel"
-        :data-bs-slide-to="index" :class="{ active: index === 0 }" :aria-current="index === 0"
-        :aria-label="'Slide ' + (index + 1)">
-      </button>
-    </div>
-    <div class="carousel-inner">
-      <div v-for="(slide, index) in slides" :key="'slide-' + index" class="carousel-item"
-        :class="{ active: index === 0 }">
-        <img :src="slide.image" class="d-block w-100" alt="clg oil india"> 
-      </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#CGLCarousel" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#CGLCarousel" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-
-  </div> -->
   <div class="">
     <router-link to="/products" class="text-decoration-none text-dark">
-      <img src="/img/banners/desk1.jpg" class="d-md-block d-none w-100" alt="">
+      <img src="/img/banners/desk1.jpg" class="d-md-block d-none w-100" style="height: 600px;object-fit: cover;object-position: center;" alt="">
       <img src="/img/banners/mob1.jpg" class="d-md-none d-block w-100" alt="">
     </router-link>
   </div>

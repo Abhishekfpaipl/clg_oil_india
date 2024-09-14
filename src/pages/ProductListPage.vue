@@ -1,10 +1,10 @@
 <template>
     <div>
         <SectionTopBanner/>
-        <div class="my-2">
+        <div class="my-5">
             <ServiceCard :products="greases" title="LUBRICATING" subtitle="Greases" v-observe />
         </div>
-        <div class="my-2">
+        <div class="my-5">
             <ServiceCard :products="oils" title="LUBRICATING" subtitle="OILS" v-observe />
         </div>
     </div>

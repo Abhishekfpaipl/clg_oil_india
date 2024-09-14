@@ -68,7 +68,7 @@
                                 <button type="submit" class="btn btn-warning w-100">Submit</button>
                             </div>
                         </div>
-                    </form> 
+                    </form>
                 </div>
 
             </div>
@@ -286,16 +286,19 @@ export default {
         }
     },
     methods: {
-        submitQuery() {
-            if (this.name != "" && this.designation != "" && this.note != "") {
-                const phoneNumber = '919711256073'; // Replace with your WhatsApp number
-                const message = `Hello, my name is ${this.form.applicantName}.My No.${this.form.mobileNo}.`;
-                const whatsappUrl = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;
-                window.open(whatsappUrl, '_blank');
-                this.name = "",
-                    this.service = "",
-                    this.note = "";
-            }
+
+        submitForm() {
+            const phoneNumber = '919711256073';
+            const message = `Name: ${this.form.applicantName},%0A  
+            Number: ${this.form.mobileNo},%0A
+            AltNumber: ${this.form.alternateNo},%0A
+            Email: ${this.form.emailId},%0A
+            DOB: ${this.form.dateOfBirth},%0A
+            How did you hear about us: ${this.form.howDidYouHearAboutUs},%0A
+            Exp: ${this.form.totalYearsOfExperience}%0A `;
+
+            const url = `https://wa.me/${phoneNumber}?text=${message}`;
+            window.open(url, '_blank');
         }
     }
 
