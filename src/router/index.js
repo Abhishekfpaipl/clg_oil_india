@@ -60,11 +60,11 @@ const routes = [
       pageTitle: "Term & Conditions",
     }
   },
-  {
-    path: "/faqs-page",
-    name: "faqs-page",
-    component: () => import('@/pages/faqs-page.vue')
-  },
+  // {
+  //   path: "/faqs-page",
+  //   name: "faqs-page",
+  //   component: () => import('@/pages/faqs-page.vue')
+  // },
   {
     path: "/product-detail/:productId/:subproductId",
     name: "ProductDetailPage",
@@ -91,11 +91,19 @@ const routes = [
     component: () => import('@/pages/ServiceListPage.vue')
   },
   {
-    path: "/dealer-locator",
-    name: "DealerLocator",
-    component: () => import('@/pages/DealerLocator.vue'),
+    path: "/check-dealership",
+    name: "CheckDealership",
+    component: () => import('@/pages/CheckDealership.vue'),
     meta: {
       pageTitle: "Dealer Locator"
+    }
+  },
+  {
+    path: "/product-recommender",
+    name: "ProductRecommender",
+    component: () => import('@/pages/ProductRecommender.vue'),
+    meta: {
+      pageTitle: "Product Recommender"
     }
   },
   {

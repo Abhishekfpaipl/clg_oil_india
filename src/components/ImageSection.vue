@@ -9,12 +9,12 @@
                         <div class="row no-gutters py-5">
                             <div class="col-md-6 d-flex flex-column justify-content-end" style="height: 290px;">
                                 <div class="text-white position-relative">
-                                    <h5 class="text-start">Dealership Availability</h5>
+                                    <h5 class="text-start">Check Dealership</h5>
                                     <p class="text-start">
                                         CGL has an extensive dealer network across India.  
                                     </p>
                                     <div class="d-flex justify-content-start">
-                                        <router-link to="/dealer-locator" class="btn rounded-0"
+                                        <router-link to="/check-dealership" class="btn rounded-0"
                                             style="background-color: var(--bg-secondary)">Check </router-link>
                                     </div>
                                 </div>
@@ -33,14 +33,14 @@
                         <div class="row no-gutters py-5">
                             <div class="col-md-6 d-flex flex-column justify-content-end" style="height: 290px;">
                                 <div class="text-white position-relative">
-                                    <h5 class="text-start">Oil Recommender</h5>
+                                    <h5 class="text-start">Product Recommender</h5>
                                     <p class="text-start">
                                         Find the perfect motor oil solution for your vehicle and enjoy a satisfying
                                         on-road
                                         experience!
                                     </p>
                                     <div class="d-flex justify-content-start">
-                                        <router-link to="" class="btn rounded-0"
+                                        <router-link to="/product-recommender" class="btn rounded-0"
                                             style="background-color: var(--bg-secondary)">Discover</router-link>
                                     </div>
                                 </div>

@@ -12,7 +12,7 @@
                             <div class="text-center mb-3" style="margin-top: -80px;">
                                 <img :src="service.icon" alt="Service Icon" style="height: 120px;">
                             </div>
-                            <h5 class="card-title text-center">{{ service.title }}</h5>
+                            <h5 class="card-title text-center text-ellipsis2" style="min-height: 48px;">{{ service.title }}</h5>
                             <p class="card-text flex-grow-1 smaller text-ellipsis3">{{ service.description }}</p>
                         </div>
                         <div class="card-footer p-0">

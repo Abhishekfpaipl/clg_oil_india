@@ -12,8 +12,7 @@
             <div v-for="(industry, index) in industries" :key="index" class="col mb-5" v-observe>
                 <div class="card rounded-0 h-100 position-relative">
                     <div class="position-absolute bg-white shadow-sm ms-3" style="margin-top: -10%; width: 100px; height:100px;">
-                        <img src="/img/services-icon.png" alt="" style="height: 100%;width: 100%;">
-                        <!-- <i class="bi bi-droplet-fill text-dark fs-1"></i> -->
+                        <img src="/img/services-icon.png" alt="" style="height: 100%;width: 100%;"> 
                     </div>
                     <div class="card-body mt-5">
                         <h5 class="text-start">{{ industry.title }}</h5>

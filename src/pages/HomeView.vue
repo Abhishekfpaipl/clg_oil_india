@@ -46,8 +46,7 @@ import GetUpdate from "@/components/GetUpdate.vue";
 import ImageSection from "@/components/ImageSection.vue";
 import AboutSection from "@/components/AboutSection.vue";
 import TestimonialSection from "@/components/TestimonialSection.vue";
-import IndustriesSection from "@/components/IndustriesSection.vue";
-// import CareerSection from "@/components/CareerSection.vue";
+import IndustriesSection from "@/components/IndustriesSection.vue"; 
 export default {
   name: "HomeView",
   components: {
@@ -59,8 +58,7 @@ export default {
     ImageSection,
     AboutSection,
     TestimonialSection,
-    IndustriesSection,
-    // CareerSection,
+    IndustriesSection, 
   },
   data() {
     return {

@@ -1,5 +1,5 @@
 <template>
-    <div v-if="subproduct" >
+    <div v-if="subproduct">
         <SectionTopBanner />
         <div class="container my-3">
             <div class="my-4">{{ subproduct.description }}</div>
@@ -17,7 +17,7 @@
         </div>
 
         <div class="sticky-nav my-4">
-            <div class="d-flex gap-3 justify-content-start align-items-center p-3 py-2 overflow-x-scroll" id="scroll"
+            <div class="d-flex justify-content-center align-items-center p-3 py-2 overflow-x-scroll" id="scroll"
                 style="background-color:rgba(255, 206, 86, 0.2); border:1px solid rgba(255, 206, 86, 1) !important;">
                 <div v-for="(section, index) in sections" :key="index">
                     <a :href="'#' + section.id" class="nav-link text-dark" @click.prevent="scrollToSection(section.id)"
@@ -46,7 +46,8 @@
                 <i class="bi bi-arrow-right ms-2 fs-1"></i>
             </button>
         </div>
-        <div class="modal fade" id="industryEnquiry" tabindex="-1" aria-labelledby="industryEnquiryLabel" aria-hidden="true">
+        <div class="modal fade" id="industryEnquiry" tabindex="-1" aria-labelledby="industryEnquiryLabel"
+            aria-hidden="true">
             <div class="modal-dialog  modal-dialog-centered">
                 <div class="modal-content position-relative">
                     <div class="modal-header border-0 pt-4">
@@ -106,10 +107,10 @@ export default {
             date: '',
             sections: [
                 { id: 'Reports', name: 'Reports', component: 'ProductTableSection' },
+                { id: 'ISO', name: 'ISO', component: 'TradeFairTermsSection' },
                 { id: 'Benefits', name: 'Benefits', component: 'ProductBenefitSection' },
-                { id: 'Packaging', name: 'Packaging', component: 'ItinerarySection' },
-                { id: 'Certifications', name: 'Certifications', component: 'TradeFairTermsSection' },
-                { id: 'OEM Solutions', name: 'OEM Solutions', component: 'TradeDetailsSection' },
+                { id: 'Facilities', name: 'Facilities', component: 'ItinerarySection' },
+                { id: 'OEM ', name: 'OEM ', component: 'TradeDetailsSection' },
             ],
             activeSection: '',
             navbarDark: false,

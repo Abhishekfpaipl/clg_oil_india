@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="container py-3">
-      <h1 class="px-2 text-center mb-5">Our Tech Team</h1>
+      <h1 class="px-2 text-center mb-5">Our Production Team</h1>
       <div class="position-relative">
         <div class="d-flex gap-3 overflow-x-scroll" ref="techScrollContainer" id="scroll">
           <div class="" v-for="(team, index) in techTeam" :key="index">

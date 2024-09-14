@@ -3,50 +3,50 @@ export default {
     state: {
         techTeam: [
             {
-                name: "Piyush Gupta",
-                post: "CTO",
-                value: "Leads the company's technology strategy, oversees software development and IT infrastructure, and ensures the organization stays at the forefront of technological innovation."
+                name: "Rajesh Sharma",
+                post: "Head of Production",
+                value: "Leads the production strategy, oversees manufacturing processes, and ensures the company maintains high standards of quality and efficiency in grease production. Coordinates with the R&D and operations teams to implement innovative production techniques."
             },
             {
-                name: "Santosh Kumar",
-                post: "Backend Developer",
-                value: "Works on the server-side of web applications, focusing on logic, database interactions, and overall functionality. Uses languages like Python, Java, Ruby, or Node.js to create APIs, manage databases, and handle server operations. Ensures efficient data processing, application performance, and implementation of security measures."
+                name: "Anil Mehta",
+                post: "Production Manager",
+                value: "Manages the day-to-day operations on the production floor, ensuring that manufacturing processes are followed correctly. Responsible for managing resources, overseeing the production team, and ensuring that production goals are met efficiently."
             },
             {
-                name: "Satpal Rawat",
-                post: "Backend Developer",
-                value: "Works on the server-side of web applications, focusing on logic, database interactions, and overall functionality. Uses languages like Python, Java, Ruby, or Node.js to create APIs, manage databases, and handle server operations. Ensures efficient data processing, application performance, and implementation of security measures."
+                name: "Ravi Verma",
+                post: "Quality Assurance Manager",
+                value: "Oversees product quality by implementing and monitoring quality assurance processes. Ensures that the grease products meet regulatory standards and customer specifications, conducting tests and inspections to maintain quality consistency."
             },
             {
-                name: "Vivek Kumar",
-                post: "Backend Developer",
-                value: "Works on the server-side of web applications, focusing on logic, database interactions, and overall functionality. Uses languages like Python, Java, Ruby, or Node.js to create APIs, manage databases, and handle server operations. Ensures efficient data processing, application performance, and implementation of security measures."
+                name: "Amit Bhardwaj",
+                post: "Maintenance Engineer",
+                value: "Responsible for maintaining and troubleshooting production equipment to ensure minimal downtime. Works on preventive maintenance schedules and ensures machinery operates at optimal performance to support continuous production."
             },
             {
-                name: "Jatin Bhardwaj",
-                post: "Backend Developer",
-                value: "Works on the server-side of web applications, focusing on logic, database interactions, and overall functionality. Uses languages like Python, Java, Ruby, or Node.js to create APIs, manage databases, and handle server operations. Ensures efficient data processing, application performance, and implementation of security measures."
+                name: "Suresh Yadav",
+                post: "Production Supervisor",
+                value: "Supervises the production staff and ensures smooth workflow on the production floor. Monitors production schedules, ensures safety protocols are followed, and handles workforce allocation and management."
             },
             {
-                name: "Abhishek Negi",
-                post: "Frontend Developer",
-                value: "Creates the user-facing parts of websites and applications using HTML, CSS, and JavaScript. Builds responsive and interactive interfaces to ensure a smooth user experience across devices and browsers. Collaborates with design teams to implement visual elements and user interface components."
+                name: "Vijay Patil",
+                post: "Process Engineer",
+                value: "Designs, develops, and optimizes manufacturing processes. Focuses on improving the efficiency of grease production, reducing waste, and implementing new technologies to streamline operations."
             },
             {
-                name: "Nikhil Garg",
-                post: "Frontend Developer",
-                value: "Creates the user-facing parts of websites and applications using HTML, CSS, and JavaScript. Builds responsive and interactive interfaces to ensure a smooth user experience across devices and browsers. Collaborates with design teams to implement visual elements and user interface components."
+                name: "Rakesh Gupta",
+                post: "Packaging Supervisor",
+                value: "Supervises the packaging team, ensuring that finished grease products are packed according to specifications. Ensures the packaging process meets both quality and safety standards, managing the packaging line efficiently."
             },
             {
-                name: "Harmanpreet Singh",
-                post: "Frontend Developer",
-                value: "Creates the user-facing parts of websites and applications using HTML, CSS, and JavaScript. Builds responsive and interactive interfaces to ensure a smooth user experience across devices and browsers. Collaborates with design teams to implement visual elements and user interface components."
+                name: "Harjeet Singh",
+                post: "Supply Chain Coordinator",
+                value: "Coordinates with suppliers and logistics teams to ensure that raw materials and finished goods are delivered on time. Oversees inventory management and liaises between production, warehousing, and distribution departments."
             },
             {
-                name: "Shivam Sharma",
-                post: "Frontend Developer",
-                value: "Creates the user-facing parts of websites and applications using HTML, CSS, and JavaScript. Builds responsive and interactive interfaces to ensure a smooth user experience across devices and browsers. Collaborates with design teams to implement visual elements and user interface components."
-            },
+                name: "Manoj Deshmukh",
+                post: "Logistics Manager",
+                value: "Manages the logistics and distribution of grease products, ensuring timely delivery to customers. Responsible for transportation planning, managing warehouse operations, and optimizing the supply chain for cost-efficiency."
+            }
         ],
         marketingTeam: [
             {

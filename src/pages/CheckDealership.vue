@@ -1,16 +1,8 @@
 <template>
-    <div>
-        <!-- <div class="position-relative" style="width: 100%; overflow: hidden;">
-            <img src="/img/productBanner.jpg" alt="" style="width: 100%; height: 400px; object-fit: cover;">
-            <div
-                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: var(--bg-third);opacity: 90%; display: flex; justify-content: center; align-items: center;">
-                <h1 class="display-1 text-white text-uppercase fw-bold text-center">Dealer Locator</h1>
-            </div>
-        </div> -->
+    <div> 
         <SectionTopBanner />
         <div class="container mb-5 pb-5" style="margin-top: -50px;" v-observe>
-            <div class="text-white p-4" style="background-color:var(--bg-secondary);">
-                <h2 class="mb-4">FIND DEALER NEAR YOU</h2>
+            <div class="text-white p-4" style="background-color:var(--bg-secondary);"> 
                 <div class="row">
                     <div class="col-md-4 mb-3">
                         <select v-model="selectedState" @change="updateCities" class="form-select">
@@ -33,7 +25,7 @@
                         </select>
                     </div>
                     <div class="col-md-1 mb-3">
-                        <button @click="locateDealers" :disabled="!isButtonEnabled" class="btn btn-dark">Locate</button>
+                        <button @click="locateDealers" :disabled="!isButtonEnabled" class="btn btn-dark">Check</button>
                     </div>
                 </div>
             </div>
@@ -43,13 +35,13 @@
         </p>
         <div v-if="showDealers" class="my-5 pb-5">
             <div class="d-flex justify-content-center align-items-center">
-                <img src="/img/congratulations.jpeg" class="d-md-block d-none" style="width: 500px" alt="">
-                <img src="/img/congratulations.jpeg" class="d-md-none d-flex justify-content-center align-items-center"
+                <img src="/img/congrats.png" class=" d-md-block d-none" style="width: 500px" alt="">
+                <img src="/img/congrats.png" class=" d-md-none d-flex justify-content-center align-items-center"
                     style="width: 100%;" alt="">
             </div>
             <p class="display-5 fw-bold" style="color:black !important">Dealership in your area is available, kindly
                 fill the form for dealership. </p>
-            <router-link to="/" class="btn text-white fs-4 text-capitalize mt-3"
+            <router-link to="/dealership" class="btn text-white fs-4 text-capitalize mt-3"
                 style="background-color:var(--bg-secondary)">Click here for
                 dealership</router-link>
         </div>
@@ -84,18 +76,14 @@ export default {
             showDealers: false, // Added data property to control visibility
             title: '',
         }
-    },
+    }, 
     computed: {
         states() {
             return this.$store.getters['states/getStates']
         },
         isButtonEnabled() {
-            // Enable button only if all required inputs have values
             return this.selectedState && this.selectedCity && this.selectedPincode;
         },
-        // pageTitle() {
-        //     return this.$route.meta.pageTitle;  // Access the page title from the route meta field
-        // }
     },
     methods: {
         updateCities() {
@@ -124,4 +112,4 @@ export default {
         },
     }
 }
-</script>
+</script> 

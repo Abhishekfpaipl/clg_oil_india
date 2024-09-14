@@ -75,28 +75,23 @@
                     <p class="text-center mt-2 fw-bold">{{ contact.name }}</p>
                 </div>
             </div>
-        </div>
-        <div class="my-3">
-            <SocialSchedule v-observe />
-        </div>
+        </div> 
     </div>
 </template>
 
-<script>
-import SocialSchedule from "@/components/SocialSchedule.vue";
+<script> 
 import SectionTopBanner from "@/components/SectionTopBanner.vue";
 export default {
     name: "ContactPage",
-    components: {
-        SocialSchedule,
+    components: { 
         SectionTopBanner,
     },
     data() {
         return {
             contact: [
                 { name: ' info@clgoilindia.com', icon: 'bi-envelope fs-3', color: 'red', action: 'openEmail' },
-                { name: '919711256073', icon: 'bi-telephone-fill fs-3', color: 'black', action: 'openDialer' },
-                { name: '919711256073', icon: 'bi-whatsapp fs-3', color: 'green', action: 'openWhatsapp' },
+                { name: '+919711256073', icon: 'bi-telephone-fill fs-3', color: 'black', action: 'openDialer' },
+                { name: '+919711256073', icon: 'bi-whatsapp fs-3', color: 'green', action: 'openWhatsapp' },
                 { name: ' HD-723, WeWork Enam Sambhav, C - 20, G Block Rd, G-Block BKC, Bandra Kurla Complex, Bandra East, Mumbai, Maharashtra - 400051', icon: 'bi-geo-fill fs-3', color: 'black', action: 'openMaps' },
             ],
             folows: [
@@ -133,14 +128,29 @@ export default {
         }
     },
     methods: {
-        loginAccount() {
-            console.log(this.mobile, this.email, this.number, this.note)
-        }
-    },
-    // mounted() {
-    //     let pageName = this.$route.path.split('/').pop();
-    //     this.pageName = pageName.replace(/-/g, ' '); 
-    // },
+        handleIconClick(action) {
+            const phoneNumber = '+919711256073';
+            const emailAddress = 'info@clgoilindia.com';
+            const location = 'HD-723, WeWork Enam Sambhav, C - 20, G Block Rd, G-Block BKC, Bandra Kurla Complex, Bandra East, Mumbai, Maharashtra - 400051';
+
+            switch (action) {
+                case 'openEmail':
+                    window.location.href = `mailto:${emailAddress}`;
+                    break;
+                case 'openDialer':
+                    window.location.href = `tel:${phoneNumber}`;
+                    break; 
+                case 'openWhatsapp':
+                    window.open(`https://wa.me/${phoneNumber}?text=Hello...`, '_blank');
+                    break;
+                case 'openMaps':
+                    window.open(`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(location)}`, '_blank');
+                    break; 
+                default:
+                    break;
+            }
+        },
+    }, 
 }
 </script>
 

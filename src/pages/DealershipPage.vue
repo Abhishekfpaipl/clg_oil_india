@@ -1,36 +1,74 @@
 <template>
     <div>
         <SectionTopBanner />
-        <!-- <div class="text-center fw-bold py-5 text-white" style="background-color: var(--brand-color);">
-            <p class="fs-1 mb-0 text-capitalize">Dealership with us</p>
-            <p class="fs-5 text-capitalize">it's your own business , let it shine</p>
-        </div> -->
         <div class="container py-5 rounded-top-5 bg-white" style="margin-top: -40px;" v-observe>
             <div class="row">
                 <div class="col-12 col-md-6 d-flex justify-content-center align-items-center">
                     <img src="/img/partnership.svg" style="width: 350px; max-width: 80%" alt="">
                 </div>
                 <div class="col-12 col-md-6 text-center mt-4 mt-md-0">
-                    <form @submit.prevent="submitQuery()">
-                        <div class="mt-2 form-floating">
-                            <input type="text" class="form-control" placeholder="First Name" v-model="name">
-                            <label for="floatingInput" class="ms-2 text-muted">Your name</label>
+                    <form @submit.prevent="submitForm">
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input v-model="form.applicantName" type="text" class="form-control bg-light"
+                                        id="applicantName" placeholder="Applicant Name" required>
+                                    <label for="applicantName">Applicant Name</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input v-model="form.mobileNo" type="tel" class="form-control bg-light"
+                                        id="mobileNo" placeholder="Mobile No" required>
+                                    <label for="mobileNo">Mobile No</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input v-model="form.alternateNo" type="tel" class="form-control bg-light"
+                                        id="alternateNo" placeholder="Alternate No">
+                                    <label for="alternateNo">Alternate No</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input v-model="form.emailId" type="email" class="form-control bg-light"
+                                        id="emailId" placeholder="Email ID" required>
+                                    <label for="emailId">Email ID</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input v-model="form.dateOfBirth" type="date" class="form-control bg-light"
+                                        id="dateOfBirth" placeholder="Date of Birth" required>
+                                    <label for="dateOfBirth">Date of Birth</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <select v-model="form.howDidYouHearAboutUs" class="form-select bg-light"
+                                        id="howDidYouHearAboutUs" required>
+                                        <option value="" disabled selected>How did you Hear About us?</option>
+                                        <option value="website">Website</option>
+                                        <option value="socialMedia">Social Media</option>
+                                        <option value="referral">Referral</option>
+                                    </select>
+                                    <label for="howDidYouHearAboutUs">How did you Hear About Us?</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input v-model="form.totalYearsOfExperience" type="number"
+                                        class="form-control bg-light" id="totalYearsOfExperience"
+                                        placeholder="Total Years of Experience" required>
+                                    <label for="totalYearsOfExperience">Total Years of Experience</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <button type="submit" class="btn btn-warning w-100">Submit</button>
+                            </div>
                         </div>
-                        <div class="mt-2 form-floating">
-                            <input type="text" class="form-control" placeholder="Business Name" v-model="designation">
-                            <label for="floatingInput" class="ms-2 text-muted">Designation</label>
-                        </div>
-                        <div class="mt-2 form-floating">
-                            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"
-                                v-model="note"></textarea>
-                            <label for="floatingTextarea" class="ms-2 text-muted">Notes</label>
-                        </div>
-                        <ImagePdfUpload />
-                        <div class="col-12 mt-3">
-                            <button class="btn btn-warning py-2 fs-5 w-100 rounded-0 text-dark"
-                                type="submit">Submit</button>
-                        </div>
-                    </form>
+                    </form> 
                 </div>
 
             </div>
@@ -179,9 +217,6 @@ export default {
                     heading: 'bulks subscriptions'
                 },
             ],
-            name: '',
-            note: '',
-            designation: '',
             questions: [
                 {
                     id: 1,
@@ -239,13 +274,22 @@ export default {
                     answer: "Although your customers will buy from your white labeled store front, when they enter the transaction experience they will be directed to a still white-labeled cart experience, but that contract, experience and payment collection are managed by WildWestDomains.com, a Covisor entity, in the background. You, as the reseller, then get paid the net commissions from each transacted amount."
                 },
             ],
+            form: {
+                applicantName: '',
+                mobileNo: '',
+                alternateNo: '',
+                emailId: '',
+                dateOfBirth: '',
+                howDidYouHearAboutUs: '',
+                totalYearsOfExperience: '',
+            }
         }
     },
     methods: {
         submitQuery() {
             if (this.name != "" && this.designation != "" && this.note != "") {
-                const phoneNumber = '918860012001'; // Replace with your WhatsApp number
-                const message = `Hello, my name is ${this.name}. I am : ${this.designation}. Here are some additional notes: ${this.note}.`;
+                const phoneNumber = '919711256073'; // Replace with your WhatsApp number
+                const message = `Hello, my name is ${this.form.applicantName}.My No.${this.form.mobileNo}.`;
                 const whatsappUrl = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;
                 window.open(whatsappUrl, '_blank');
                 this.name = "",

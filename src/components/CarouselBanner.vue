@@ -23,7 +23,7 @@
 
   </div> -->
   <div class="">
-    <router-link to="/about-us" class="text-decoration-none text-dark">
+    <router-link to="/products" class="text-decoration-none text-dark">
       <img src="/img/banners/desk1.jpg" class="d-md-block d-none w-100" alt="">
       <img src="/img/banners/mob1.jpg" class="d-md-none d-block w-100" alt="">
     </router-link>
@@ -87,7 +87,7 @@ export default {
           linkText: 'Explore',
           icon: 'bi bi-droplet',
           backgroundImage: '/img/update.jpg',
-          link: '/product',
+          link: '/products',
         },
         {
           title: 'Services',
@@ -95,7 +95,7 @@ export default {
           linkText: 'Choose',
           backgroundImage: '/img/grease.jpg',
           icon: 'bi bi-tools',
-          link: '/service',
+          link: '/services',
         },
         {
           title: 'Industries',
@@ -113,7 +113,7 @@ export default {
 
 <style scoped>
 .overlay {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.9);
   opacity: 90%;
 }
 
