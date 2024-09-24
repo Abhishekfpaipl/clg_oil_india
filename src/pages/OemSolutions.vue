@@ -142,8 +142,8 @@
                                 <label for="floatingTextarea" class="ms-2 text-muted">Notes...</label>
                             </div>
                             <button
-                                class="d-flex justify-content-center align-items-center btn btn-success text-uppercase p-0 py-1"
-                                data-bs-dismiss="modal"><i class="bi bi-whatsapp fs-5 me-4"></i> <span class="fs-5">
+                                class="d-flex justify-content-center align-items-center btn btn-warning text-uppercase p-0 py-1"
+                                data-bs-dismiss="modal"> <span class="fs-5">
                                     Enquiry Now</span></button>
 
                         </form>
@@ -247,12 +247,13 @@ export default {
             }
         },
         sendToWhatsApp() {
-            const phoneNumber = '919711256073';
-            const message = `Name: ${this.name}%0A
-            Note: ${this.note}`;
+            // const phoneNumber = '919711256073';
+            // const message = `Name: ${this.name}%0A
+            // Note: ${this.note}`;
 
-            const url = `https://wa.me/${phoneNumber}?text=${message}`;
-            window.open(url, '_blank');
+            // const url = `https://wa.me/${phoneNumber}?text=${message}`;
+            // window.open(url, '_blank');
+            console.log('send')
         },
     }
 };

@@ -158,23 +158,24 @@ export default {
             this.form.resume = event.target.files[0]
         },
         submitForm() {
-            const phoneNumber = '919711256073';
-            const message = `Name: ${this.form.applicantName}%0A
-    Mobile: ${this.form.mobileNo}%0A
-    Alternate Mobile: ${this.form.alternateNo}%0A
-    Email: ${this.form.emailId}%0A
-    Date of Birth: ${this.form.dateOfBirth}%0A
-    How you heard about us: ${this.form.howDidYouHearAboutUs}%0A
-    Qualification: ${this.form.academicQualifications}%0A
-    Total Years of Experience: ${this.form.totalYearsOfExperience}%0A
-    Current Salary: ${this.form.currentSalary}%0A
-    Expected Salary: ${this.form.expectedSalaryPackage}%0A
-    Joining By: ${this.form.joiningBy}%0A
-    Notice Period: ${this.form.noticePeriod}%0A
-    Present Company and Designation: ${this.form.presentCompanyAndDesignation}`;
+            //         const phoneNumber = '919711256073';
+            //         const message = `Name: ${this.form.applicantName}%0A
+            // Mobile: ${this.form.mobileNo}%0A
+            // Alternate Mobile: ${this.form.alternateNo}%0A
+            // Email: ${this.form.emailId}%0A
+            // Date of Birth: ${this.form.dateOfBirth}%0A
+            // How you heard about us: ${this.form.howDidYouHearAboutUs}%0A
+            // Qualification: ${this.form.academicQualifications}%0A
+            // Total Years of Experience: ${this.form.totalYearsOfExperience}%0A
+            // Current Salary: ${this.form.currentSalary}%0A
+            // Expected Salary: ${this.form.expectedSalaryPackage}%0A
+            // Joining By: ${this.form.joiningBy}%0A
+            // Notice Period: ${this.form.noticePeriod}%0A
+            // Present Company and Designation: ${this.form.presentCompanyAndDesignation}`;
 
-            const url = `https://wa.me/${phoneNumber}?text=${message}`;
-            window.open(url, '_blank');
+            //         const url = `https://wa.me/${phoneNumber}?text=${message}`;
+            //         window.open(url, '_blank');
+            console.log('send')
         }
 
     }

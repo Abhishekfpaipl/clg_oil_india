@@ -27,8 +27,7 @@
     </div>
 </template>
 <script>
-import WhyChooseUs from "@/components/WhyChooseUs.vue";  
-
+import WhyChooseUs from "@/components/WhyChooseUs.vue";   
 import SuccessStory from "@/components/SuccessStory.vue"; 
 import TeamInfoSection from "@/components/TeamInfoSection.vue";  
 import AutoScrolling from "@/components/AutoScrolling.vue";

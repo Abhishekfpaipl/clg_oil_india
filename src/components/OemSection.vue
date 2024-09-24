@@ -1,6 +1,6 @@
 <template>
-    <div class="mb-5">
-        <router-link to="/oem-solutions" class="text-decoration-none text-dark">Our Equipment Builder Partnership
+    <div class="mb-5 ">
+        <p class="mb-5">Our Equipment Builder Partnership
             fosters a collaborative and close-knit
             relationship with engineering specialists across diverse industry sectors. These dynamic partnerships are
             not just transactional—they drive innovation and lead to the development of cutting-edge lubrication
@@ -14,7 +14,8 @@
             serve. Our mutual commitment to excellence and innovation ensures that together, we deliver products and
             services that maximize equipment uptime, enhance productivity, and reduce operational costs, ultimately
             driving long-term success for our partners.
-        </router-link>
+        </p>
+        <router-link to="/oem-solutions" class="btn btn-dark">Know more <i class="bi bi-arrow-right"></i></router-link>
     </div>
 </template>
 <script>

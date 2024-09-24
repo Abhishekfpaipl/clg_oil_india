@@ -135,7 +135,7 @@
                                 <p>If you have questions or concerns, please contact us:</p>
                                 <ul>
                                     <li><strong>Email:</strong> info@clgoilindia.com</li>
-                                    <li><strong>Phone:</strong> 919711256073</li>
+                                    <!-- <li><strong>Phone:</strong> 919711256073</li> -->
                                     <li><strong>Address:</strong> HD-723, WeWork Enam Sambhav, C - 20,
                                         G Block Rd, G-Block BKC, Bandra Kurla Complex,
                                         Bandra East, Mumbai, Maharashtra - 400051</li>

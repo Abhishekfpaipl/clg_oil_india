@@ -1,6 +1,6 @@
 <template>
-    <div>
-        <div class="row" v-for="(day, index) in test" :key="index">
+    <div v-if="product.facilities">
+        <div class="row" v-for="(day, index) in product.facilities" :key="index">
             <div class="col-12 mb-4">
                 <div class="card">
                     <div class="card-header fw-bold text-bg-light text-capitalize">
@@ -17,6 +17,11 @@
 </template>
 <script>
 export default {
+    props: {
+        product: {
+            type: Object,
+        }
+    },
     data() {
         return {
             test: [

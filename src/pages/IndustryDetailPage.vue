@@ -69,8 +69,8 @@
                                 <label for="floatingTextarea" class="ms-2 text-muted">Notes...</label>
                             </div>
                             <button
-                                class="d-flex justify-content-center align-items-center btn btn-success text-uppercase p-0 py-1"
-                                data-bs-dismiss="modal"><i class="bi bi-whatsapp fs-5 me-4"></i> <span class="fs-5">
+                                class="d-flex justify-content-center align-items-center btn btn-warning text-uppercase p-0 py-1"
+                                data-bs-dismiss="modal"> <span class="fs-5">
                                     Enquiry Now</span></button>
 
                         </form>
@@ -86,31 +86,34 @@
 
 <script>
 import ProductTableSection from "@/components/ProductTableSection.vue"
-import TradeFairTermsSection from "@/components/TradeFairTermsSection.vue"
+import IsoSection from "@/components/IsoSection.vue" 
 import ProductBenefitSection from "@/components/ProductBenefitSection.vue"
-import ItinerarySection from "@/components/ItinerarySection.vue"
+import FacilitiesSection from "@/components/FacilitiesSection.vue"
 import SectionTopBanner from "@/components/SectionTopBanner.vue"
-import TradeDetailsSection from "@/components/TradeDetailsSection.vue"
-export default {
-    name: "TradeFairPage",
-    components: {
+import OemSection from "@/components/OemSection.vue"
+export default { 
+    components: { 
         ProductTableSection,
-        TradeFairTermsSection,
+        IsoSection, 
         ProductBenefitSection,
-        ItinerarySection,
+        FacilitiesSection,
         SectionTopBanner,
-        TradeDetailsSection,
+        OemSection,
     },
     data() {
         return {
             pageName: "",
+            searchTerm: '',
+            activeTabIndex: 0,
+            selectedVisitor: '1-2',
+            destination: 'Amazing Dubai',
             date: '',
-            sections: [
+            sections: [ 
                 { id: 'Reports', name: 'Reports', component: 'ProductTableSection' },
-                { id: 'ISO', name: 'ISO', component: 'TradeFairTermsSection' },
+                { id: 'ISO', name: 'ISO', component: 'IsoSection' },
                 { id: 'Benefits', name: 'Benefits', component: 'ProductBenefitSection' },
-                { id: 'Facilities', name: 'Facilities', component: 'ItinerarySection' },
-                { id: 'OEM ', name: 'OEM ', component: 'TradeDetailsSection' },
+                { id: 'Facilities', name: 'Facilities', component: 'FacilitiesSection' }, 
+                { id: 'OEM ', name: 'OEM ', component: 'OemSection' },
             ],
             activeSection: '',
             navbarDark: false,
@@ -159,12 +162,13 @@ export default {
             });
         },
         sendToWhatsApp() {
-            const phoneNumber = '919711256073';
-            const message = `Name: ${this.name}%0A
-            Note: ${this.note}`;
+            // const phoneNumber = '919711256073';
+            // const message = `Name: ${this.name}%0A
+            // Note: ${this.note}`;
 
-            const url = `https://wa.me/${phoneNumber}?text=${message}`;
-            window.open(url, '_blank');
+            // const url = `https://wa.me/${phoneNumber}?text=${message}`;
+            // window.open(url, '_blank');
+            console.log('send');
         },
         share() {
             if (navigator.share) {

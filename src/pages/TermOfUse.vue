@@ -107,7 +107,7 @@
                     <section>
                         <h2>11. Contact Us</h2>
                         <p>If you have any questions about these Terms, please contact us at <a
-                                href="mailto:info@clgoilindia.com">info@clgoilindia.com</a> or +919711256073.</p>
+                                href="mailto:info@clgoilindia.com">info@clgoilindia.com</a></p>
                     </section>
 
                     <p class="text-start fw-bold">BY USING THE SERVICE, YOU ACKNOWLEDGE THAT YOU HAVE READ

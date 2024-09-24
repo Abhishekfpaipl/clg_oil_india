@@ -66,8 +66,8 @@ export default {
         return {
             contact: [
                 { name: ' info@clgoilindia.com', icon: 'bi-envelope fs-3', color: 'red', action: 'openEmail' },
-                { name: '+919711256073', icon: 'bi-telephone-fill fs-3', color: 'black', action: 'openDialer' },
-                { name: '+919711256073', icon: 'bi-whatsapp fs-3', color: 'green', action: 'openWhatsapp' },
+                // { name: '+919711256073', icon: 'bi-telephone-fill fs-3', color: 'black', action: 'openDialer' },
+                // { name: '+919711256073', icon: 'bi-whatsapp fs-3', color: 'green', action: 'openWhatsapp' },
                 { name: ' HD-723, WeWork Enam Sambhav, C - 20, G Block Rd, G-Block BKC, Bandra Kurla Complex, Bandra East, Mumbai, Maharashtra - 400051', icon: 'bi-geo-fill fs-3', color: 'black', action: 'openMaps' },
             ], 
             name: '',

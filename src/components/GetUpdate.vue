@@ -7,7 +7,8 @@
                 </div>
                 <div class="col-md-6 d-flex flex-column justify-content-center text-center text-md-start  ">
                     <div class="mb-4 mt-5 mt-md-0">
-                        <h1 class="display-4 fw-bold text-light"> <span style="color:#DCB32F !important">Contact</span> Us</h1>
+                        <h1 class="display-4 fw-bold text-light"> <span style="color:#DCB32F !important">Contact</span>
+                            Us</h1>
                     </div>
                     <form @submit.prevent="submitForm">
                         <div class="mb-3">
@@ -36,7 +37,8 @@
                             <textarea class="form-control bg-dark text-light" rows="1" placeholder="Write Message"
                                 v-model="message"></textarea>
                         </div>
-                        <button type="submit" class="btn text-dark fw-bold px-4 py-2 w-100 mb-5" style="background-color: #DCB32F !important">SEND MESSAGE <i
+                        <button type="submit" class="btn text-dark fw-bold px-4 py-2 w-100 mb-5"
+                            style="background-color: #DCB32F !important">SEND MESSAGE <i
                                 class="bi bi-arrow-right ms-2"></i></button>
                     </form>
                 </div>
@@ -59,15 +61,16 @@ export default {
     },
     methods: {
         submitForm() {
-            const phoneNumber = '919711256073';
-            const message = `Name: ${this.fullName}%0A 
-    Service: ${this.selectedService}%0A
-    Number: ${this.phone}%0A
-    Email: ${this.email}%0A
-    Note: ${this.message}%0A `;
+            //         const phoneNumber = '919711256073';
+            //         const message = `Name: ${this.fullName}%0A 
+            // Service: ${this.selectedService}%0A
+            // Number: ${this.phone}%0A
+            // Email: ${this.email}%0A
+            // Note: ${this.message}%0A `;
 
-            const url = `https://wa.me/${phoneNumber}?text=${message}`;
-            window.open(url, '_blank');
+            //         const url = `https://wa.me/${phoneNumber}?text=${message}`;
+            //         window.open(url, '_blank');
+            console.log('send')
         }
     }
 }

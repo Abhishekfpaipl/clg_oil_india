@@ -341,17 +341,18 @@ export default {
     methods: {
 
         submitForm() {
-            const phoneNumber = '919711256073';
-            const message = `Name: ${this.form.applicantName},%0A  
-            Number: ${this.form.mobileNo},%0A
-            AltNumber: ${this.form.alternateNo},%0A
-            Email: ${this.form.emailId},%0A
-            DOB: ${this.form.dateOfBirth},%0A
-            How did you hear about us: ${this.form.howDidYouHearAboutUs},%0A
-            Exp: ${this.form.totalYearsOfExperience}%0A `;
+            // const phoneNumber = '919711256073';
+            // const message = `Name: ${this.form.applicantName},%0A  
+            // Number: ${this.form.mobileNo},%0A
+            // AltNumber: ${this.form.alternateNo},%0A
+            // Email: ${this.form.emailId},%0A
+            // DOB: ${this.form.dateOfBirth},%0A
+            // How did you hear about us: ${this.form.howDidYouHearAboutUs},%0A
+            // Exp: ${this.form.totalYearsOfExperience}%0A `;
 
-            const url = `https://wa.me/${phoneNumber}?text=${message}`;
-            window.open(url, '_blank');
+            // const url = `https://wa.me/${phoneNumber}?text=${message}`;
+            // window.open(url, '_blank');
+            console.log('send')
         }
     }
 
