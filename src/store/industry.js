@@ -52,19 +52,19 @@ export default {
                         facilities: [
                             {
                                 type: "Intermediate Bulk Containers ( IBC )",
-                                subTitle: 'Typically 1,000 liters (264 gallons), but can range from 500 to 1,250 liters',
+                                subTitle: 'Typically 1,000 liters , but can range from 500 to 1,250 liters',
                                 description: ' IBCs are large, reusable containers designed for bulk liquids, chemicals, and other materials. They are made from materials such as plastic, steel, or composite materials and often come in a cubic shape for efficient storage and transport.',
                                 image: 'https://rctrips.com/assets/itinerary/radisson-hyland-hotel-1.jpeg'
                             },
                             {
                                 type: "Drums",
-                                subTitle: 'The standard drum in the petroleum industry holds 200 liters (also referred to as a 55-gallon drum in the U.S.)',
-                                description: ' Drums are cylindrical containers made of steel or plastic, used for transporting liquids such as oil, lubricants, and other petrochemical products. Other drum capacities include **100 liters* (26 gallons) and smaller sizes like *30 liters*',
+                                subTitle: 'The standard drum in the petroleum industry holds 200 liters ',
+                                description: ' Drums are cylindrical containers made of steel or plastic, used for transporting liquids such as oil, lubricants, and other petrochemical products. Other drum capacities include **100 liters*  and smaller sizes like *30 liters*',
                                 image: 'https://rctrips.com/assets/itinerary/led-china-4.jpeg'
                             },
                             {
                                 type: "Pails",
-                                subTitle: 'Typically 18-20 liters (around 5 gallons)',
+                                subTitle: 'Typically 18-20 liters ',
                                 description: 'Pails are small cylindrical containers, usually made of metal or plastic, used for packaging smaller amounts of petroleum products like lubricants or chemicals.',
                                 image: 'https://rctrips.com/assets/itinerary/led-china-2.jpg'
                             },
@@ -116,19 +116,19 @@ export default {
                         facilities: [
                             {
                                 type: "Intermediate Bulk Containers ( IBC )",
-                                subTitle: 'Typically 1,000 liters (264 gallons), but can range from 500 to 1,250 liters',
+                                subTitle: 'Typically 1,000 liters , but can range from 500 to 1,250 liters',
                                 description: ' IBCs are large, reusable containers designed for bulk liquids, chemicals, and other materials. They are made from materials such as plastic, steel, or composite materials and often come in a cubic shape for efficient storage and transport.',
                                 image: 'https://rctrips.com/assets/itinerary/radisson-hyland-hotel-1.jpeg'
                             },
                             {
                                 type: "Drums",
-                                subTitle: 'The standard drum in the petroleum industry holds 200 liters (also referred to as a 55-gallon drum in the U.S.)',
-                                description: ' Drums are cylindrical containers made of steel or plastic, used for transporting liquids such as oil, lubricants, and other petrochemical products. Other drum capacities include **100 liters* (26 gallons) and smaller sizes like *30 liters*',
+                                subTitle: 'The standard drum in the petroleum industry holds 200 liters ',
+                                description: ' Drums are cylindrical containers made of steel or plastic, used for transporting liquids such as oil, lubricants, and other petrochemical products. Other drum capacities include **100 liters*  and smaller sizes like *30 liters*',
                                 image: 'https://rctrips.com/assets/itinerary/led-china-4.jpeg'
                             },
                             {
                                 type: "Pails",
-                                subTitle: 'Typically 18-20 liters (around 5 gallons)',
+                                subTitle: 'Typically 18-20 liters ',
                                 description: 'Pails are small cylindrical containers, usually made of metal or plastic, used for packaging smaller amounts of petroleum products like lubricants or chemicals.',
                                 image: 'https://rctrips.com/assets/itinerary/led-china-2.jpg'
                             },
@@ -180,19 +180,19 @@ export default {
                         facilities: [
                             {
                                 type: "Intermediate Bulk Containers ( IBC )",
-                                subTitle: 'Typically 1,000 liters (264 gallons), but can range from 500 to 1,250 liters',
+                                subTitle: 'Typically 1,000 liters , but can range from 500 to 1,250 liters',
                                 description: ' IBCs are large, reusable containers designed for bulk liquids, chemicals, and other materials. They are made from materials such as plastic, steel, or composite materials and often come in a cubic shape for efficient storage and transport.',
                                 image: 'https://rctrips.com/assets/itinerary/radisson-hyland-hotel-1.jpeg'
                             },
                             {
                                 type: "Drums",
-                                subTitle: 'The standard drum in the petroleum industry holds 200 liters (also referred to as a 55-gallon drum in the U.S.)',
-                                description: ' Drums are cylindrical containers made of steel or plastic, used for transporting liquids such as oil, lubricants, and other petrochemical products. Other drum capacities include **100 liters* (26 gallons) and smaller sizes like *30 liters*',
+                                subTitle: 'The standard drum in the petroleum industry holds 200 liters ',
+                                description: ' Drums are cylindrical containers made of steel or plastic, used for transporting liquids such as oil, lubricants, and other petrochemical products. Other drum capacities include **100 liters*  and smaller sizes like *30 liters*',
                                 image: 'https://rctrips.com/assets/itinerary/led-china-4.jpeg'
                             },
                             {
                                 type: "Pails",
-                                subTitle: 'Typically 18-20 liters (around 5 gallons)',
+                                subTitle: 'Typically 18-20 liters ',
                                 description: 'Pails are small cylindrical containers, usually made of metal or plastic, used for packaging smaller amounts of petroleum products like lubricants or chemicals.',
                                 image: 'https://rctrips.com/assets/itinerary/led-china-2.jpg'
                             },
@@ -244,19 +244,19 @@ export default {
                         facilities: [
                             {
                                 type: "Intermediate Bulk Containers ( IBC )",
-                                subTitle: 'Typically 1,000 liters (264 gallons), but can range from 500 to 1,250 liters',
+                                subTitle: 'Typically 1,000 liters , but can range from 500 to 1,250 liters',
                                 description: ' IBCs are large, reusable containers designed for bulk liquids, chemicals, and other materials. They are made from materials such as plastic, steel, or composite materials and often come in a cubic shape for efficient storage and transport.',
                                 image: 'https://rctrips.com/assets/itinerary/radisson-hyland-hotel-1.jpeg'
                             },
                             {
                                 type: "Drums",
-                                subTitle: 'The standard drum in the petroleum industry holds 200 liters (also referred to as a 55-gallon drum in the U.S.)',
-                                description: ' Drums are cylindrical containers made of steel or plastic, used for transporting liquids such as oil, lubricants, and other petrochemical products. Other drum capacities include **100 liters* (26 gallons) and smaller sizes like *30 liters*',
+                                subTitle: 'The standard drum in the petroleum industry holds 200 liters ',
+                                description: ' Drums are cylindrical containers made of steel or plastic, used for transporting liquids such as oil, lubricants, and other petrochemical products. Other drum capacities include **100 liters*  and smaller sizes like *30 liters*',
                                 image: 'https://rctrips.com/assets/itinerary/led-china-4.jpeg'
                             },
                             {
                                 type: "Pails",
-                                subTitle: 'Typically 18-20 liters (around 5 gallons)',
+                                subTitle: 'Typically 18-20 liters ',
                                 description: 'Pails are small cylindrical containers, usually made of metal or plastic, used for packaging smaller amounts of petroleum products like lubricants or chemicals.',
                                 image: 'https://rctrips.com/assets/itinerary/led-china-2.jpg'
                             },
@@ -307,19 +307,19 @@ export default {
                         facilities: [
                             {
                                 type: "Intermediate Bulk Containers ( IBC )",
-                                subTitle: 'Typically 1,000 liters (264 gallons), but can range from 500 to 1,250 liters',
+                                subTitle: 'Typically 1,000 liters , but can range from 500 to 1,250 liters',
                                 description: ' IBCs are large, reusable containers designed for bulk liquids, chemicals, and other materials. They are made from materials such as plastic, steel, or composite materials and often come in a cubic shape for efficient storage and transport.',
                                 image: 'https://rctrips.com/assets/itinerary/radisson-hyland-hotel-1.jpeg'
                             },
                             {
                                 type: "Drums",
-                                subTitle: 'The standard drum in the petroleum industry holds 200 liters (also referred to as a 55-gallon drum in the U.S.)',
-                                description: ' Drums are cylindrical containers made of steel or plastic, used for transporting liquids such as oil, lubricants, and other petrochemical products. Other drum capacities include **100 liters* (26 gallons) and smaller sizes like *30 liters*',
+                                subTitle: 'The standard drum in the petroleum industry holds 200 liters ',
+                                description: ' Drums are cylindrical containers made of steel or plastic, used for transporting liquids such as oil, lubricants, and other petrochemical products. Other drum capacities include **100 liters*  and smaller sizes like *30 liters*',
                                 image: 'https://rctrips.com/assets/itinerary/led-china-4.jpeg'
                             },
                             {
                                 type: "Pails",
-                                subTitle: 'Typically 18-20 liters (around 5 gallons)',
+                                subTitle: 'Typically 18-20 liters ',
                                 description: 'Pails are small cylindrical containers, usually made of metal or plastic, used for packaging smaller amounts of petroleum products like lubricants or chemicals.',
                                 image: 'https://rctrips.com/assets/itinerary/led-china-2.jpg'
                             },
@@ -371,19 +371,19 @@ export default {
                         facilities: [
                             {
                                 type: "Intermediate Bulk Containers ( IBC )",
-                                subTitle: 'Typically 1,000 liters (264 gallons), but can range from 500 to 1,250 liters',
+                                subTitle: 'Typically 1,000 liters , but can range from 500 to 1,250 liters',
                                 description: ' IBCs are large, reusable containers designed for bulk liquids, chemicals, and other materials. They are made from materials such as plastic, steel, or composite materials and often come in a cubic shape for efficient storage and transport.',
                                 image: 'https://rctrips.com/assets/itinerary/radisson-hyland-hotel-1.jpeg'
                             },
                             {
                                 type: "Drums",
-                                subTitle: 'The standard drum in the petroleum industry holds 200 liters (also referred to as a 55-gallon drum in the U.S.)',
-                                description: ' Drums are cylindrical containers made of steel or plastic, used for transporting liquids such as oil, lubricants, and other petrochemical products. Other drum capacities include **100 liters* (26 gallons) and smaller sizes like *30 liters*',
+                                subTitle: 'The standard drum in the petroleum industry holds 200 liters ',
+                                description: ' Drums are cylindrical containers made of steel or plastic, used for transporting liquids such as oil, lubricants, and other petrochemical products. Other drum capacities include **100 liters*  and smaller sizes like *30 liters*',
                                 image: 'https://rctrips.com/assets/itinerary/led-china-4.jpeg'
                             },
                             {
                                 type: "Pails",
-                                subTitle: 'Typically 18-20 liters (around 5 gallons)',
+                                subTitle: 'Typically 18-20 liters ',
                                 description: 'Pails are small cylindrical containers, usually made of metal or plastic, used for packaging smaller amounts of petroleum products like lubricants or chemicals.',
                                 image: 'https://rctrips.com/assets/itinerary/led-china-2.jpg'
                             },
@@ -439,19 +439,19 @@ export default {
                         facilities: [
                             {
                                 type: "Intermediate Bulk Containers ( IBC )",
-                                subTitle: 'Typically 1,000 liters (264 gallons), but can range from 500 to 1,250 liters',
+                                subTitle: 'Typically 1,000 liters , but can range from 500 to 1,250 liters',
                                 description: ' IBCs are large, reusable containers designed for bulk liquids, chemicals, and other materials. They are made from materials such as plastic, steel, or composite materials and often come in a cubic shape for efficient storage and transport.',
                                 image: 'https://rctrips.com/assets/itinerary/radisson-hyland-hotel-1.jpeg'
                             },
                             {
                                 type: "Drums",
-                                subTitle: 'The standard drum in the petroleum industry holds 200 liters (also referred to as a 55-gallon drum in the U.S.)',
-                                description: ' Drums are cylindrical containers made of steel or plastic, used for transporting liquids such as oil, lubricants, and other petrochemical products. Other drum capacities include **100 liters* (26 gallons) and smaller sizes like *30 liters*',
+                                subTitle: 'The standard drum in the petroleum industry holds 200 liters ',
+                                description: ' Drums are cylindrical containers made of steel or plastic, used for transporting liquids such as oil, lubricants, and other petrochemical products. Other drum capacities include **100 liters*  and smaller sizes like *30 liters*',
                                 image: 'https://rctrips.com/assets/itinerary/led-china-4.jpeg'
                             },
                             {
                                 type: "Pails",
-                                subTitle: 'Typically 18-20 liters (around 5 gallons)',
+                                subTitle: 'Typically 18-20 liters ',
                                 description: 'Pails are small cylindrical containers, usually made of metal or plastic, used for packaging smaller amounts of petroleum products like lubricants or chemicals.',
                                 image: 'https://rctrips.com/assets/itinerary/led-china-2.jpg'
                             },
@@ -519,19 +519,19 @@ export default {
                         facilities: [
                             {
                                 type: "Intermediate Bulk Containers ( IBC )",
-                                subTitle: 'Typically 1,000 liters (264 gallons), but can range from 500 to 1,250 liters',
+                                subTitle: 'Typically 1,000 liters , but can range from 500 to 1,250 liters',
                                 description: ' IBCs are large, reusable containers designed for bulk liquids, chemicals, and other materials. They are made from materials such as plastic, steel, or composite materials and often come in a cubic shape for efficient storage and transport.',
                                 image: 'https://rctrips.com/assets/itinerary/radisson-hyland-hotel-1.jpeg'
                             },
                             {
                                 type: "Drums",
-                                subTitle: 'The standard drum in the petroleum industry holds 200 liters (also referred to as a 55-gallon drum in the U.S.)',
-                                description: ' Drums are cylindrical containers made of steel or plastic, used for transporting liquids such as oil, lubricants, and other petrochemical products. Other drum capacities include **100 liters* (26 gallons) and smaller sizes like *30 liters*',
+                                subTitle: 'The standard drum in the petroleum industry holds 200 liters ',
+                                description: ' Drums are cylindrical containers made of steel or plastic, used for transporting liquids such as oil, lubricants, and other petrochemical products. Other drum capacities include **100 liters*  and smaller sizes like *30 liters*',
                                 image: 'https://rctrips.com/assets/itinerary/led-china-4.jpeg'
                             },
                             {
                                 type: "Pails",
-                                subTitle: 'Typically 18-20 liters (around 5 gallons)',
+                                subTitle: 'Typically 18-20 liters ',
                                 description: 'Pails are small cylindrical containers, usually made of metal or plastic, used for packaging smaller amounts of petroleum products like lubricants or chemicals.',
                                 image: 'https://rctrips.com/assets/itinerary/led-china-2.jpg'
                             },
@@ -586,19 +586,19 @@ export default {
                         facilities: [
                             {
                                 type: "Intermediate Bulk Containers ( IBC )",
-                                subTitle: 'Typically 1,000 liters (264 gallons), but can range from 500 to 1,250 liters',
+                                subTitle: 'Typically 1,000 liters , but can range from 500 to 1,250 liters',
                                 description: ' IBCs are large, reusable containers designed for bulk liquids, chemicals, and other materials. They are made from materials such as plastic, steel, or composite materials and often come in a cubic shape for efficient storage and transport.',
                                 image: 'https://rctrips.com/assets/itinerary/radisson-hyland-hotel-1.jpeg'
                             },
                             {
                                 type: "Drums",
-                                subTitle: 'The standard drum in the petroleum industry holds 200 liters (also referred to as a 55-gallon drum in the U.S.)',
-                                description: ' Drums are cylindrical containers made of steel or plastic, used for transporting liquids such as oil, lubricants, and other petrochemical products. Other drum capacities include **100 liters* (26 gallons) and smaller sizes like *30 liters*',
+                                subTitle: 'The standard drum in the petroleum industry holds 200 liters ',
+                                description: ' Drums are cylindrical containers made of steel or plastic, used for transporting liquids such as oil, lubricants, and other petrochemical products. Other drum capacities include **100 liters*  and smaller sizes like *30 liters*',
                                 image: 'https://rctrips.com/assets/itinerary/led-china-4.jpeg'
                             },
                             {
                                 type: "Pails",
-                                subTitle: 'Typically 18-20 liters (around 5 gallons)',
+                                subTitle: 'Typically 18-20 liters ',
                                 description: 'Pails are small cylindrical containers, usually made of metal or plastic, used for packaging smaller amounts of petroleum products like lubricants or chemicals.',
                                 image: 'https://rctrips.com/assets/itinerary/led-china-2.jpg'
                             },
@@ -664,19 +664,19 @@ export default {
                         facilities: [
                             {
                                 type: "Intermediate Bulk Containers ( IBC )",
-                                subTitle: 'Typically 1,000 liters (264 gallons), but can range from 500 to 1,250 liters',
+                                subTitle: 'Typically 1,000 liters , but can range from 500 to 1,250 liters',
                                 description: ' IBCs are large, reusable containers designed for bulk liquids, chemicals, and other materials. They are made from materials such as plastic, steel, or composite materials and often come in a cubic shape for efficient storage and transport.',
                                 image: 'https://rctrips.com/assets/itinerary/radisson-hyland-hotel-1.jpeg'
                             },
                             {
                                 type: "Drums",
-                                subTitle: 'The standard drum in the petroleum industry holds 200 liters (also referred to as a 55-gallon drum in the U.S.)',
-                                description: ' Drums are cylindrical containers made of steel or plastic, used for transporting liquids such as oil, lubricants, and other petrochemical products. Other drum capacities include **100 liters* (26 gallons) and smaller sizes like *30 liters*',
+                                subTitle: 'The standard drum in the petroleum industry holds 200 liters ',
+                                description: ' Drums are cylindrical containers made of steel or plastic, used for transporting liquids such as oil, lubricants, and other petrochemical products. Other drum capacities include **100 liters*  and smaller sizes like *30 liters*',
                                 image: 'https://rctrips.com/assets/itinerary/led-china-4.jpeg'
                             },
                             {
                                 type: "Pails",
-                                subTitle: 'Typically 18-20 liters (around 5 gallons)',
+                                subTitle: 'Typically 18-20 liters ',
                                 description: 'Pails are small cylindrical containers, usually made of metal or plastic, used for packaging smaller amounts of petroleum products like lubricants or chemicals.',
                                 image: 'https://rctrips.com/assets/itinerary/led-china-2.jpg'
                             },
@@ -730,19 +730,19 @@ export default {
                         facilities: [
                             {
                                 type: "Intermediate Bulk Containers ( IBC )",
-                                subTitle: 'Typically 1,000 liters (264 gallons), but can range from 500 to 1,250 liters',
+                                subTitle: 'Typically 1,000 liters , but can range from 500 to 1,250 liters',
                                 description: ' IBCs are large, reusable containers designed for bulk liquids, chemicals, and other materials. They are made from materials such as plastic, steel, or composite materials and often come in a cubic shape for efficient storage and transport.',
                                 image: 'https://rctrips.com/assets/itinerary/radisson-hyland-hotel-1.jpeg'
                             },
                             {
                                 type: "Drums",
-                                subTitle: 'The standard drum in the petroleum industry holds 200 liters (also referred to as a 55-gallon drum in the U.S.)',
-                                description: ' Drums are cylindrical containers made of steel or plastic, used for transporting liquids such as oil, lubricants, and other petrochemical products. Other drum capacities include **100 liters* (26 gallons) and smaller sizes like *30 liters*',
+                                subTitle: 'The standard drum in the petroleum industry holds 200 liters ',
+                                description: ' Drums are cylindrical containers made of steel or plastic, used for transporting liquids such as oil, lubricants, and other petrochemical products. Other drum capacities include **100 liters*  and smaller sizes like *30 liters*',
                                 image: 'https://rctrips.com/assets/itinerary/led-china-4.jpeg'
                             },
                             {
                                 type: "Pails",
-                                subTitle: 'Typically 18-20 liters (around 5 gallons)',
+                                subTitle: 'Typically 18-20 liters ',
                                 description: 'Pails are small cylindrical containers, usually made of metal or plastic, used for packaging smaller amounts of petroleum products like lubricants or chemicals.',
                                 image: 'https://rctrips.com/assets/itinerary/led-china-2.jpg'
                             },
@@ -800,19 +800,19 @@ export default {
                         facilities: [
                             {
                                 type: "Intermediate Bulk Containers ( IBC )",
-                                subTitle: 'Typically 1,000 liters (264 gallons), but can range from 500 to 1,250 liters',
+                                subTitle: 'Typically 1,000 liters , but can range from 500 to 1,250 liters',
                                 description: ' IBCs are large, reusable containers designed for bulk liquids, chemicals, and other materials. They are made from materials such as plastic, steel, or composite materials and often come in a cubic shape for efficient storage and transport.',
                                 image: 'https://rctrips.com/assets/itinerary/radisson-hyland-hotel-1.jpeg'
                             },
                             {
                                 type: "Drums",
-                                subTitle: 'The standard drum in the petroleum industry holds 200 liters (also referred to as a 55-gallon drum in the U.S.)',
-                                description: ' Drums are cylindrical containers made of steel or plastic, used for transporting liquids such as oil, lubricants, and other petrochemical products. Other drum capacities include **100 liters* (26 gallons) and smaller sizes like *30 liters*',
+                                subTitle: 'The standard drum in the petroleum industry holds 200 liters ',
+                                description: ' Drums are cylindrical containers made of steel or plastic, used for transporting liquids such as oil, lubricants, and other petrochemical products. Other drum capacities include **100 liters*  and smaller sizes like *30 liters*',
                                 image: 'https://rctrips.com/assets/itinerary/led-china-4.jpeg'
                             },
                             {
                                 type: "Pails",
-                                subTitle: 'Typically 18-20 liters (around 5 gallons)',
+                                subTitle: 'Typically 18-20 liters ',
                                 description: 'Pails are small cylindrical containers, usually made of metal or plastic, used for packaging smaller amounts of petroleum products like lubricants or chemicals.',
                                 image: 'https://rctrips.com/assets/itinerary/led-china-2.jpg'
                             },
@@ -870,19 +870,19 @@ export default {
                         facilities: [
                             {
                                 type: "Intermediate Bulk Containers ( IBC )",
-                                subTitle: 'Typically 1,000 liters (264 gallons), but can range from 500 to 1,250 liters',
+                                subTitle: 'Typically 1,000 liters , but can range from 500 to 1,250 liters',
                                 description: ' IBCs are large, reusable containers designed for bulk liquids, chemicals, and other materials. They are made from materials such as plastic, steel, or composite materials and often come in a cubic shape for efficient storage and transport.',
                                 image: 'https://rctrips.com/assets/itinerary/radisson-hyland-hotel-1.jpeg'
                             },
                             {
                                 type: "Drums",
-                                subTitle: 'The standard drum in the petroleum industry holds 200 liters (also referred to as a 55-gallon drum in the U.S.)',
-                                description: ' Drums are cylindrical containers made of steel or plastic, used for transporting liquids such as oil, lubricants, and other petrochemical products. Other drum capacities include **100 liters* (26 gallons) and smaller sizes like *30 liters*',
+                                subTitle: 'The standard drum in the petroleum industry holds 200 liters ',
+                                description: ' Drums are cylindrical containers made of steel or plastic, used for transporting liquids such as oil, lubricants, and other petrochemical products. Other drum capacities include **100 liters*  and smaller sizes like *30 liters*',
                                 image: 'https://rctrips.com/assets/itinerary/led-china-4.jpeg'
                             },
                             {
                                 type: "Pails",
-                                subTitle: 'Typically 18-20 liters (around 5 gallons)',
+                                subTitle: 'Typically 18-20 liters ',
                                 description: 'Pails are small cylindrical containers, usually made of metal or plastic, used for packaging smaller amounts of petroleum products like lubricants or chemicals.',
                                 image: 'https://rctrips.com/assets/itinerary/led-china-2.jpg'
                             },
@@ -944,19 +944,19 @@ export default {
                         facilities: [
                             {
                                 type: "Intermediate Bulk Containers ( IBC )",
-                                subTitle: 'Typically 1,000 liters (264 gallons), but can range from 500 to 1,250 liters',
+                                subTitle: 'Typically 1,000 liters , but can range from 500 to 1,250 liters',
                                 description: ' IBCs are large, reusable containers designed for bulk liquids, chemicals, and other materials. They are made from materials such as plastic, steel, or composite materials and often come in a cubic shape for efficient storage and transport.',
                                 image: 'https://rctrips.com/assets/itinerary/radisson-hyland-hotel-1.jpeg'
                             },
                             {
                                 type: "Drums",
-                                subTitle: 'The standard drum in the petroleum industry holds 200 liters (also referred to as a 55-gallon drum in the U.S.)',
-                                description: ' Drums are cylindrical containers made of steel or plastic, used for transporting liquids such as oil, lubricants, and other petrochemical products. Other drum capacities include **100 liters* (26 gallons) and smaller sizes like *30 liters*',
+                                subTitle: 'The standard drum in the petroleum industry holds 200 liters ',
+                                description: ' Drums are cylindrical containers made of steel or plastic, used for transporting liquids such as oil, lubricants, and other petrochemical products. Other drum capacities include **100 liters*  and smaller sizes like *30 liters*',
                                 image: 'https://rctrips.com/assets/itinerary/led-china-4.jpeg'
                             },
                             {
                                 type: "Pails",
-                                subTitle: 'Typically 18-20 liters (around 5 gallons)',
+                                subTitle: 'Typically 18-20 liters ',
                                 description: 'Pails are small cylindrical containers, usually made of metal or plastic, used for packaging smaller amounts of petroleum products like lubricants or chemicals.',
                                 image: 'https://rctrips.com/assets/itinerary/led-china-2.jpg'
                             },
@@ -1010,19 +1010,19 @@ export default {
                         facilities: [
                             {
                                 type: "Intermediate Bulk Containers ( IBC )",
-                                subTitle: 'Typically 1,000 liters (264 gallons), but can range from 500 to 1,250 liters',
+                                subTitle: 'Typically 1,000 liters , but can range from 500 to 1,250 liters',
                                 description: ' IBCs are large, reusable containers designed for bulk liquids, chemicals, and other materials. They are made from materials such as plastic, steel, or composite materials and often come in a cubic shape for efficient storage and transport.',
                                 image: 'https://rctrips.com/assets/itinerary/radisson-hyland-hotel-1.jpeg'
                             },
                             {
                                 type: "Drums",
-                                subTitle: 'The standard drum in the petroleum industry holds 200 liters (also referred to as a 55-gallon drum in the U.S.)',
-                                description: ' Drums are cylindrical containers made of steel or plastic, used for transporting liquids such as oil, lubricants, and other petrochemical products. Other drum capacities include **100 liters* (26 gallons) and smaller sizes like *30 liters*',
+                                subTitle: 'The standard drum in the petroleum industry holds 200 liters ',
+                                description: ' Drums are cylindrical containers made of steel or plastic, used for transporting liquids such as oil, lubricants, and other petrochemical products. Other drum capacities include **100 liters*  and smaller sizes like *30 liters*',
                                 image: 'https://rctrips.com/assets/itinerary/led-china-4.jpeg'
                             },
                             {
                                 type: "Pails",
-                                subTitle: 'Typically 18-20 liters (around 5 gallons)',
+                                subTitle: 'Typically 18-20 liters ',
                                 description: 'Pails are small cylindrical containers, usually made of metal or plastic, used for packaging smaller amounts of petroleum products like lubricants or chemicals.',
                                 image: 'https://rctrips.com/assets/itinerary/led-china-2.jpg'
                             },
@@ -1076,19 +1076,19 @@ export default {
                         facilities: [
                             {
                                 type: "Intermediate Bulk Containers ( IBC )",
-                                subTitle: 'Typically 1,000 liters (264 gallons), but can range from 500 to 1,250 liters',
+                                subTitle: 'Typically 1,000 liters , but can range from 500 to 1,250 liters',
                                 description: ' IBCs are large, reusable containers designed for bulk liquids, chemicals, and other materials. They are made from materials such as plastic, steel, or composite materials and often come in a cubic shape for efficient storage and transport.',
                                 image: 'https://rctrips.com/assets/itinerary/radisson-hyland-hotel-1.jpeg'
                             },
                             {
                                 type: "Drums",
-                                subTitle: 'The standard drum in the petroleum industry holds 200 liters (also referred to as a 55-gallon drum in the U.S.)',
-                                description: ' Drums are cylindrical containers made of steel or plastic, used for transporting liquids such as oil, lubricants, and other petrochemical products. Other drum capacities include **100 liters* (26 gallons) and smaller sizes like *30 liters*',
+                                subTitle: 'The standard drum in the petroleum industry holds 200 liters ',
+                                description: ' Drums are cylindrical containers made of steel or plastic, used for transporting liquids such as oil, lubricants, and other petrochemical products. Other drum capacities include **100 liters*  and smaller sizes like *30 liters*',
                                 image: 'https://rctrips.com/assets/itinerary/led-china-4.jpeg'
                             },
                             {
                                 type: "Pails",
-                                subTitle: 'Typically 18-20 liters (around 5 gallons)',
+                                subTitle: 'Typically 18-20 liters ',
                                 description: 'Pails are small cylindrical containers, usually made of metal or plastic, used for packaging smaller amounts of petroleum products like lubricants or chemicals.',
                                 image: 'https://rctrips.com/assets/itinerary/led-china-2.jpg'
                             },
@@ -1158,19 +1158,19 @@ export default {
                         facilities: [
                             {
                                 type: "Intermediate Bulk Containers ( IBC )",
-                                subTitle: 'Typically 1,000 liters (264 gallons), but can range from 500 to 1,250 liters',
+                                subTitle: 'Typically 1,000 liters , but can range from 500 to 1,250 liters',
                                 description: ' IBCs are large, reusable containers designed for bulk liquids, chemicals, and other materials. They are made from materials such as plastic, steel, or composite materials and often come in a cubic shape for efficient storage and transport.',
                                 image: 'https://rctrips.com/assets/itinerary/radisson-hyland-hotel-1.jpeg'
                             },
                             {
                                 type: "Drums",
-                                subTitle: 'The standard drum in the petroleum industry holds 200 liters (also referred to as a 55-gallon drum in the U.S.)',
-                                description: ' Drums are cylindrical containers made of steel or plastic, used for transporting liquids such as oil, lubricants, and other petrochemical products. Other drum capacities include **100 liters* (26 gallons) and smaller sizes like *30 liters*',
+                                subTitle: 'The standard drum in the petroleum industry holds 200 liters ',
+                                description: ' Drums are cylindrical containers made of steel or plastic, used for transporting liquids such as oil, lubricants, and other petrochemical products. Other drum capacities include **100 liters*  and smaller sizes like *30 liters*',
                                 image: 'https://rctrips.com/assets/itinerary/led-china-4.jpeg'
                             },
                             {
                                 type: "Pails",
-                                subTitle: 'Typically 18-20 liters (around 5 gallons)',
+                                subTitle: 'Typically 18-20 liters ',
                                 description: 'Pails are small cylindrical containers, usually made of metal or plastic, used for packaging smaller amounts of petroleum products like lubricants or chemicals.',
                                 image: 'https://rctrips.com/assets/itinerary/led-china-2.jpg'
                             },
@@ -1232,19 +1232,19 @@ export default {
                         facilities: [
                             {
                                 type: "Intermediate Bulk Containers ( IBC )",
-                                subTitle: 'Typically 1,000 liters (264 gallons), but can range from 500 to 1,250 liters',
+                                subTitle: 'Typically 1,000 liters , but can range from 500 to 1,250 liters',
                                 description: ' IBCs are large, reusable containers designed for bulk liquids, chemicals, and other materials. They are made from materials such as plastic, steel, or composite materials and often come in a cubic shape for efficient storage and transport.',
                                 image: 'https://rctrips.com/assets/itinerary/radisson-hyland-hotel-1.jpeg'
                             },
                             {
                                 type: "Drums",
-                                subTitle: 'The standard drum in the petroleum industry holds 200 liters (also referred to as a 55-gallon drum in the U.S.)',
-                                description: ' Drums are cylindrical containers made of steel or plastic, used for transporting liquids such as oil, lubricants, and other petrochemical products. Other drum capacities include **100 liters* (26 gallons) and smaller sizes like *30 liters*',
+                                subTitle: 'The standard drum in the petroleum industry holds 200 liters ',
+                                description: ' Drums are cylindrical containers made of steel or plastic, used for transporting liquids such as oil, lubricants, and other petrochemical products. Other drum capacities include **100 liters*  and smaller sizes like *30 liters*',
                                 image: 'https://rctrips.com/assets/itinerary/led-china-4.jpeg'
                             },
                             {
                                 type: "Pails",
-                                subTitle: 'Typically 18-20 liters (around 5 gallons)',
+                                subTitle: 'Typically 18-20 liters ',
                                 description: 'Pails are small cylindrical containers, usually made of metal or plastic, used for packaging smaller amounts of petroleum products like lubricants or chemicals.',
                                 image: 'https://rctrips.com/assets/itinerary/led-china-2.jpg'
                             },
@@ -1302,19 +1302,19 @@ export default {
                         facilities: [
                             {
                                 type: "Intermediate Bulk Containers ( IBC )",
-                                subTitle: 'Typically 1,000 liters (264 gallons), but can range from 500 to 1,250 liters',
+                                subTitle: 'Typically 1,000 liters , but can range from 500 to 1,250 liters',
                                 description: ' IBCs are large, reusable containers designed for bulk liquids, chemicals, and other materials. They are made from materials such as plastic, steel, or composite materials and often come in a cubic shape for efficient storage and transport.',
                                 image: 'https://rctrips.com/assets/itinerary/radisson-hyland-hotel-1.jpeg'
                             },
                             {
                                 type: "Drums",
-                                subTitle: 'The standard drum in the petroleum industry holds 200 liters (also referred to as a 55-gallon drum in the U.S.)',
-                                description: ' Drums are cylindrical containers made of steel or plastic, used for transporting liquids such as oil, lubricants, and other petrochemical products. Other drum capacities include **100 liters* (26 gallons) and smaller sizes like *30 liters*',
+                                subTitle: 'The standard drum in the petroleum industry holds 200 liters ',
+                                description: ' Drums are cylindrical containers made of steel or plastic, used for transporting liquids such as oil, lubricants, and other petrochemical products. Other drum capacities include **100 liters*  and smaller sizes like *30 liters*',
                                 image: 'https://rctrips.com/assets/itinerary/led-china-4.jpeg'
                             },
                             {
                                 type: "Pails",
-                                subTitle: 'Typically 18-20 liters (around 5 gallons)',
+                                subTitle: 'Typically 18-20 liters ',
                                 description: 'Pails are small cylindrical containers, usually made of metal or plastic, used for packaging smaller amounts of petroleum products like lubricants or chemicals.',
                                 image: 'https://rctrips.com/assets/itinerary/led-china-2.jpg'
                             },
@@ -1380,19 +1380,19 @@ export default {
                         facilities: [
                             {
                                 type: "Intermediate Bulk Containers ( IBC )",
-                                subTitle: 'Typically 1,000 liters (264 gallons), but can range from 500 to 1,250 liters',
+                                subTitle: 'Typically 1,000 liters , but can range from 500 to 1,250 liters',
                                 description: ' IBCs are large, reusable containers designed for bulk liquids, chemicals, and other materials. They are made from materials such as plastic, steel, or composite materials and often come in a cubic shape for efficient storage and transport.',
                                 image: 'https://rctrips.com/assets/itinerary/radisson-hyland-hotel-1.jpeg'
                             },
                             {
                                 type: "Drums",
-                                subTitle: 'The standard drum in the petroleum industry holds 200 liters (also referred to as a 55-gallon drum in the U.S.)',
-                                description: ' Drums are cylindrical containers made of steel or plastic, used for transporting liquids such as oil, lubricants, and other petrochemical products. Other drum capacities include **100 liters* (26 gallons) and smaller sizes like *30 liters*',
+                                subTitle: 'The standard drum in the petroleum industry holds 200 liters ',
+                                description: ' Drums are cylindrical containers made of steel or plastic, used for transporting liquids such as oil, lubricants, and other petrochemical products. Other drum capacities include **100 liters*  and smaller sizes like *30 liters*',
                                 image: 'https://rctrips.com/assets/itinerary/led-china-4.jpeg'
                             },
                             {
                                 type: "Pails",
-                                subTitle: 'Typically 18-20 liters (around 5 gallons)',
+                                subTitle: 'Typically 18-20 liters ',
                                 description: 'Pails are small cylindrical containers, usually made of metal or plastic, used for packaging smaller amounts of petroleum products like lubricants or chemicals.',
                                 image: 'https://rctrips.com/assets/itinerary/led-china-2.jpg'
                             },
@@ -1446,19 +1446,19 @@ export default {
                         facilities: [
                             {
                                 type: "Intermediate Bulk Containers ( IBC )",
-                                subTitle: 'Typically 1,000 liters (264 gallons), but can range from 500 to 1,250 liters',
+                                subTitle: 'Typically 1,000 liters , but can range from 500 to 1,250 liters',
                                 description: ' IBCs are large, reusable containers designed for bulk liquids, chemicals, and other materials. They are made from materials such as plastic, steel, or composite materials and often come in a cubic shape for efficient storage and transport.',
                                 image: 'https://rctrips.com/assets/itinerary/radisson-hyland-hotel-1.jpeg'
                             },
                             {
                                 type: "Drums",
-                                subTitle: 'The standard drum in the petroleum industry holds 200 liters (also referred to as a 55-gallon drum in the U.S.)',
-                                description: ' Drums are cylindrical containers made of steel or plastic, used for transporting liquids such as oil, lubricants, and other petrochemical products. Other drum capacities include **100 liters* (26 gallons) and smaller sizes like *30 liters*',
+                                subTitle: 'The standard drum in the petroleum industry holds 200 liters ',
+                                description: ' Drums are cylindrical containers made of steel or plastic, used for transporting liquids such as oil, lubricants, and other petrochemical products. Other drum capacities include **100 liters*  and smaller sizes like *30 liters*',
                                 image: 'https://rctrips.com/assets/itinerary/led-china-4.jpeg'
                             },
                             {
                                 type: "Pails",
-                                subTitle: 'Typically 18-20 liters (around 5 gallons)',
+                                subTitle: 'Typically 18-20 liters ',
                                 description: 'Pails are small cylindrical containers, usually made of metal or plastic, used for packaging smaller amounts of petroleum products like lubricants or chemicals.',
                                 image: 'https://rctrips.com/assets/itinerary/led-china-2.jpg'
                             },
@@ -1524,19 +1524,19 @@ export default {
                         facilities: [
                             {
                                 type: "Intermediate Bulk Containers ( IBC )",
-                                subTitle: 'Typically 1,000 liters (264 gallons), but can range from 500 to 1,250 liters',
+                                subTitle: 'Typically 1,000 liters , but can range from 500 to 1,250 liters',
                                 description: ' IBCs are large, reusable containers designed for bulk liquids, chemicals, and other materials. They are made from materials such as plastic, steel, or composite materials and often come in a cubic shape for efficient storage and transport.',
                                 image: 'https://rctrips.com/assets/itinerary/radisson-hyland-hotel-1.jpeg'
                             },
                             {
                                 type: "Drums",
-                                subTitle: 'The standard drum in the petroleum industry holds 200 liters (also referred to as a 55-gallon drum in the U.S.)',
-                                description: ' Drums are cylindrical containers made of steel or plastic, used for transporting liquids such as oil, lubricants, and other petrochemical products. Other drum capacities include **100 liters* (26 gallons) and smaller sizes like *30 liters*',
+                                subTitle: 'The standard drum in the petroleum industry holds 200 liters ',
+                                description: ' Drums are cylindrical containers made of steel or plastic, used for transporting liquids such as oil, lubricants, and other petrochemical products. Other drum capacities include **100 liters*  and smaller sizes like *30 liters*',
                                 image: 'https://rctrips.com/assets/itinerary/led-china-4.jpeg'
                             },
                             {
                                 type: "Pails",
-                                subTitle: 'Typically 18-20 liters (around 5 gallons)',
+                                subTitle: 'Typically 18-20 liters ',
                                 description: 'Pails are small cylindrical containers, usually made of metal or plastic, used for packaging smaller amounts of petroleum products like lubricants or chemicals.',
                                 image: 'https://rctrips.com/assets/itinerary/led-china-2.jpg'
                             },
@@ -1592,19 +1592,19 @@ export default {
                         facilities: [
                             {
                                 type: "Intermediate Bulk Containers ( IBC )",
-                                subTitle: 'Typically 1,000 liters (264 gallons), but can range from 500 to 1,250 liters',
+                                subTitle: 'Typically 1,000 liters , but can range from 500 to 1,250 liters',
                                 description: ' IBCs are large, reusable containers designed for bulk liquids, chemicals, and other materials. They are made from materials such as plastic, steel, or composite materials and often come in a cubic shape for efficient storage and transport.',
                                 image: 'https://rctrips.com/assets/itinerary/radisson-hyland-hotel-1.jpeg'
                             },
                             {
                                 type: "Drums",
-                                subTitle: 'The standard drum in the petroleum industry holds 200 liters (also referred to as a 55-gallon drum in the U.S.)',
-                                description: ' Drums are cylindrical containers made of steel or plastic, used for transporting liquids such as oil, lubricants, and other petrochemical products. Other drum capacities include **100 liters* (26 gallons) and smaller sizes like *30 liters*',
+                                subTitle: 'The standard drum in the petroleum industry holds 200 liters ',
+                                description: ' Drums are cylindrical containers made of steel or plastic, used for transporting liquids such as oil, lubricants, and other petrochemical products. Other drum capacities include **100 liters*  and smaller sizes like *30 liters*',
                                 image: 'https://rctrips.com/assets/itinerary/led-china-4.jpeg'
                             },
                             {
                                 type: "Pails",
-                                subTitle: 'Typically 18-20 liters (around 5 gallons)',
+                                subTitle: 'Typically 18-20 liters ',
                                 description: 'Pails are small cylindrical containers, usually made of metal or plastic, used for packaging smaller amounts of petroleum products like lubricants or chemicals.',
                                 image: 'https://rctrips.com/assets/itinerary/led-china-2.jpg'
                             },
@@ -1661,19 +1661,19 @@ export default {
                         facilities: [
                             {
                                 type: "Intermediate Bulk Containers ( IBC )",
-                                subTitle: 'Typically 1,000 liters (264 gallons), but can range from 500 to 1,250 liters',
+                                subTitle: 'Typically 1,000 liters , but can range from 500 to 1,250 liters',
                                 description: ' IBCs are large, reusable containers designed for bulk liquids, chemicals, and other materials. They are made from materials such as plastic, steel, or composite materials and often come in a cubic shape for efficient storage and transport.',
                                 image: 'https://rctrips.com/assets/itinerary/radisson-hyland-hotel-1.jpeg'
                             },
                             {
                                 type: "Drums",
-                                subTitle: 'The standard drum in the petroleum industry holds 200 liters (also referred to as a 55-gallon drum in the U.S.)',
-                                description: ' Drums are cylindrical containers made of steel or plastic, used for transporting liquids such as oil, lubricants, and other petrochemical products. Other drum capacities include **100 liters* (26 gallons) and smaller sizes like *30 liters*',
+                                subTitle: 'The standard drum in the petroleum industry holds 200 liters ',
+                                description: ' Drums are cylindrical containers made of steel or plastic, used for transporting liquids such as oil, lubricants, and other petrochemical products. Other drum capacities include **100 liters*  and smaller sizes like *30 liters*',
                                 image: 'https://rctrips.com/assets/itinerary/led-china-4.jpeg'
                             },
                             {
                                 type: "Pails",
-                                subTitle: 'Typically 18-20 liters (around 5 gallons)',
+                                subTitle: 'Typically 18-20 liters ',
                                 description: 'Pails are small cylindrical containers, usually made of metal or plastic, used for packaging smaller amounts of petroleum products like lubricants or chemicals.',
                                 image: 'https://rctrips.com/assets/itinerary/led-china-2.jpg'
                             },
@@ -1723,19 +1723,19 @@ export default {
                         facilities: [
                             {
                                 type: "Intermediate Bulk Containers ( IBC )",
-                                subTitle: 'Typically 1,000 liters (264 gallons), but can range from 500 to 1,250 liters',
+                                subTitle: 'Typically 1,000 liters , but can range from 500 to 1,250 liters',
                                 description: ' IBCs are large, reusable containers designed for bulk liquids, chemicals, and other materials. They are made from materials such as plastic, steel, or composite materials and often come in a cubic shape for efficient storage and transport.',
                                 image: 'https://rctrips.com/assets/itinerary/radisson-hyland-hotel-1.jpeg'
                             },
                             {
                                 type: "Drums",
-                                subTitle: 'The standard drum in the petroleum industry holds 200 liters (also referred to as a 55-gallon drum in the U.S.)',
-                                description: ' Drums are cylindrical containers made of steel or plastic, used for transporting liquids such as oil, lubricants, and other petrochemical products. Other drum capacities include **100 liters* (26 gallons) and smaller sizes like *30 liters*',
+                                subTitle: 'The standard drum in the petroleum industry holds 200 liters ',
+                                description: ' Drums are cylindrical containers made of steel or plastic, used for transporting liquids such as oil, lubricants, and other petrochemical products. Other drum capacities include **100 liters*  and smaller sizes like *30 liters*',
                                 image: 'https://rctrips.com/assets/itinerary/led-china-4.jpeg'
                             },
                             {
                                 type: "Pails",
-                                subTitle: 'Typically 18-20 liters (around 5 gallons)',
+                                subTitle: 'Typically 18-20 liters ',
                                 description: 'Pails are small cylindrical containers, usually made of metal or plastic, used for packaging smaller amounts of petroleum products like lubricants or chemicals.',
                                 image: 'https://rctrips.com/assets/itinerary/led-china-2.jpg'
                             },
@@ -1785,19 +1785,19 @@ export default {
                         facilities: [
                             {
                                 type: "Intermediate Bulk Containers ( IBC )",
-                                subTitle: 'Typically 1,000 liters (264 gallons), but can range from 500 to 1,250 liters',
+                                subTitle: 'Typically 1,000 liters , but can range from 500 to 1,250 liters',
                                 description: ' IBCs are large, reusable containers designed for bulk liquids, chemicals, and other materials. They are made from materials such as plastic, steel, or composite materials and often come in a cubic shape for efficient storage and transport.',
                                 image: 'https://rctrips.com/assets/itinerary/radisson-hyland-hotel-1.jpeg'
                             },
                             {
                                 type: "Drums",
-                                subTitle: 'The standard drum in the petroleum industry holds 200 liters (also referred to as a 55-gallon drum in the U.S.)',
-                                description: ' Drums are cylindrical containers made of steel or plastic, used for transporting liquids such as oil, lubricants, and other petrochemical products. Other drum capacities include **100 liters* (26 gallons) and smaller sizes like *30 liters*',
+                                subTitle: 'The standard drum in the petroleum industry holds 200 liters ',
+                                description: ' Drums are cylindrical containers made of steel or plastic, used for transporting liquids such as oil, lubricants, and other petrochemical products. Other drum capacities include **100 liters*  and smaller sizes like *30 liters*',
                                 image: 'https://rctrips.com/assets/itinerary/led-china-4.jpeg'
                             },
                             {
                                 type: "Pails",
-                                subTitle: 'Typically 18-20 liters (around 5 gallons)',
+                                subTitle: 'Typically 18-20 liters ',
                                 description: 'Pails are small cylindrical containers, usually made of metal or plastic, used for packaging smaller amounts of petroleum products like lubricants or chemicals.',
                                 image: 'https://rctrips.com/assets/itinerary/led-china-2.jpg'
                             },
@@ -1847,19 +1847,19 @@ export default {
                         facilities: [
                             {
                                 type: "Intermediate Bulk Containers ( IBC )",
-                                subTitle: 'Typically 1,000 liters (264 gallons), but can range from 500 to 1,250 liters',
+                                subTitle: 'Typically 1,000 liters , but can range from 500 to 1,250 liters',
                                 description: ' IBCs are large, reusable containers designed for bulk liquids, chemicals, and other materials. They are made from materials such as plastic, steel, or composite materials and often come in a cubic shape for efficient storage and transport.',
                                 image: 'https://rctrips.com/assets/itinerary/radisson-hyland-hotel-1.jpeg'
                             },
                             {
                                 type: "Drums",
-                                subTitle: 'The standard drum in the petroleum industry holds 200 liters (also referred to as a 55-gallon drum in the U.S.)',
-                                description: ' Drums are cylindrical containers made of steel or plastic, used for transporting liquids such as oil, lubricants, and other petrochemical products. Other drum capacities include **100 liters* (26 gallons) and smaller sizes like *30 liters*',
+                                subTitle: 'The standard drum in the petroleum industry holds 200 liters ',
+                                description: ' Drums are cylindrical containers made of steel or plastic, used for transporting liquids such as oil, lubricants, and other petrochemical products. Other drum capacities include **100 liters*  and smaller sizes like *30 liters*',
                                 image: 'https://rctrips.com/assets/itinerary/led-china-4.jpeg'
                             },
                             {
                                 type: "Pails",
-                                subTitle: 'Typically 18-20 liters (around 5 gallons)',
+                                subTitle: 'Typically 18-20 liters ',
                                 description: 'Pails are small cylindrical containers, usually made of metal or plastic, used for packaging smaller amounts of petroleum products like lubricants or chemicals.',
                                 image: 'https://rctrips.com/assets/itinerary/led-china-2.jpg'
                             },
@@ -1921,19 +1921,19 @@ export default {
                         facilities: [
                             {
                                 type: "Intermediate Bulk Containers ( IBC )",
-                                subTitle: 'Typically 1,000 liters (264 gallons), but can range from 500 to 1,250 liters',
+                                subTitle: 'Typically 1,000 liters , but can range from 500 to 1,250 liters',
                                 description: ' IBCs are large, reusable containers designed for bulk liquids, chemicals, and other materials. They are made from materials such as plastic, steel, or composite materials and often come in a cubic shape for efficient storage and transport.',
                                 image: 'https://rctrips.com/assets/itinerary/radisson-hyland-hotel-1.jpeg'
                             },
                             {
                                 type: "Drums",
-                                subTitle: 'The standard drum in the petroleum industry holds 200 liters (also referred to as a 55-gallon drum in the U.S.)',
-                                description: ' Drums are cylindrical containers made of steel or plastic, used for transporting liquids such as oil, lubricants, and other petrochemical products. Other drum capacities include **100 liters* (26 gallons) and smaller sizes like *30 liters*',
+                                subTitle: 'The standard drum in the petroleum industry holds 200 liters ',
+                                description: ' Drums are cylindrical containers made of steel or plastic, used for transporting liquids such as oil, lubricants, and other petrochemical products. Other drum capacities include **100 liters*  and smaller sizes like *30 liters*',
                                 image: 'https://rctrips.com/assets/itinerary/led-china-4.jpeg'
                             },
                             {
                                 type: "Pails",
-                                subTitle: 'Typically 18-20 liters (around 5 gallons)',
+                                subTitle: 'Typically 18-20 liters ',
                                 description: 'Pails are small cylindrical containers, usually made of metal or plastic, used for packaging smaller amounts of petroleum products like lubricants or chemicals.',
                                 image: 'https://rctrips.com/assets/itinerary/led-china-2.jpg'
                             },
@@ -1974,19 +1974,19 @@ export default {
                         facilities: [
                             {
                                 type: "Intermediate Bulk Containers ( IBC )",
-                                subTitle: 'Typically 1,000 liters (264 gallons), but can range from 500 to 1,250 liters',
+                                subTitle: 'Typically 1,000 liters , but can range from 500 to 1,250 liters',
                                 description: ' IBCs are large, reusable containers designed for bulk liquids, chemicals, and other materials. They are made from materials such as plastic, steel, or composite materials and often come in a cubic shape for efficient storage and transport.',
                                 image: 'https://rctrips.com/assets/itinerary/radisson-hyland-hotel-1.jpeg'
                             },
                             {
                                 type: "Drums",
-                                subTitle: 'The standard drum in the petroleum industry holds 200 liters (also referred to as a 55-gallon drum in the U.S.)',
-                                description: ' Drums are cylindrical containers made of steel or plastic, used for transporting liquids such as oil, lubricants, and other petrochemical products. Other drum capacities include **100 liters* (26 gallons) and smaller sizes like *30 liters*',
+                                subTitle: 'The standard drum in the petroleum industry holds 200 liters ',
+                                description: ' Drums are cylindrical containers made of steel or plastic, used for transporting liquids such as oil, lubricants, and other petrochemical products. Other drum capacities include **100 liters*  and smaller sizes like *30 liters*',
                                 image: 'https://rctrips.com/assets/itinerary/led-china-4.jpeg'
                             },
                             {
                                 type: "Pails",
-                                subTitle: 'Typically 18-20 liters (around 5 gallons)',
+                                subTitle: 'Typically 18-20 liters ',
                                 description: 'Pails are small cylindrical containers, usually made of metal or plastic, used for packaging smaller amounts of petroleum products like lubricants or chemicals.',
                                 image: 'https://rctrips.com/assets/itinerary/led-china-2.jpg'
                             },

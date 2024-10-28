@@ -91,7 +91,7 @@ import FacilitiesSection from "@/components/FacilitiesSection.vue"
 import SectionTopBanner from "@/components/SectionTopBanner.vue"
 import OemSection from "@/components/OemSection.vue"
 export default {
-    name: "TradeFairPage",
+    name: "ProductDetailPage",
     components: { 
         ProductTableSection,
         IsoSection, 
