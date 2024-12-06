@@ -3,8 +3,9 @@
         style="background-color:rgba(255, 206, 86, 0.2); border:1px solid rgba(255, 206, 86, 1) !important;">
         <div class="row">
             <div class="col-12 col-md-4 mb-3 d-flex flex-column align-items-center justify-content-center">
-                <router-link to="/" class="text-decoration-none text-dark d-flex align-items-center">
-                    <img :src="img" style="width: 100%;object-fit: contain; filter: invert(1);">
+                <router-link to="/" class="text-decoration-none text-dark d-flex flex-column align-items-center">
+                    <img :src="img" style="width: 100px;object-fit: contain; filter: invert(1);">
+                    <p class="text-uppercase fw-bold fs-5 mb-0">clg oil india</p>
                 </router-link>
 
             </div>
@@ -60,7 +61,7 @@ export default {
     },
     data() {
         return {
-            img: 'https://clgoilindia.com/demo/assets/images/logo.png',
+            img: '/img/logo.png',
             company: [
                 {
                     id: 4,

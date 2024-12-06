@@ -4,9 +4,9 @@
         :style="{ backgroundColor: containerBackgroundColor }">
         <nav class="navbar navbar-expand-lg py-3">
             <div class="container-fluid d-flex justify-content-center align-items-center">
-                <router-link to="/" class="d-flex align-items-center w-25 text-decoration-none">
-                    <img src="https://clgoilindia.com/demo/assets/images/logo.png"
-                        style="width: 50%; filter: invert(1);">
+                <router-link to="/" class="d-flex align-items-center w-25 text-decoration-none text-dark">
+                    <img src="/img/logo.png" style="width: 50px; filter: invert(1);">
+                    <span class="text-uppercase fw-bold fs-5 ms-2">clg oil india</span>
                     <!-- <div class="d-flex flex-column text-start">
                         <span class="ms-2 text-dark text-capitalize">Clg oil india pvt ltd.</span>
                         <span class="text-uppercase text-dark smaller ms-2">automotive and industrial sector</span>
@@ -15,10 +15,11 @@
 
                 <div class="w-75 d-flex justify-content-between align-items-center ">
                     <ul class="list-unstyled mb-0 d-flex justify-content-end">
-                        <li v-for="(cat, index) in menuCategories" :key="index"   class="category d-inline position-relative">
+                        <li v-for="(cat, index) in menuCategories" :key="index"
+                            class="category d-inline position-relative">
                             <router-link :to="cat.path" class="title px-2 text-decoration-none text-dark">
                                 {{ cat.title }}
-                            </router-link> 
+                            </router-link>
                         </li>
                     </ul>
                     <div class="">
@@ -31,16 +32,20 @@
 
     <!-- Mobile version -->
     <div class="d-flex justify-content-between d-lg-none p-2 w-100 bg-light py-3 border-bottom" style="z-index: 8;">
-        <router-link to="/" class="text-decoration-none ">
-            <img src="https://clgoilindia.com/demo/assets/images/logo.png" style="height: 40px; filter: invert(1);"> 
+        <router-link to="/" class="d-flex align-items-center text-decoration-none text-dark">
+            <img src="/img/logo.png" style="height: 40px; filter: invert(1);">
+            <span class="text-uppercase fw-bold fs-5 ms-2">clg oil india</span>
         </router-link>
         <i class="bi bi-list fs-1 text-end" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample"
             aria-controls="offcanvasExample"></i>
 
         <div class="offcanvas offcanvas-end bg-light" tabindex="-1" id="offcanvasExample"
             aria-labelledby="offcanvasExampleLabel" style="">
-            <div class="offcanvas-header border-bottom">
-                <img src="https://clgoilindia.com/demo/assets/images/logo.png" style="height:40px; filter: invert(1);" alt=""> 
+            <div class="offcanvas-header border-bottom p-2">
+                <router-link to="/" class="d-flex align-items-center text-decoration-none text-dark">
+                    <img src="/img/logo.png" style="height: 40px; filter: invert(1);">
+                    <span class="text-uppercase fw-bold fs-5 ">clg oil india</span>
+                </router-link>
                 <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
             <div class="offcanvas-body "
@@ -127,17 +132,17 @@ export default {
                     id: 5,
                     title: 'Gallery',
                     path: '/gallery',
-                }, 
+                },
                 {
                     id: 6,
                     title: 'Dealership',
                     path: '/dealership',
-                }, 
+                },
                 {
                     id: 7,
                     title: 'OEM Solutions',
                     path: '/oem-solutions',
-                }, 
+                },
                 // {
                 //     id: 4,
                 //     title: 'Certificates',
